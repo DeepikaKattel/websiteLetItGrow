@@ -89,7 +89,7 @@
                     </div>
 
                 </div>
-                <div class="row text-center">
+                <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
                         <p><a href="#">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
@@ -199,12 +199,12 @@
                     <p>Awards</p>
                 </div>
                 <div>
-                    <h1>1500</h1>
-                    <p>CMS Installations</p>
+                    <h1>15</h1>
+                    <p>Websites</p>
                 </div>
                 <div>
-                    <h1>1500</h1>
-                    <p>CMS Installations</p>
+                    <h1>15</h1>
+                    <p>Clients</p>
                 </div>
             </div>
         </section>
