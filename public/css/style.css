@@ -19,12 +19,31 @@ p{
     font-weight: 400;
     color:#606060;
 }
-.product-cards h2{
+.product-cards h2, .serviceDiv h2{
     font-size: 0.9rem;
     margin: 20px 0 15px 0;
     font-weight: bold;
     line-height: 1.1;
     word-spacing: 4px;
+}
+i{
+    color:#2fcccd;
+    padding:5px 10px 5px 10px;
+    border-radius: 50%;
+    background: white;
+}
+.more a{
+    text-decoration: none;
+    color:black;
+}
+.more a:hover{
+    text-decoration: none;
+    color:black;
+}
+.more:hover i{
+    color: white;
+    background: black;
+    cursor: pointer;
 }
 .header{
     width:100%;
@@ -117,7 +136,7 @@ p{
 .product-cards .card{
     background: #fff;
     border: medium none;
-    padding: 50px !important;
+    padding: 20px !important;
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
@@ -125,7 +144,6 @@ p{
 .product-cards img{
     max-width:50px;
     max-height: 50px;
-
 }
 .product-cards .card:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
@@ -134,4 +152,57 @@ p{
 
 /*<!--********************************** header-product css end ***************************-->*/
 
+/*<!--********************************** services css start ***************************-->*/
+
+.services{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.service-icons{
+    display:flex;
+    justify-content: center;
+}
+.service-icons img{
+    max-width:50px;
+    max-height: 50px;
+    align-items: center;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.progress{
+    height: 0.6rem !important;
+    margin-bottom:25px !important;
+    background: #606060;
+}
+.serviceDiv{
+    text-align: justify;
+}
+
+/*<!--********************************** services css end ***************************-->*/
+
+/*<!--********************************** projects css start ***************************-->*/
+.projects{
+    margin:100px 0;
+}
+.projects h1{
+    font-size:2rem;
+}
+.projects{
+
+}
+
+/*<!--********************************** projects css end ***************************-->*/
 

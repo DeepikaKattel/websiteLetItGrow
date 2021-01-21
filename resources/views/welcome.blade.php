@@ -59,7 +59,7 @@
         <!---*****************************     Header Section Ends ************************************-->
         <!---*****************************     Product Section Start ************************************-->
         <section class="header-product">
-            <div class="container text-center">
+            <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center">Our Products</h1>
                 <p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
                 <div class="row">
@@ -87,6 +87,12 @@
                                 inibus Bonorum et Malorum for use in a type specimen book.</p>
                         </div>
                     </div>
+
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-12 col-10 more">
+                        <p><a href="#">More Products <i class="fa fa-angle-right"></i></a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -94,19 +100,13 @@
 
         <!---*****************************     Service Section Start ************************************-->
         <section class="services" id="services">
-            <div class="container heading text-center">
+            <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center">What Do We Offer</h1>
                 <p class="text-center">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
-                        <div class="names my-3">
-                                <h1>HTML</h1>
-                            <div class="progress w-75">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100%</div>
-                            </div>
-                        </div>
                         <div class="names my-3">
                             <h1>CSS</h1>
                             <div class="progress w-75">
@@ -114,17 +114,18 @@
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1>Node Js</h1>
+                            <h1>Laravel</h1>
                             <div class="progress w-75">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:70%">70%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%">80%</div>
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1>Laravel</h1>
+                            <h1>Node Js</h1>
                             <div class="progress w-75">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:800%">80%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:75%">75%</div>
                             </div>
                         </div>
+
                         <div class="names my-3">
                             <h1>Flutter</h1>
                             <div class="progress w-75">
@@ -145,15 +146,69 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 serviceDiv">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-lg-2 col-12 service-icons">
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/development.PNG')}}"/>
+                            </div>
+                            <div class="col-lg-10 col-10">
+                                <h2>Web Development</h2>
+                                <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                             </div>
                         </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 col-12 service-icons">
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/design.PNG')}}"/>
+                            </div>
+                            <div class="col-lg-10 col-10">
+                                <h2>Web Design</h2>
+                                <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 col-12 service-icons">
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.PNG')}}"/>
+                            </div>
+                            <div class="col-lg-10 col-10">
+                                <h2>Mobile Application Development</h2>
+                                <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-12 col-10 more">
+                                <p><a href="#">More Services <i class="fa fa-angle-right"></i></a></p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
-        <!---*****************************     Service Section Start ************************************-->
+        <!---*****************************     Service Section End ************************************-->
+        <!---*****************************     Projects Done Start ************************************-->
+        <section class="projects">
+            <div class="container headings text-center">
+                <p class="font-weight-bold text-center text-uppercase">More than 50 websites create</p>
+            </div>
+            <div class="container d-flex justify-content-around align-items-center text-center">
+                <div>
+                    <h1>50</h1>
+                    <p>CMS Installations</p>
+                </div>
+                <div>
+                    <h1>15</h1>
+                    <p>Awards</p>
+                </div>
+                <div>
+                    <h1>1500</h1>
+                    <p>CMS Installations</p>
+                </div>
+                <div>
+                    <h1>1500</h1>
+                    <p>CMS Installations</p>
+                </div>
+            </div>
+        </section>
+        <!---*****************************     Projects Done End ************************************-->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
