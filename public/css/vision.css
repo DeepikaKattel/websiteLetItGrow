@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.vision-box{
+    background: white;
+    border-width: 0px;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #cad1d9;
+    cursor: pointer;
+    transition: transform .4s;
+    margin: 10px;
+}
+
+.vision-box:hover {
+    transform: scale(1.1); /* (110% zoom)*/
+}
+
+.vision-box-image{
+    text-align: center;
+}
+
+
+.vision-box-image img{
+    width: 15%;
+    margin-top: -10%;
+}
+
+
+.vision-box:hover .vision-box-image img{
+    transition: 1.2s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.vision-inner-box-image{
+    margin: 5px;
+    height: 180px;
+}
+
+.vision-inner-box-image h4{
+    font-size: 22px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #004085;
+    text-shadow: 1px 1px #6a7e9e;
+    text-align: center;
+}
+
+.vision-inner-box-image p{
+    padding: 0px 0px;
+    margin-top: 20px;
+    text-align: center;
+}

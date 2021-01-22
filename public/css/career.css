@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.joinTeamtxt{
+    font-size: 20px;
+    color: #828385;
+}
+
+.openingTxt{
+    font-size: 20px;
+    color: #828385;
+}
+
+.openingTxt:hover{
+    color: #f00a0a;
+    transition: 1.5s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.openingTxt:hover i{
+    transition: 1s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.page {
+    background: linear-gradient(to bottom, #e3effa, rgba(44, 46, 46, 0.5)),url('../images/job.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    /* Optional Gradient */
+    /* background: linear-gradient(to bottom, white, #c4c2c2, #aba9a9),url('../images/laptop.gif'); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+
+.page h4 {
+    padding: 25px 0 0 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #004085;
+    text-shadow: 1px 1px rgba(106, 126, 158);
+    text-align: center;
+}
+
+.page ul {
+    padding: 14px 100px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.page i{
+    top: 0%;
+    left: 100%;
+}
+
+.foldtl {
+    position: relative;
+    -webkit-box-shadow: 3px 3px 3px rgba(217, 221, 222);
+    -moz-box-shadow: 3px 3px 3px rgba(217, 221, 222);
+    box-shadow: 3px 3px 3px rgba(217, 221, 222);
+}
+
+.foldtl:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 70px solid #eee;
+    border-left: 70px solid transparent;
+    -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+    box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+}
+
+.foldtl:after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0px;
+    height: 0px;
+    border-top: 69px solid white;
+    border-right: 69px solid transparent;
+}
+
+.jobDetailsContainer{
+    height:400px;
+    width: 100%;
+}
+
+.jobDescriptionBox{
+    width: 100%;
+    background-color: #e3e3e3;
+}
+
+.jobDescriptionBox:hover{
+    background-color: #004085;
+    cursor: pointer;
+}
+
+.jobDescriptionBox .row{
+    justify-content: space-between;
+    padding: 15px 10px 5px 10px;
+}
+
+.jobDescriptionBox .row i{
+    color: #004085;
+}
+
+.jobDescriptionBox .row h5{
+    color: #004085;
+    font-weight: 400;
+}
+
+.jobDescriptionBox:hover .row h5{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.jobDescriptionDetails{
+    background-color: red;
+}
+
+.jobTitle{
+    font-size: 16px;
+    color: black;
+    font-weight:bold;
+    opacity: 0.9;
+}
+
+.jobDescriptionBox .collapse .card .jobTitle i{
+    color:black
+}
+
+.jobDescriptionBox:hover .collapse .card .jobTitle i{
+    cursor: pointer;
+    color:black
+}
+
+.jobTitleName{
+    margin-left: 22px;
+    font-size: 15px;
+    color: black;
+    opacity: 0.8;
+}
+
+.desTopic{
+    margin-left: 22px;
+    font-size: 15px;
+    color: black;
+    opacity: 0.7;
+    font-weight:bold;
+}
+
+#details .card ul{
+    margin-left: 45px;
+}
+
+.btnCareerSubmit
+{
+    background-color: #004085;
+    font-size: 16px;
+    width: 25%;
+    border-radius: 1rem;
+    padding: 1%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Archivo Narrow', sans-serif;
+    align-self: center;
+}
+
+.btnCareerSubmit:hover{
+    cursor: pointer;
+    background-color: #f00a0a;
+}
+
+.finalSubmit
+{
+    background-color: #004085;
+    font-size: 16px;
+    width: 25%;
+    border-radius: 1rem;
+    padding: 1%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Archivo Narrow', sans-serif;
+    align-self: center;
+}
+
+.finalSubmit:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.jobDescriptionBox:hover .row i{
+    color: white;
+    cursor: pointer;
+}
+
+.careerFormLabel{
+    font-size: 15px;
+    color: black;
+    opacity: 0.6;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}

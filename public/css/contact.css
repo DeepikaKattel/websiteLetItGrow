@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.inTouchTxt{
+    font-size: 20px;
+    color: #828385;
+}
+
+.contactContainer{
+    height: 400px;
+}
+
+.moreContainer{
+    padding-top: 150px;
+    height: 400px;
+    text-align: center;
+    background: linear-gradient(to bottom, #e3effa, rgba(44, 46, 46, 0.5)),url('../images/laptop.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -2px -2px #e6e9ed;
+}
+
+.moreContainer h3{
+    color: #004085;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.moreContainer h3:hover{
+    font-size: 32px;
+}
+
+.moreContainer p{
+    color: #f0f0fa;
+    font-size: 15px;
+}
+
+.moreContainer p:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contact-form{
+    background: white;
+    width: 100%;
+    height: 307.5px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #c9c8c7;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+.contact-image{
+    text-align: center;
+}
+
+.contact-image img{
+    border-radius: 10rem;
+    width: 10%;
+    margin-top: -4.5%;
+    transform: rotate(30deg);
+}
+
+.contact-form:hover .contact-image img{
+    transition: 1.2s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.contact-form form{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2.6%;
+}
+
+.contact-form .btnContact {
+    width: 60%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit
+{
+    background-color: #004085;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 2%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.btnContactSubmit:hover{
+    background-color: #f00a0a;
+    cursor: pointer;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.infoBox{
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(to bottom, #004085, #406082);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoBox i{
+    color: white;
+    font-size: 25px;
+}
+
+.infoBox:hover{
+    border: 2px solid #004085;
+    background: white;
+    cursor: pointer;
+}
+
+.infoBox:hover i{
+    color: #004085;
+    transition: 0.9s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.contactTitle{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.contactDetai{
+    font-size: 16px;
+    width: 100%;
+    text-align: justify;
+}
+
+.contactDetai:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media(min-width:700px){
+    .mapContainer{
+        height: 400px;
+        width: 100%;
+        justify-content: center;
+    }
+    .map{
+        height:400px;
+        justify-content: center;
+        width:1100px;
+    }
+}
+@media(max-width:700px){
+    .mapContainer{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+    }
+    .map{
+        height:200px;
+        width:350px;
+        justify-content: center;
+    }
+}
+
