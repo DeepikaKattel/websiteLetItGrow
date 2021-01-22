@@ -16,15 +16,16 @@
 
     </head>
     <body>
+    @include('partials.innernavbar')
         <div class="header" id="top">
-            @include('partials.navbar')
+
             <section class="header-section">
                 <div class="center-div justify-content-center">
-                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">You dictate we create</h1>
-                    <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">Let IT Grow Your Enterprise</p>
-                    <div class="header-buttons wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
-                        <a href="#">Services</a>
-                        <a href="#">Products</a>
+                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s">You dictate we create</h1>
+                    <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="1.5s">Let IT Grow Your Enterprise</p>
+                    <div class="header-buttons" data-wow-duration="2s" data-wow-delay="1.5s">
+                        <a href="{{route('services')}}">Services</a>
+                        <a href="{{route('products')}}">Products</a>
                     </div>
                 </div>
             </section>
@@ -128,7 +129,7 @@
                         </div>
                         <div class="row text-center">
                             <div class="col-lg-12 col-10 more">
-                                <p><a href="#"  class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5.5s">More Services <i class="fa fa-angle-right"></i></a></p>
+                                <p><a href="{{route('services')}}"  class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5.5s">More Services <i class="fa fa-angle-right"></i></a></p>
                             </div>
                         </div>
 
@@ -171,7 +172,7 @@
                 </div>
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
-                        <p><a href="#">More Products <i class="fa fa-angle-right"></i></a></p>
+                        <p><a href="{{route('products')}}">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
             </div>

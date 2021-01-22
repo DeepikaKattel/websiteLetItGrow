@@ -136,3 +136,23 @@ li{
     background: #606060;
 }
 /*<!--********************************** footer css end ***************************-->*/
+.product-cards{
+    margin-bottom: 20px;
+}
+.product-cards img{
+    max-width:50px;
+    max-height: 50px;
+}
+.product-cards .card:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, rgba(86, 52, 209, 0.5), rgba(40, 221, 224, 0.5));
+    transform: translateY(-20px);
+}
+
+.product-cards h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}

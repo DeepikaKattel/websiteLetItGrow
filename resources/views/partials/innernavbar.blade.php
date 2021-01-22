@@ -14,7 +14,11 @@
 
 <html>
   <nav class="navbar navbar-expand-lg navbar-mainbg">
-    <a class="navbar-brand navbar-logo animated flip" href="/"><img src="{{asset('images/logo2.png')}}" alt="Logo"></a>
+      <a class="navbar-brand font-weight-bold text-white mt-3 ml-3" href="#">
+          <figure class="swing float-right">
+              <img src="{{asset('images/logoFull.png')}}"/>
+          </figure>
+      </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars text-black"></i>
     </button>

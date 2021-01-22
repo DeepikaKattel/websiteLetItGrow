@@ -25,6 +25,14 @@ class PagesController extends Controller
     {
         return view('pages.career');
     }
+    public function services()
+    {
+        return view('pages.services');
+    }
+    public function products()
+    {
+        return view('pages.products');
+    }
     public function index()
     {
         //
