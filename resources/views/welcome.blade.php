@@ -17,45 +17,14 @@
     </head>
     <body>
         <div class="header" id="top">
-            <nav id="#navbar-top" class="navbar navbar-expand-lg navbar-dark">
-                <div class="container text-uppercase p-2">
-                    <a class="navbar-brand font-weight-bold text-white" href="#">
-                        <figure class="swing float-right">
-                            <img src="{{asset('images/logoFull.png')}}"/>
-                        </figure>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    {{--                    mr-auto brings list in left side where as ml-auto makes the list stay in the right side--}}
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Service</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            @include('partials.navbar')
             <section class="header-section">
                 <div class="center-div justify-content-center">
                     <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">You dictate we create</h1>
                     <p class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">Let IT Grow Your Enterprise</p>
                     <div class="header-buttons wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
-                        <a href="#">About Us</a>
-                        <a href="#">Contact</a>
+                        <a href="#">Services</a>
+                        <a href="#">Products</a>
                     </div>
                 </div>
             </section>
