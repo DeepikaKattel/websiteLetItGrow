@@ -23,7 +23,7 @@
                 <div class="center-div justify-content-center">
                     <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s">You dictate we create</h1>
                     <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="1.5s">Let IT Grow Your Enterprise</p>
-                    <div class="header-buttons" data-wow-duration="2s" data-wow-delay="1.5s">
+                    <div class="header-buttons wow rotateInRight" data-wow-duration="2s" data-wow-delay="1.5s">
                         <a href="{{route('services')}}">Services</a>
                         <a href="{{route('products')}}">Products</a>
                     </div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 serviceDiv">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center web">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="3.5s">
                                 <img class="mx-auto mt-5 d-block" src="{{asset('images/development.PNG')}}"/>
                             </div>
@@ -109,7 +109,7 @@
                                 <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center design">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="4s">
                                 <img class="mx-auto mt-5 d-block" src="{{asset('images/design.PNG')}}"/>
                             </div>
@@ -118,7 +118,7 @@
                                 <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center mobile">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="5s">
                                 <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.PNG')}}"/>
                             </div>

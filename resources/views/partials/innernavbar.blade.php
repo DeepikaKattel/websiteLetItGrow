@@ -13,7 +13,7 @@
 </head>
 
 <html>
-  <nav class="navbar navbar-expand-lg navbar-mainbg">
+  <nav class="navbar navbar-expand-lg navbar-mainbg sticky-top">
       <a class="navbar-brand font-weight-bold text-white mt-3 ml-3" href="#">
           <figure class="swing float-right">
               <img src="{{asset('images/logoFull.png')}}"/>
@@ -26,7 +26,7 @@
         <ul class="navbar-nav ml-auto">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-info"></i>ABOUT US</a>
+                <a class="nav-link" href="/"><i class="fas fa-home"></i>HOME</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="{{ route('vision') }}"><i class="far fa-eye"></i>VISION</a>

@@ -7,6 +7,7 @@ html{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
@@ -54,18 +55,11 @@ i{
     background-image:linear-gradient( rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    clip-path: polygon(100% 0%, 100% 60%, 50% 84.6%, 0 60%, 0 0);
     position: relative;
 }
 /*.header:before{*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top:0%;*/
-/*    bottom:0%;*/
-/*    left:0;*/
-/*    right:0;*/
-/*    opacity: 0.3;*/
-/*    z-index:-1;*/
+
 /*    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);*/
 /*}*/
 /*.navbar:before{*/
@@ -133,7 +127,7 @@ i{
 .header-about{
     width: 100%;
     height:auto;
-    margin: 100px 0;
+    margin: 25px 0;
     text-align: center;
 
 }
@@ -172,7 +166,12 @@ i{
 .product-cards .card:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     background: linear-gradient(to bottom, rgba(86, 52, 209, 0.5), rgba(40, 221, 224, 0.5));
-    transform: translateY(-20px);
+    transform: scale(1.03);
+}
+
+.product-cards .card:hover img{
+    transform: rotate(45deg);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
 /*<!--********************************** header-product css end ***************************-->*/
@@ -214,6 +213,21 @@ i{
 }
 .serviceDiv{
     text-align: justify;
+}
+.services .web:hover img{
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.services .design:hover img{
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.services .mobile:hover img{
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
 }
 
 /*<!--********************************** services css end ***************************-->*/
