@@ -206,6 +206,9 @@ body {
     color: white;
     cursor: pointer;
 }
+.jobDescriptionBox .card{
+    height:200px;
+}
 
 .careerFormLabel{
     font-size: 15px;

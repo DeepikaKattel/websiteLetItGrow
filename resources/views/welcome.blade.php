@@ -46,7 +46,7 @@
                 </div>
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
-                        <p><a href="#" class="wow fadeInUp">More About Us <i class="fa fa-angle-right"></i></a></p>
+                        <p><a href="{{route('vision')}}" class="wow fadeInUp">More About Us <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                         </div>
                         <div class="row text-center">
                             <div class="col-lg-12 col-10 more">
-                                <p><a href="#" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5.5s">More Services <i class="fa fa-angle-right"></i></a></p>
+                                <p><a href="#"  class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="5.5s">More Services <i class="fa fa-angle-right"></i></a></p>
                             </div>
                         </div>
 
@@ -213,7 +213,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="career-buttons wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
-                        <a href="#">Find Jobs <i class="fa fa-search"></i></a>
+                        <a href="{{route('career')}}" >Find Jobs <i class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
@@ -222,38 +222,7 @@
 
         <!---*****************************     Find carerr end ************************************-->
         <!---*****************************     Footer start  ************************************-->
-        <footer class="footer" id="footerDiv">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12 footer-div text-center">
-                        <div>
-                            <h3>About Let IT Grow</h3>
-                            <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12 footer-div text-center">
-                        <div>
-                            <h3>Quick Links</h3>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-12 footer-div text-center">
-                        <div>
-                            <h3>Find Us</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-5 text-center">
-                    <p>Copyright @ - Let IT Grow</p>
-                </div>
-                <div class="scrolltop float-right">
-                    <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
-                </div>
-            </div>
-        </footer>
+        @include('partials.footer')
         <!---*****************************     Footer end  ************************************-->
 
 

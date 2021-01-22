@@ -71,11 +71,11 @@
                         <div class="jobDescriptionBox mt-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
                             <div class="row mx-auto vertical-align-center">
                                 <h5>Flutter Developer</h5>
-                                <a data-toggle="collapse" href="#details" aria-expanded="false" aria-controls="details">
+                                <a data-toggle="collapse" href="#details1" aria-expanded="false" aria-controls="details1">
                                     <i  class="fas fa-eye"></i>
                                 </a>
 
-                                <div class="collapse" id="details">
+                                <div class="collapse" id="details1">
                                     <div class="card card-body">
                                         <p class="jobTitle"><i class="fas fa-user-friends mr-2"></i>Department</p>
                                         <p class="jobTitleName">Sales</p>

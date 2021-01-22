@@ -15,16 +15,16 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{route('vision')}}">Vision</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Our Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Career</a>
+                    <a class="nav-link" href="{{route('career')}}">Career</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{{route('contact')}}">Contact</a>
                 </li>
             </ul>
         </div>
