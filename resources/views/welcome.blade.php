@@ -8,7 +8,7 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="{{asset('css/animate.css')}}" rel="stylesheet">
         <link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
@@ -23,9 +23,9 @@
                 <div class="center-div justify-content-center">
                     <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s">You dictate we create</h1>
                     <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="1.5s">Let IT Grow Your Enterprise</p>
-                    <div class="header-buttons wow rotateInRight" data-wow-duration="2s" data-wow-delay="1.5s">
-                        <a href="{{route('services')}}">Services</a>
-                        <a href="{{route('products')}}">Products</a>
+                    <div class="header-buttons">
+                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
+                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="2s"><a href="{{route('products')}}">Products</a></h1>
                     </div>
                 </div>
             </section>
@@ -36,11 +36,18 @@
             <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center wow fadeInLeft">About Us</h1>
                 <div class="row justify-content-center">
-                    <div class="about-card col-lg-12 col-md-12 col-12">
-                        <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
-                            <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>
-                                The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
-                                As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-1 col-md-1 col-2">
+                                <h1 class="aboutHeading mt-5 wow bounceInLeft">Why Us?</h1>
+                            </div>
+                            <div class="about-card col-lg-11 col-md-11 col-10">
+                                <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+                                    <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>
+                                        The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
+                                        As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

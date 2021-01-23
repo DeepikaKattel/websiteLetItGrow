@@ -20,10 +20,10 @@
                 <div>
                     <h3>Find Us</h3>
                     <ul class="text-center mt-5">
-                        <li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-google"></i></a></li>
                         <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
                     </ul>
                 </div>

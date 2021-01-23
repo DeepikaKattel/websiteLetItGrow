@@ -108,7 +108,7 @@ i{
     outline: none;
     color:#fff;
     font-size:1rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4;
     text-align: center;
 }
@@ -118,10 +118,24 @@ i{
     text-decoration: none;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
+.header-buttons1{
+    color:#50d1c0 !important;
+    background: white;
+    text-decoration: none;
+}
+.header-buttons1:hover{
+    color:white!important;
+    background: transparent !important;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
 .center-div p{
     font-size: 1.3rem;
     padding:10px 0 20px 0;
     color: white;
+}
+.aboutHeading{
+    transform: rotate(-90deg);
 }
 /*<!--********************************** header-about css start ***************************-->*/
 .header-about{
@@ -131,8 +145,14 @@ i{
     text-align: center;
 
 }
+.about-card{
+    background: url("../images/aboutImage.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
 .about-card .card {
-    background: #fff;
+    background: rgba(255,255,255,0.8);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
     border: medium none;
     padding: 20px !important;
