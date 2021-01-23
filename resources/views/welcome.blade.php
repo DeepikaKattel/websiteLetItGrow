@@ -41,7 +41,7 @@
                             <div class="col-lg-1 col-md-1 col-2">
                                 <h1 class="aboutHeading mt-5 wow bounceInLeft">Why Us?</h1>
                             </div>
-                            <div class="about-card col-lg-11 col-md-11 col-10">
+                            <div class="about-card col-lg-11 col-md-11 col-10 wow fadeIn">
                                 <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
                                     <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>
                                         The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
