@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{asset('css/contact.css')}}">
     <link rel="stylesheet" href="{{asset('css/vision.css')}}">
     <link rel="stylesheet" href="{{asset('css/career.css')}}">
+    <link rel="stylesheet" href="{{asset('css/team.css')}}">
 
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
     <link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
