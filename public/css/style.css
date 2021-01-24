@@ -152,6 +152,7 @@ i{
     color:white;
     text-align: center;
     position:relative;
+    overflow: hidden;
     background: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
     z-index:-1;
     clip-path: polygon(100% 0%, 100% 60%, 50% 89%, 0 60%, 0 0);

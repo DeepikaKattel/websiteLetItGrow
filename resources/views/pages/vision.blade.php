@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="vision-box wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                    <div class="vision-box wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s">
                         <div class="vision-box-image mt-2">
                             <img src="{{asset('images/mission.png')}}" alt="mission"/>
                         </div>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="vision-box wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                    <div class="vision-box wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="0.6s">
                         <div class="vision-box-image mt-2">
                             <img src="{{asset('images/objective.png')}}" alt="objective"/>
                         </div>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="vision-box wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="0.1s">
+                    <div class="vision-box wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="0.1s">
                         <div class="vision-box-image mt-2">
                             <img src="{{asset('images/motivation.png')}}" alt="motivation"/>
                         </div>

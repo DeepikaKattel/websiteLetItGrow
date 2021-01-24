@@ -38,6 +38,9 @@
     margin: 5px;
     height: 180px;
 }
+.about-contentWrap{
+    overflow: hidden;
+}
 
 .vision-inner-box-image h4{
     font-size: 20px;
