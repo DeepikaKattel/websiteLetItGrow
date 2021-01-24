@@ -18,31 +18,31 @@
 
     <section class="header-product">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center commonTitle">Our Services</h1>
-            <p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+            <h1 class="font-weight-bold text-center commonTitle wow fadeIn">Our Services</h1>
+            <p class="text-center pb-3 wow fadeIn">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
             <div class="row">
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/development.PNG')}}"/>
                         <h2>Web Development</h2>
                         <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/design.PNG')}}"/>
                         <h2>Web Design</h2>
                         <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.PNG')}}"/>
                         <h2>Mobile Application Development</h2>
                         <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                         <h2>Product 3</h2>
@@ -50,7 +50,7 @@
                             inibus Bonorum et Malorum for use in a type specimen book.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                         <h2>Product 3</h2>
@@ -58,7 +58,7 @@
                             inibus Bonorum et Malorum for use in a type specimen book.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12">
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                         <h2>Product 3</h2>

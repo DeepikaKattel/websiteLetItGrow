@@ -1,22 +1,22 @@
 <footer class="footer" id="footerDiv">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-12 footer-div text-center">
+            <div class="col-lg-4 col-md-4 col-12 footer-div text-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">
                 <div>
                     <h3>About Let IT Grow</h3>
                     <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-12 footer-div text-center">
+            <div class="col-lg-4 col-md-4 col-12 footer-div text-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
                 <div>
                     <h3>Quick Links</h3>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{route('services')}}">Services</a></li>
+                    <li><a href="{{route('products')}}">Products</a></li>
+                    <li><a href="{{route('contact')}}">Contact</a></li>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-12 footer-div text-center">
+            <div class="col-lg-4 col-md-12 col-12 footer-div text-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">
                 <div>
                     <h3>Find Us</h3>
                     <ul class="text-center mt-5">
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="mt-5 text-center">
-            <p>Copyright @ - Let IT Grow</p>
+            <p class="wow fadeIn">Copyright @ - Let IT Grow</p>
         </div>
         <div class="scrolltop float-right">
             <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>

@@ -15,17 +15,22 @@
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
     </head>
+    <div id="preloader">
+        <div class="loading">
+        </div>
+    </div>
     <body>
+
+
     @include('partials.innernavbar')
         <div class="header" id="top">
-
-            <section class="header-section">
+            <section class="header-section wow fadeInDownBig" data-wow-duration="5s" data-wow-delay="0.1s">
                 <div class="center-div justify-content-center">
-                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s">You dictate we create</h1>
-                    <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="1.5s">Let IT Grow Your Enterprise</p>
+                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="3s">You dictate we create</h1>
+                    <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
                     <div class="header-buttons">
-                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
-                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="2s"><a href="{{route('products')}}">Products</a></h1>
+                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="4.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
+                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="4s"><a href="{{route('products')}}">Products</a></h1>
                     </div>
                 </div>
             </section>
@@ -148,10 +153,10 @@
         <!---*****************************     Product Section Start ************************************-->
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center">Our Products</h1>
-                <p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+                <h1 class="font-weight-bold text-center wow fadeInDownBig">Our Products</h1>
+                <p class="text-center pb-3 wow fadeInUpBig">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
                 <div class="row">
-                    <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1.5s">
                         <div class="card">
                              <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                             <h2>Product 1</h2>
@@ -159,7 +164,7 @@
                                 inibus Bonorum et Malorum for use in a type specimen book.</p>
                         </div>
                     </div>
-                    <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1s">
                         <div class="card">
                             <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                             <h2>Product 2</h2>
@@ -167,7 +172,7 @@
                                 inibus Bonorum et Malorum for use in a type specimen book.</p>
                         </div>
                     </div>
-                    <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="0.5s">
                         <div class="card">
                             <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
                             <h2>Product 3</h2>
@@ -179,7 +184,7 @@
                 </div>
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
-                        <p><a href="{{route('products')}}">More Products <i class="fa fa-angle-right"></i></a></p>
+                        <p><a href="{{route('products')}}" class="wow fadeInUp">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -190,24 +195,28 @@
         <!---*****************************     Projects Done Start ************************************-->
         <section class="projects">
             <div class="container headings text-center">
-                <p class="font-weight-bold text-center text-uppercase">More than 50 satisfied clients</p>
+                <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">More than 50 satisfied clients</p>
             </div>
             <div class="container d-flex justify-content-around align-items-center text-center">
                 <div>
-                    <h1 class="count">50</h1>
-                    <p>CMS Installations</p>
+                    <i class="fa fa-2x fa-pencil-ruler wow rollIn"></i>
+                    <h1 class="count wow fadeIn">50</h1>
+                    <p class="wow fadeIn">CMS Installations</p>
                 </div>
                 <div>
-                    <h1 class="count">15</h1>
-                    <p>Awards</p>
+                    <i class="fa fa-2x fa-trophy wow rollIn"></i>
+                    <h1 class="count wow fadeIn">15</h1>
+                    <p class="wow fadeIn">Awards</p>
                 </div>
                 <div>
-                    <h1 class="count">15</h1>
-                    <p>Websites</p>
+                    <i class="fa fa-2x fa-globe wow rollIn"></i>
+                    <h1 class="count wow fadeIn">15</h1>
+                    <p class="wow fadeIn">Websites</p>
                 </div>
                 <div>
-                    <h1 class="count">15</h1>
-                    <p>Clients</p>
+                    <i class="fa fa-2x fa-user-tie wow rollIn"></i>
+                    <h1 class="count wow fadeIn">15</h1>
+                    <p class="wow fadeIn">Clients</p>
                 </div>
             </div>
         </section>
@@ -272,5 +281,13 @@
             }
 
         </script>
+    <script>
+        $(window).on('load', function() { // makes sure the whole site is loaded
+            $('.navbar').hide();
+            $('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('.navbar').delay(800).fadeIn('slow');
+            $('body').delay(500).css({'overflow-y':'visible'});
+        })
+    </script>
     </body>
 </html>

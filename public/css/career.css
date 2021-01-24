@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
 
-body {
-    font-family: 'Archivo Narrow', sans-serif;
-}
+
 
 .joinTeamtxt{
     font-size: 20px;
@@ -91,7 +89,7 @@ body {
 }
 
 .jobDetailsContainer{
-    height:400px;
+    height:auto;
     width: 100%;
 }
 
@@ -196,7 +194,13 @@ body {
     font-family: 'Archivo Narrow', sans-serif;
     align-self: center;
 }
-
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 5px !important;
+    margin: 2px 0 12px 0 !important;
+    border: none;
+    background: #f1f1f1;
+}
 .finalSubmit:hover{
     background-color: #4CAF50;
     cursor: pointer;
@@ -207,7 +211,7 @@ body {
     cursor: pointer;
 }
 .jobDescriptionBox .card{
-    height:200px;
+    height:auto;
 }
 
 .careerFormLabel{

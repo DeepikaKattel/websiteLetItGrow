@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link rel="stylesheet" href="{{asset('css/innernav.css')}}">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="js/innernavbar.js"></script>
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="{{asset('css/innernav.css')}}">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="js/innernavbar.js"></script>
+
 </head>
 
 <html>
-  <nav class="navbar navbar-expand-lg navbar-mainbg sticky-top">
-      <a class="navbar-brand font-weight-bold text-white mt-3 ml-3" href="#">
-          <figure class="swing float-right">
-              <img src="{{asset('images/logoFull.png')}}"/>
-          </figure>
-      </a>
+<body>
+<nav class="navbar navbar-expand-lg navbar-mainbg">
+{{--    <a class="navbar-brand font-weight-bold text-white mt-3 ml-3" href="#">--}}
+{{--        <figure class="swing float-right">--}}
+{{--            <img src="{{asset('images/logoFull.png')}}"/>--}}
+{{--        </figure>--}}
+{{--    </a>--}}
+    <a class="navbar-brand navbar-logo animated flip" href="#"><img src="{{asset('images/logo2.png')}}" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars text-black"></i>
+        <i class="fas fa-bars text-black"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" id="ulCategory">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             <li class="nav-item">
-                <a class="nav-link" href="/"><i class="fas fa-home"></i>HOME</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="{{ route('vision') }}"><i class="far fa-eye"></i>VISION</a>
+                <a class="nav-link" href="/welcome" ><i class="fas fa-info"></i>HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-hands-helping"></i>SERVICES</a>
+                <a class="nav-link" href="/vision"><i class="far fa-eye"></i>VISION</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{route('career')}}"><i class="fas fa-user"></i>CAREER</a>
+                <a class="nav-link" href="/services"><i class="fas fa-hands-helping"></i>SERVICES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('contact') }}"><i class="fas fa-address-book"></i>CONTACT US</a>
+                <a class="nav-link" href="/career"><i class="fas fa-user"></i>CAREER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact_us"><i class="fas fa-address-book"></i>CONTACT US</a>
             </li>
         </ul>
     </div>
-  </nav>
-</html>
+</nav>
 
-{{--
-  <script>
-    $(document).ready(function() {
-        $( ".ml-auto .nav-item" ).bind( "click", function(event) {
-            event.preventDefault();
-            var clickedItem = $( this );
-            $( ".ml-auto .nav-item" ).each( function() {
-                $( this ).removeClass( "active" );
-            });
-            clickedItem.addClass( "active" );
+<script>
+    $(document).ready(function () {
+        var location = window.location.href;
+        $('#ulCategory li a').each(function(){
+            if(location.indexOf(this.href)>-1) {
+                $(this).parent().addClass('active');
+            }
         });
     });
-    </script> --}}
+</script>
+</body>
+
+</html>
+
+

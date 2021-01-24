@@ -36,6 +36,9 @@ i{
     border-radius: 50%;
     background: white;
 }
+.projects i{
+    color:steelblue;
+}
 .more a{
     text-decoration: none;
     color:black;
@@ -52,16 +55,78 @@ i{
 .header{
     width:100%;
     height:100vh;
-    background-image:linear-gradient( rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url("../images/background.jpg");
+    background-image:url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    clip-path: polygon(100% 0%, 100% 60%, 50% 84.6%, 0 60%, 0 0);
+    clip-path: polygon(100% 0%, 100% 60%, 50% 89%, 0 60%, 0 0);
     position: relative;
 }
-/*.header:before{*/
+/* Preloader */
 
-/*    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);*/
-/*}*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    bottom: 0;
+    z-index:4;
+    background-color: lightblue;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url('../images/preloader.gif');
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
+}
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -60px 0 0 -60px;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #19bee1;
+}
+.loading:after {
+    content: url('../images/logo2.png');
+    background: none;
+    width: 140%;
+    height: 140%;
+    position: absolute;
+    padding: 40px;
+    border-radius: 100%;
+    top: -20%;
+    left: -20%;
+    opacity: 0.7;
+    box-shadow: rgba(255, 255, 255, 0.6) -4px -5px 3px -3px;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
 /*.navbar:before{*/
 /*    content: "";*/
 /*    position: absolute;*/
@@ -87,7 +152,11 @@ i{
     color:white;
     text-align: center;
     position:relative;
+    background: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
+    z-index:-1;
+    clip-path: polygon(100% 0%, 100% 60%, 50% 89%, 0 60%, 0 0);
 }
+
 .center-div{
     width:100%;
     height:auto;
@@ -262,7 +331,6 @@ i{
     font-size:2rem;
     text-align:center;
 }
-
 
 
 /*<!--********************************** projects css end ***************************-->*/

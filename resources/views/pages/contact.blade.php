@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7" >
-                    <div class="contactContainer">
+                    <div class="contactContainer wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s">
                         <div class="commonTitle" style="text-align: start"><h2>Have any questions ? Let's get in touch !</h2></div>
                         <p class="inTouchTxt">Contact us if you are interested.</p>
 
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="moreContainer">
+                    <div class="moreContainer wow fadeIn">
                             <h3 class="commonTitle">How Can We Help You Today?</h3><br>
                             <p>For more informtion feel free to call or visit us at our office. <i class="fas fa-briefcase"></i></p>
 
@@ -97,10 +97,10 @@
                     <div class="row justify-content-center">
                         <div class="col-md-3" >
                             <div class="row justify-content-center" >
-                             <div class="col-md-5 col-5 d-flex justify-content-end">
+                             <div class="col-md-5 col-5 d-flex justify-content-end mb-2">
                                  <div class="infoBox wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s"><i class="fas fa-map"></i></div>
                              </div>
-                             <div class="col-md-7 col-7" >
+                             <div class="col-md-7 col-7">
                                  <div class="contactTitle">Visit Us</div>
                                  <div class="contactDetai">Pulchowk, Lalitpur</div>
                              </div>
@@ -109,7 +109,7 @@
 
                          <div class="col-md-3">
                             <div class="row justify-content-center" >
-                             <div class="col-md-5 col-5 d-flex justify-content-end">
+                             <div class="col-md-5 col-5 d-flex justify-content-end mb-2">
                                  <div class="infoBox wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s"><i class="fas fa-phone"></i></div>
                              </div>
                              <div class="col-md-7 col-7" >
@@ -121,7 +121,7 @@
 
                          <div class="col-md-3" >
                             <div class="row justify-content-center" >
-                             <div class="col-md-5 col-5 d-flex justify-content-end">
+                             <div class="col-md-5 col-5 d-flex justify-content-end  mb-2">
                                  <div class="infoBox wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s"><i class="fas fa-envelope"></i></div>
                              </div>
                              <div class="col-md-7 col-7" >
@@ -133,7 +133,7 @@
 
                          <div class="col-md-3" >
                             <div class="row justify-content-center" >
-                             <div class="col-md-5 col-5 d-flex justify-content-end">
+                             <div class="col-md-5 col-5 d-flex justify-content-end  mb-2">
                                  <div class="infoBox wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s"><i class="fas fa-clock"></i></div>
                              </div>
                              <div class="col-md-7 col-7" >

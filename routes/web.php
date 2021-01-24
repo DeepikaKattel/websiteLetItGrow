@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::redirect('/', '/welcome');
 
 Auth::routes();
 
@@ -28,3 +30,4 @@ Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, '
 Route::get('/career', [App\Http\Controllers\PagesController::class, 'career'])->name('career');
 Route::get('/services', [App\Http\Controllers\PagesController::class, 'services'])->name('services');
 Route::get('/products', [App\Http\Controllers\PagesController::class, 'products'])->name('products');
+

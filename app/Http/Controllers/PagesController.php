@@ -33,6 +33,7 @@ class PagesController extends Controller
     {
         return view('pages.products');
     }
+
     public function index()
     {
         //

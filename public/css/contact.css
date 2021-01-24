@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
 
-body {
-    font-family: 'Archivo Narrow', sans-serif;
-}
+
 
 .inTouchTxt{
     font-size: 20px;
@@ -157,13 +155,13 @@ body {
 }
 
 .contactTitle{
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 500;
     text-align: justify;
 }
 
 .contactDetai{
-    font-size: 16px;
+    font-size: 12px;
     width: 100%;
     text-align: justify;
 }
