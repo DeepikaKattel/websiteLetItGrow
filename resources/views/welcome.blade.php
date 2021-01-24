@@ -284,7 +284,7 @@
     <script>
         $(window).on('load', function() { // makes sure the whole site is loaded
             $('.navbar').hide();
-            $('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('#preloader').delay(900).fadeOut('slow'); // will fade out the white DIV that covers the website.
             $('.navbar').delay(800).fadeIn('slow');
             $('body').delay(500).css({'overflow-y':'visible'});
         })

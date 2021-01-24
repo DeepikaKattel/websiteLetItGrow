@@ -35,7 +35,7 @@
                 <a class="nav-link" href="/vision"><i class="far fa-eye"></i>VISION</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/services"><i class="fas fa-hands-helping"></i>SERVICES</a>
+                <a class="nav-link" href="/team"><i class="fas fa-hands-helping"></i>Our Team</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/career"><i class="fas fa-user"></i>CAREER</a>

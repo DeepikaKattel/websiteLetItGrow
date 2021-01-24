@@ -5,6 +5,12 @@
     height: 50px;
     width: 100%;
 }
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color:#606060;
+}
 
 .space2{
     height: 20px;

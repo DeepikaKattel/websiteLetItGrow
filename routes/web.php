@@ -30,4 +30,4 @@ Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, '
 Route::get('/career', [App\Http\Controllers\PagesController::class, 'career'])->name('career');
 Route::get('/services', [App\Http\Controllers\PagesController::class, 'services'])->name('services');
 Route::get('/products', [App\Http\Controllers\PagesController::class, 'products'])->name('products');
-
+Route::get('/team', [App\Http\Controllers\PagesController::class, 'team'])->name('team');
