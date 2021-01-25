@@ -153,8 +153,8 @@
         <!---*****************************     Product Section Start ************************************-->
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeInDownBig">Our Products</h1>
-                <p class="text-center pb-3 wow fadeInUpBig">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+                <h1 class="font-weight-bold text-center wow fadeInDownBig" data-wow-duration="2.5s" data-wow-delay="1s">Our Products</h1>
+                <p class="text-center pb-3 wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="1s">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
                 <div class="row">
                     <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1.5s">
                         <div class="card">
@@ -241,8 +241,6 @@
         <!---*****************************     Footer start  ************************************-->
         @include('partials.footer')
         <!---*****************************     Footer end  ************************************-->
-
-
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
