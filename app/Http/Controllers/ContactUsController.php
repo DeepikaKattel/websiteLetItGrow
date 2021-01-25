@@ -6,8 +6,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
 use App\Mail\SendContactNotification;
-
-//Use RealRashid\SweetAlert\Facades\Alert;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class ContactUsController extends Controller
 {
@@ -57,11 +56,11 @@ class ContactUsController extends Controller
 
             Mail::to("deepika.kattel123@gmail.com")
                 ->send(new SendContactNotification($data));
-//            Alert::success('Thank you!','We appreciate you valuable time.');
+            Alert::success('Thank you!','We appreciate you valuable time.');
             return redirect()->back();
 
         } else {
-//            Alert::error('Oops', 'There is an error');
+            Alert::error('Oops', 'There is an error');
             return redirect()->back();
         }
     }

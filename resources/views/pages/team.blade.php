@@ -5,7 +5,7 @@
     <div class="imgContainer col-lg-12 col-md-12 col-sm-12 pt-5 pb-5">
         <div class="breadCrumbCenter column">
             <p class="commontxt">Our Team</p>
-            <p  class="commontxtsmall">...</p>
+            <p  class="commontxtsmall">Our Team - Our Strength</p>
             <button class="breadCrumbBtn radius">
                 <a href="/"><i class="fas fa-home"></i>Home</a>
             </button>

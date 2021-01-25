@@ -8,12 +8,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Career Form</h1>
+            <h1>Services Form</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Creer Form</li>
+              <li class="breadcrumb-item active">Services Form</li>
             </ol>
           </div>
         </div>
@@ -29,34 +29,28 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Categories</h3>
+                <h3 class="card-title">Services</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="{{route('adminCareer.update',$career->id)}}" method="post" enctype="multipart/form-data">
+              <form action="{{route('adminServices.update',$services->id)}}" method="post" enctype="multipart/form-data">
               @csrf
               @method('PATCH')
               <div class="card-body">
                   <div class="form-group">
-                    <label for="department">Department</label>
-                    <input type="text" class="form-control" id="department" name="department" placeholder="Enter Department" value="{{old('department', $career->department)}}">
+                    <label for="services">Heading</label>
+                    <input type="text" class="form-control" id="heading" name="heading" placeholder="Enter heading" value="{{old('heading', $services->heading)}}">
                   </div>
+                  
                   <div class="form-group">
-                    <label for="designation">Designastion</label>
-                    <input type="text" class="form-control" id="designation" name="designation" placeholder="Enter Designation" value="{{old('designation', $career->designation)}}">
-                  </div>
+                    <label for="services"> Description</label>
+                    <textarea class="form-control" id="description" name="description" placeholder="Description">{{old('description', $services->description)}}</textarea>
+                  </div>                
                   <div class="form-group">
-                    <label for="department">Job Description</label>
-                    <textarea  class="form-control" id="job_description" name="job_description" placeholder="Enter Job Description">{{old('job_description', $career->job_description)}}</textarea>
+                      <label>Image</label>
+                      <input type="file" name="image" id="image" class="form-control" required>
                   </div>
-                  <div class="form-group">
-                    <label for="department">Job Level</label>
-                    <textarea  class="form-control" id="skills" name="major_skills" placeholder="Enter Major Skills">{{old('major_skills', $career->major_skills)}}</textarea>
-                  </div>
-                  <div class="form-group">
-                    <label for="vacancyNumber">Vacancy Number</label>
-                    <input type="number" class="form-control" id="vacancyNumber" name="vacancyNumber" placeholder="Enter Vacancy Number" value="{{old('vacancyNumber', $career->vacancyNumber)}}">
-                  </div>
+                
                   
                 </div>
                 <!-- /.card-body -->
