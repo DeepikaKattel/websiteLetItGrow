@@ -20,7 +20,7 @@
     <section class="header-product">
         <div class="container headings text-center">
             <h1 class="font-weight-bold text-center commonTitle">Our Team</h1>
-            <p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+            <p class="text-center pb-3">We are the game changer.</p>
             <section>
                 <div class="wrap-container zerogrid">
 
