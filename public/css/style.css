@@ -276,6 +276,10 @@ i{
     max-height: 50px;
     align-items: center;
 }
+.services i{
+    background: transparent;
+    color: white;
+}
 .services{
     background: #f7f7f9;
     padding: 50px 0;
@@ -299,10 +303,30 @@ i{
     text-transform: uppercase;
 }
 .names h1{
-    color: #2e2e2e;
+    color: white;
     font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+.names{
+    /*border: 1px solid;*/
+    display: flex;
+    padding: 9px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.names:hover{
+    transform: scale(1.1);
+}
+names img{
+    width: 30px;
+    height:30px;
+    display: inline-block;
+}
+.bg-purple{
+    background: plum;
 }
 .progress{
     height: 0.6rem !important;
@@ -441,6 +465,25 @@ i{
     font-size: 1.2rem !important;
     font-weight: 600;
     text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.footer i{
+    color:white;
+    padding:5px 10px 5px 10px;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+
+}
+.footer i:hover{
+    color:black;
+    padding:5px 10px 5px 10px;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 #myBtn{
     display: none;
