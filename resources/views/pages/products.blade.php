@@ -23,47 +23,44 @@
             <div class="row">
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/development.PNG')}}"/>
-                        <h2>Web Development</h2>
-                        <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Inventory Management System</h2>
+                        <p>Inventory management includes aspects such as controlling and overseeing purchases — from suppliers as well as customers — maintaining the storage of stock, controlling the amount of product for sale, and order fulfilment.</p>
                     </div>
                 </div>
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/design.PNG')}}"/>
-                        <h2>Web Design</h2>
-                        <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Account Management</h2>
+                        <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's financial transactions. The functionality of accounting software differs from product to product</p>
                     </div>
                 </div>
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.PNG')}}"/>
-                        <h2>Mobile Application Development</h2>
-                        <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Human Resources Management System</h2>
+                        <p>Human Resources Management System (HRMS) is a form of human resources software that combines a number of systems and processes to ensure the easy management of human resources, business processes and data.</p>
                     </div>
                 </div>
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Customer Relationship Management</h2>
+                        <p>Customer relationship management is a tool, strategy, or process that helps businesses better organize and access customer data; handwritten notes/registers stored digitally in a database</p>
                     </div>
                 </div>
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Point of Sale (POS)</h2>
+                        <p>Point of Sale (POS) is a system in a retail store from which you conduct the sale of physical goods. In a store, a POS is where the checkout happens, orders are processed and bills are paid.</p>
                     </div>
                 </div>
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>eCommerce</h2>
+                        <p>eCommerce is a business model that lets firms and individuals buy and sell things over the internet; includes B2B, B2C, C2B, C2B. Sites can be modified based on client's requirements and suggestion.</p>
                     </div>
                 </div>
 

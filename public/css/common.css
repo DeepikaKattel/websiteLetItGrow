@@ -152,6 +152,10 @@ li{
     max-width:50px;
     max-height: 50px;
 }
+.product-cards p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
 .product-cards .card {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .25);

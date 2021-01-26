@@ -34,6 +34,15 @@
     cursor: pointer;
 }
 
+.vision-box:hover .vision-box-image img {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+
 .vision-inner-box-image{
     margin: 5px;
     height: 180px;

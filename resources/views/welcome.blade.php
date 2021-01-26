@@ -24,13 +24,13 @@
 
     @include('partials.innernavbar')
         <div class="header" id="top">
-            <section class="header-section wow fadeInDownBig" data-wow-duration="5s" data-wow-delay="0.1s">
+            <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
                 <div class="center-div justify-content-center">
-                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="3s" data-wow-delay="3s">You dictate we create</h1>
-                    <p class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
+                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="4.5s" data-wow-delay="4s">You dictate we create</h1>
+                    <p class="wow bounceInLeft" data-wow-duration="4s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
                     <div class="header-buttons">
-                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="4.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
-                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="4s"><a href="{{route('products')}}">Products</a></h1>
+                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
+                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="2s"><a href="{{route('products')}}">Products</a></h1>
                     </div>
                 </div>
             </section>
@@ -46,7 +46,7 @@
                             <div class="col-lg-1 col-md-1 col-2">
                                 <h1 class="aboutHeading mt-5 wow bounceInLeft">Why Us?</h1>
                             </div>
-                            <div class="about-card col-lg-11 col-md-11 col-10 wow fadeIn">
+                            <div class="about-card col-lg-11 col-md-11 col-10 wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
                                 <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
                                     <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>
                                         The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
@@ -68,44 +68,44 @@
         <section class="services" id="services">
             <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">What Do We Offer</h1>
-                <p class="text-center wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+                <p class="text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">We provide the best services ...</p>
             </div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">CSS</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s">CSS</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:100%">100%</div>
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">Laravel</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s">Laravel</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%">80%</div>
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="1.5s">Node Js</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Node Js</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1.5s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:75%">75%</div>
                             </div>
                         </div>
 
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="2s">Flutter</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="2s">Flutter</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%">70%</div>
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="2.5s">React Js</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="2.5s">React Js</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2.5s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:70%">70%</div>
                             </div>
                         </div>
                         <div class="names my-3">
-                            <h1 class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="3s">ASP.Net</h1>
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="3s">ASP.Net</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="3s">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:60%">60%</div>
                             </div>
@@ -114,7 +114,7 @@
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 serviceDiv">
                         <div class="row justify-content-center web">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="3.5s">
-                                <img class="mx-auto mt-5 d-block" src="{{asset('images/development.PNG')}}"/>
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/development.png')}}"/>
                             </div>
                             <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="4s">
                                 <h2>Web Development</h2>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="row justify-content-center design">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="4s">
-                                <img class="mx-auto mt-5 d-block" src="{{asset('images/design.PNG')}}"/>
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/design.png')}}"/>
                             </div>
                             <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="4.5s">
                                 <h2>Web Design</h2>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="row justify-content-center mobile">
                             <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s" data-wow-delay="5s">
-                                <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.PNG')}}"/>
+                                <img class="mx-auto mt-5 d-block" src="{{asset('images/mobile-app.png')}}"/>
                             </div>
                             <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="5.5s">
                                 <h2>Mobile Application Development</h2>
@@ -153,31 +153,28 @@
         <!---*****************************     Product Section Start ************************************-->
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeInDownBig" data-wow-duration="2.5s" data-wow-delay="1s">Our Products</h1>
-                <p class="text-center pb-3 wow fadeInUpBig" data-wow-duration="2.5s" data-wow-delay="1s">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our Products</h1>
+                <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products ...</p>
                 <div class="row">
                     <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1.5s">
                         <div class="card">
-                             <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                            <h2>Product 1</h2>
-                            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                                inibus Bonorum et Malorum for use in a type specimen book.</p>
+                             <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <h2>Inventory Management System</h2>
+                            <p>Inventory management includes aspects such as controlling and overseeing purchases — from suppliers as well as customers — maintaining the storage of stock, controlling the amount of product for sale, and order fulfilment.</p>
                         </div>
                     </div>
                     <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1s">
                         <div class="card">
-                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                            <h2>Product 2</h2>
-                            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                                inibus Bonorum et Malorum for use in a type specimen book.</p>
+                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <h2>Account Management</h2>
+                            <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's financial transactions. The functionality of accounting software differs from product to product</p>
                         </div>
                     </div>
                     <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="0.5s">
                         <div class="card">
-                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                            <h2>Product 3</h2>
-                            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                                inibus Bonorum et Malorum for use in a type specimen book.</p>
+                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <h2>Human Resources Management System</h2>
+                            <p>Human Resources Management System (HRMS) is a form of human resources software that combines a number of systems and processes to ensure the easy management of human resources, business processes and data.</p>
                         </div>
                     </div>
 
@@ -199,23 +196,24 @@
             </div>
             <div class="container d-flex justify-content-around align-items-center text-center">
                 <div>
+                    <i class="fa fa-2x fa-trophy wow rollIn"></i>
+                    <h1 class="count wow fadeIn">10</h1>
+                    <p class="wow fadeIn">Years of Experience</p>
+                </div>
+                <div>
                     <i class="fa fa-2x fa-pencil-ruler wow rollIn"></i>
                     <h1 class="count wow fadeIn">50</h1>
                     <p class="wow fadeIn">CMS Installations</p>
                 </div>
-                <div>
-                    <i class="fa fa-2x fa-trophy wow rollIn"></i>
-                    <h1 class="count wow fadeIn">15</h1>
-                    <p class="wow fadeIn">Awards</p>
-                </div>
+
                 <div>
                     <i class="fa fa-2x fa-globe wow rollIn"></i>
-                    <h1 class="count wow fadeIn">15</h1>
+                    <h1 class="count wow fadeIn">58</h1>
                     <p class="wow fadeIn">Websites</p>
                 </div>
                 <div>
                     <i class="fa fa-2x fa-user-tie wow rollIn"></i>
-                    <h1 class="count wow fadeIn">15</h1>
+                    <h1 class="count wow fadeIn">81</h1>
                     <p class="wow fadeIn">Clients</p>
                 </div>
             </div>

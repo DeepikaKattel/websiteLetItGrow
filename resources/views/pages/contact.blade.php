@@ -139,7 +139,7 @@
                              <div class="col-md-7 col-7" >
                                  <div class="contactTitle">Office Hours</div>
                                  <div class="contactDetai">Sunday - Friday</div>
-                                <div class="contactDetai">10 am - 5 pm</div>
+                                <div class="contactDetai">9:00 - 18:00</div>
                              </div>
                             </div>
                          </div>

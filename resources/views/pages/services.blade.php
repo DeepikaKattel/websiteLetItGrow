@@ -19,7 +19,7 @@
     <section class="header-product">
         <div class="container headings text-center">
             <h1 class="font-weight-bold text-center commonTitle wow fadeIn">Our Services</h1>
-            <p class="text-center pb-3 wow fadeIn">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+            <p class="text-center pb-3 wow fadeIn">We provide the best services ...</p>
             <div class="row">
                 <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">
                     <div class="card">
@@ -42,30 +42,30 @@
                         <p>Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">
-                    <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </div>
-                </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
-                    <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </div>
-                </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">
-                    <div class="card">
-                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>
-                        <h2>Product 3</h2>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
-                            inibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </div>
-                </div>
+{{--                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1.5s">--}}
+{{--                    <div class="card">--}}
+{{--                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>--}}
+{{--                        <h2>Product 3</h2>--}}
+{{--                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,--}}
+{{--                            inibus Bonorum et Malorum for use in a type specimen book.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">--}}
+{{--                    <div class="card">--}}
+{{--                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>--}}
+{{--                        <h2>Product 3</h2>--}}
+{{--                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,--}}
+{{--                            inibus Bonorum et Malorum for use in a type specimen book.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">--}}
+{{--                    <div class="card">--}}
+{{--                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.PNG')}}"/>--}}
+{{--                        <h2>Product 3</h2>--}}
+{{--                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,--}}
+{{--                            inibus Bonorum et Malorum for use in a type specimen book.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
             </div>
 

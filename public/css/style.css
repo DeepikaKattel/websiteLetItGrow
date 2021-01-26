@@ -263,6 +263,10 @@ i{
     transform: rotate(45deg);
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
+.product-cards p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
 
 /*<!--********************************** header-product css end ***************************-->*/
 

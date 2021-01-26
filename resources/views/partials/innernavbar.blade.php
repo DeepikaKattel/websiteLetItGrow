@@ -26,7 +26,7 @@
         <i class="fas fa-bars text-black"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto" id="ulCategory">
+        <ul class="navbar-nav ml-auto mr-3" id="ulCategory">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             <li class="nav-item">
                 <a class="nav-link" href="/welcome" ><i class="fas fa-info"></i>HOME</a>
@@ -34,9 +34,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/vision"><i class="far fa-eye"></i>VISION</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/team"><i class="fas fa-hands-helping"></i>Our Team</a>
-            </li>
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" href="/team"><i class="fas fa-hands-helping"></i>Our Team</a>--}}
+{{--            </li>--}}
             <li class="nav-item">
                 <a class="nav-link" href="/career"><i class="fas fa-user"></i>CAREER</a>
             </li>

@@ -68,47 +68,47 @@
                             </div>
                         </div>
 
-                        <div class="jobDescriptionBox mt-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
-                            <div class="row mx-auto vertical-align-center">
-                                <h5>Flutter Developer</h5>
-                                <a data-toggle="collapse" href="#details1" aria-expanded="false" aria-controls="details1">
-                                    <i  class="fas fa-eye"></i>
-                                </a>
+{{--                        <div class="jobDescriptionBox mt-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">--}}
+{{--                            <div class="row mx-auto vertical-align-center">--}}
+{{--                                <h5>Flutter Developer</h5>--}}
+{{--                                <a data-toggle="collapse" href="#details1" aria-expanded="false" aria-controls="details1">--}}
+{{--                                    <i  class="fas fa-eye"></i>--}}
+{{--                                </a>--}}
 
-                                <div class="collapse" id="details1">
-                                    <div class="card card-body">
-                                        <p class="jobTitle"><i class="fas fa-user-friends mr-2"></i>Department</p>
-                                        <p class="jobTitleName">Sales</p>
-                                        <p class="jobTitle"><i class="fas fa-business-time mr-2"></i>Designation</p>
-                                        <p class="jobTitleName mr-10">Sales Representative</p>
-                                        <p class="jobTitle"><i class="fas fa-book mr-2"></i>Description</p>
-                                        <p class="desTopic mr-10">Responsibilities</p>
-                                        <ul>
-                                            <li>Identify potential clients and sell products/services with smart sales presentations. </li>
-                                            <li>Achieve targeted sales and outcomes within a defined time frame. </li>
-                                            <li>Establish and maintain positive client and business relationships.</li>
-                                            <li>Work and coordinate with team members for the maximization of sales.</li>
-                                            <li>Analyze the markets’ potential, track sales, and status reports. </li>
-                                            <li>Report management with documentation and relevant updates on customer needs, problems, interests, competitive activities, and potential for new products and services.</li>
-                                            <li>Monitor competition and keep track of best practices and promotional trends. </li>
-                                            <li>Improve continuously through feedback. Requirements: • Bachelor/ Ongoing degree in business, marketing, economics or related field. </li>
-                                        </ul>
-                                        <p class="desTopic mr-10">Requirements</p>
-                                        <ul>
-                                            <li>Bachelor/ Ongoing degree in business, marketing, economics or related field.</li>
-                                            <li>Highly motivated and target driven personality.</li>
-                                            <li>Excellent interpersonal skills, including the ability to quickly build rapport with both customers and suppliers. Leadership skills preferred.</li>
-                                            <li>ime management and organizational skills.</li>
-                                            <li>Knowledge of Proposal writing is a plus</li>
-                                        </ul>
-                                        <p class="jobTitle"><i class="fas fa-user-tie mr-2"></i>Number of Vacancies</p>
-                                        <p class="jobTitleName mr-10">2</p>
+{{--                                <div class="collapse" id="details1">--}}
+{{--                                    <div class="card card-body">--}}
+{{--                                        <p class="jobTitle"><i class="fas fa-user-friends mr-2"></i>Department</p>--}}
+{{--                                        <p class="jobTitleName">Sales</p>--}}
+{{--                                        <p class="jobTitle"><i class="fas fa-business-time mr-2"></i>Designation</p>--}}
+{{--                                        <p class="jobTitleName mr-10">Sales Representative</p>--}}
+{{--                                        <p class="jobTitle"><i class="fas fa-book mr-2"></i>Description</p>--}}
+{{--                                        <p class="desTopic mr-10">Responsibilities</p>--}}
+{{--                                        <ul>--}}
+{{--                                            <li>Identify potential clients and sell products/services with smart sales presentations. </li>--}}
+{{--                                            <li>Achieve targeted sales and outcomes within a defined time frame. </li>--}}
+{{--                                            <li>Establish and maintain positive client and business relationships.</li>--}}
+{{--                                            <li>Work and coordinate with team members for the maximization of sales.</li>--}}
+{{--                                            <li>Analyze the markets’ potential, track sales, and status reports. </li>--}}
+{{--                                            <li>Report management with documentation and relevant updates on customer needs, problems, interests, competitive activities, and potential for new products and services.</li>--}}
+{{--                                            <li>Monitor competition and keep track of best practices and promotional trends. </li>--}}
+{{--                                            <li>Improve continuously through feedback. Requirements: • Bachelor/ Ongoing degree in business, marketing, economics or related field. </li>--}}
+{{--                                        </ul>--}}
+{{--                                        <p class="desTopic mr-10">Requirements</p>--}}
+{{--                                        <ul>--}}
+{{--                                            <li>Bachelor/ Ongoing degree in business, marketing, economics or related field.</li>--}}
+{{--                                            <li>Highly motivated and target driven personality.</li>--}}
+{{--                                            <li>Excellent interpersonal skills, including the ability to quickly build rapport with both customers and suppliers. Leadership skills preferred.</li>--}}
+{{--                                            <li>ime management and organizational skills.</li>--}}
+{{--                                            <li>Knowledge of Proposal writing is a plus</li>--}}
+{{--                                        </ul>--}}
+{{--                                        <p class="jobTitle"><i class="fas fa-user-tie mr-2"></i>Number of Vacancies</p>--}}
+{{--                                        <p class="jobTitleName mr-10">2</p>--}}
 
-                                        <button type="button" class="btnCareerSubmit text-center" onclick="openForm()">Apply for this position</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+{{--                                        <button type="button" class="btnCareerSubmit text-center" onclick="openForm()">Apply for this position</button>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
 
