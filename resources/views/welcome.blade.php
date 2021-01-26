@@ -26,7 +26,13 @@
         <div class="header" id="top">
             <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
                 <div class="center-div justify-content-center">
-                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="4.5s" data-wow-delay="4s">You dictate we create</h1>
+                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="4.5s" data-wow-delay="4s">
+                        <div class="wrapper">
+                            <div class="typing-demo">
+                                You Dictate We Create.
+                            </div>
+                        </div>
+                    </h1>
                     <p class="wow bounceInLeft" data-wow-duration="4s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
                     <div class="header-buttons">
                         <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
@@ -44,7 +50,7 @@
                     <div class="col-lg-12 col-md-12 col-12">
                         <div class="row justify-content-center">
                             <div class="col-lg-1 col-md-1 col-2">
-                                <h1 class="aboutHeading mt-5 wow bounceInLeft">Why Us?</h1>
+                                <h1 class="aboutHeading mt-5 wow bounceInDown" data-wow-duration="3s" data-wow-delay="0.1s">Why Us?</h1>
                             </div>
                             <div class="about-card col-lg-11 col-md-11 col-10 wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
                                 <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
@@ -73,41 +79,41 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
-                        <div class="names my-3">
-                            <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s">CSS</h1>
-                            <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:100%">100%</div>
-                            </div>
-                        </div>
+                        <!--<div class="names my-3">-->
+                        <!--    <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s">CSS</h1>-->
+                        <!--    <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">-->
+                        <!--        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:100%">100%</div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                         <div class="names my-3">
                             <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s">Laravel</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%">80%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:100%"></div>
                             </div>
                         </div>
                         <div class="names my-3">
                             <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Node Js</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1.5s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:75%">75%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:100%"></div>
                             </div>
                         </div>
 
                         <div class="names my-3">
                             <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="2s">Flutter</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%">70%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:100%"></div>
                             </div>
                         </div>
                         <div class="names my-3">
                             <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="2.5s">React Js</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2.5s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:70%">70%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:100%"></div>
                             </div>
                         </div>
                         <div class="names my-3">
                             <h1 class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="3s">ASP.Net</h1>
                             <div class="progress w-75 wow slideInLeft" data-wow-duration="2s" data-wow-delay="3s">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:60%">60%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:100%"></div>
                             </div>
                         </div>
                     </div>

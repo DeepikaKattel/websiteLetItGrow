@@ -271,7 +271,11 @@ i{
 /*<!--********************************** header-product css end ***************************-->*/
 
 /*<!--********************************** services css start ***************************-->*/
-
+.services img{
+    max-width:50px;
+    max-height: 50px;
+    align-items: center;
+}
 .services{
     background: #f7f7f9;
     padding: 50px 0;
@@ -312,6 +316,20 @@ i{
     transform: scale(1.2);
     border-radius: 50%;
     box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.services .tech:hover img{
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.services .techimage:hover img{
+    transform: scale(1.2);
+    border-radius: 20%;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.techimage{
+    width: 70px;
+    height: 70px;
 }
 .services .design:hover img{
     transform: scale(1.2);
@@ -455,4 +473,36 @@ i{
     top: 0;
     width: 100%;
 }
+/*<!--********************************** typing effect ***************************-->*/
+
+.wrapper {
+
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typing-demo {
+    width: 22ch;
+    animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+    animation-delay: 5.5s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
 
