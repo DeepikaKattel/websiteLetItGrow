@@ -25,21 +25,21 @@
                         <p class="inTouchTxt">Contact us if you are interested.</p>
 
                             <div class="contact-form">
-                                <div class="contact-image">
-                                    <img src="{{asset('images/rocket.png')}}" alt="rocket_contact"/>
-                                </div>
+{{--                                <div class="contact-image">--}}
+{{--                                    <img src="{{asset('images/rocket.png')}}" alt="rocket_contact"/>--}}
+{{--                                </div>--}}
                                 <form action="{{route('contact.store')}}" method="post" enctype="multipart/form-data">
                                     @csrf
                                    <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" />
+                                                <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" required/>
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
+                                                <input type="email" name="email" class="form-control" placeholder="Your Email *" value="" required/>
                                             </div>
                                             <div class="form-group">
-                                                <input type="text" name="phone_number" class="form-control" placeholder="Your Phone Number *" value="" />
+                                                <input type="number" name="phone_number" class="form-control" placeholder="Your Phone Number *" value="" required/>
                                             </div>
                                             <div class="form-group">
                                                 <button class="btnContactSubmit">Send Message</button>
@@ -47,7 +47,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                                <textarea name="message" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                                             </div>
                                         </div>
                                     </div>

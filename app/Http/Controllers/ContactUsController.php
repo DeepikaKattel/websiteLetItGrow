@@ -38,6 +38,14 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request,[
+            'email' => 'required|email',
+            'name' => 'required',
+            'subject' => 'required',
+            'message' => 'required',
+            'phone_number' => 'required'
+        ]);
+
         $contact = new ContactUs();
         $contact->name = request('name');
         $contact->email = request('email');
