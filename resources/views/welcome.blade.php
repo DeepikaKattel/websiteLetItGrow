@@ -31,19 +31,19 @@
     <div class="header" id="top">
         <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
             <div class="center-div justify-content-center">
-                <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="4.5s" data-wow-delay="4s">
+                <h1 class="font-weight-bold wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <div class="wrapper">
                         <div class="typing-demo">
                             You Dictate We Create.
                         </div>
                     </div>
                 </h1>
-                <p class="wow bounceInLeft" data-wow-duration="4s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
+                <p class="wow rollIn" data-wow-duration="4s" data-wow-delay="2.7s">Let IT Grow Your Enterprise</p>
                 <div class="header-buttons">
-                    <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a
+                    <h1 class="wow lightSpeedIn" data-wow-duration="3s" data-wow-delay="5s"><a
                             href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
                     <div style="height: 10px"></div>
-                    <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="2s"><a
+                    <h1 class="wow lightSpeedIn" data-wow-duration="3s" data-wow-delay="6s"><a
                             href="{{ route('products') }}">Products</a></h1>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                         Why Us?</h1>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="about-description wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
+                    <div class="about-description wow rotateInUpLeft" data-wow-duration="2s" data-wow-delay="0.5s">
                         <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology.
                             The organization is a team of driven young and experienced minds that are passionate
                             to provide utmost customer satisfaction in terms of product and service
@@ -125,8 +125,8 @@
                             manpower.</p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 aboutImgContainer wow slideInRight" data-wow-duration="2s"
-                    data-wow-delay="0.5s"></div>
+                <div class="col-lg-5 col-md-5 col-sm-12 aboutImgContainer wow slideInRight" data-wow-duration="3s"
+                    data-wow-delay="0.8s"></div>
 
             </div>
             <div class="row text-center mt-4">
@@ -237,32 +237,32 @@
                 <div class="col-lg-6 col-md-12 col-10 offset-1 offset-lg-0 serviceDiv">
                     <div class="row justify-content-center web">
                         <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="3.2s">
+                            data-wow-delay="1s">
                             <img class="mx-auto mt-5 d-block" src="{{ asset('images/development.png') }}" />
                         </div>
-                        <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="3s">
+                        <div class="col-lg-10 col-10 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="1.2s">
                             <h2>Web Development</h2>
                             <p>Your business can now use the digitalized platform in the form of Web Application,
                                 decreasing the resources required in an efficient manner.</p>
                         </div>
                     </div>
                     <div class="row justify-content-center design">
-                        <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="3.8s">
+                        <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="3s"
+                            data-wow-delay="1.5s">
                             <img class="mx-auto mt-5 d-block" src="{{ asset('images/design.png') }}" />
                         </div>
-                        <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="3.5s">
+                        <div class="col-lg-10 col-10 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="2.2s">
                             <h2>Web Design</h2>
                             <p>Your business can now use the digitalized platform in the form of Web Application,
                                 decreasing the resources required in an efficient manner.</p>
                         </div>
                     </div>
                     <div class="row justify-content-center mobile">
-                        <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="4.9s">
+                        <div class="col-lg-2 col-12 service-icons wow fadeInUp" data-wow-duration="4s"
+                            data-wow-delay="2s">
                             <img class="mx-auto mt-5 d-block" src="{{ asset('images/mobile-app.png') }}" />
                         </div>
-                        <div class="col-lg-10 col-10 wow fadeInUp" data-wow-duration="2s" data-wow-delay="4.5s">
+                        <div class="col-lg-10 col-10 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="3.2s">
                             <h2>Mobile Application Development</h2>
                             <p>Your business can now use the digitalized platform in the form of Web Application,
                                 decreasing the resources required in an efficient manner.</p>
@@ -287,7 +287,7 @@
             <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products ...
             </p>
             <div class="row">
-                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s"
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                     data-wow-delay="1.5s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{ asset('images/settings.png') }}" />
@@ -297,7 +297,7 @@
                             product for sale, and order fulfilment.</p>
                     </div>
                 </div>
-                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s"
+                <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="5s"
                     data-wow-delay="1s">
                     <div class="card">
                         <img class="mx-auto mt-5 d-block" src="{{ asset('images/settings.png') }}" />
@@ -367,7 +367,7 @@
     <!---*****************************     Find carerr start ************************************-->
     <section class="career" id="career">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">Join
+            <h1 class="font-weight-bold text-center wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">Join
                 Our Team</h1>
 
         </div>

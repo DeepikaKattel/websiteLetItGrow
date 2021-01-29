@@ -20,13 +20,13 @@
         <div class="container">
             <div class="row" id="webdev">
                 <div class="column col-md-6">
-                    <div class="webdev_img"></div>
+                    <div class="webdev_img wow rotateInUpRight" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
                 <div class="column col-md-6">
                     <div class="faded-container">
                         <h4>Web Development</h4>
                     </div><br>
-                    <div class="paragraph">
+                    <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
                         <p>
                             Web development is the process of website and web application development and maintenance. It is
                             basically the work that happens behind the scenes to make a website and application look great,
@@ -52,7 +52,7 @@
                     <div class="faded-container">
                         <h4>Web Design</h4>
                     </div><br>
-                    <div class="paragraph">
+                    <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
                         <p>
                             Web design is what creates the overall look and feel when we’re using a website. It’s the
                             process of planning and building the elements of your website, from structure and layout to
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="column col-md-6">
-                    <div class="webdesign_img"></div>
+                    <div class="webdesign_img wow rotateInUpLeft" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
             </div>
 
@@ -77,13 +77,13 @@
 
             <div class="row">
                 <div class="column col-md-6">
-                    <div class="mobdev_img"></div>
+                    <div class="mobdev_img wow rotateInUpRight" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
                 <div class="column col-md-6">
                     <div class="faded-container">
                         <h4>Mobile Application Development</h4>
                     </div><br>
-                    <div class="paragraph">
+                    <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
                         <p>
                             Mobile application development is the creation of software intended to run on mobile devices and
                             optimized to take advantage of those products' unique features and hardware.

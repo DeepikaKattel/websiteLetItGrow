@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="moreContainer wow fadeIn">
+                    <div class="moreContainer wow slideInRight" data-wow-duration="2s" data-wow-delay="0.1s">
                             <h3 class="commonTitle">How Can We Help You Today?</h3><br>
                             <p>For more informtion feel free to call or visit us at our office. <i class="fas fa-briefcase"></i></p>
 

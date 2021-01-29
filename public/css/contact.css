@@ -23,22 +23,22 @@
 
 .moreContainer h3{
     color: #004085;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .moreContainer h3:hover{
-    font-size: 32px;
+    font-size: 22px;
     cursor: pointer;
 }
 
 .moreContainer p{
     color: #f0f0fa;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .moreContainer p:hover{
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
 }
 

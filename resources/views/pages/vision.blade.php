@@ -24,7 +24,7 @@
                         <h2>About Us</h2>
                     </div>
                     <div class='space2'></div>
-                    <div class="content-wrap wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s"
+                    <div class="content-wrap wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s"
                         style="text-align:justify;">
                         <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The
                             organization is a team of driven young and experienced minds that are passionate to provide
@@ -52,7 +52,7 @@
                         <h2>Vision</h2>
                     </div>
                     <div class='space2'></div>
-                    <div class="content-wrap wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.1s"
+                    <div class="content-wrap wow slideInRight" data-wow-duration="3s" data-wow-delay="0.2s"
                         style="text-align:justify;">
                         <p>We believe, Technology is made by everybody for everybody. Today, Modern world offers
                             technologies that are affordable to people from all backgrounds and we want to serve people with

@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="page foldtl">
+                    <div class="page foldtl wow slideInRight" data-wow-duration="2s" data-wow-delay="0.1s">
                         <h4>Job Openings</h4>
                         <ul>
                             <li>Sales Representative</li>
