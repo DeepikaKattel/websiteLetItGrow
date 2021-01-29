@@ -1,66 +1,80 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
+    cursor: pointer;
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-p{
+
+p {
     font-size: 0.9rem;
     line-height: 1.6;
     font-weight: 400;
-    color:#606060;
+    color: #606060;
 }
-.product-cards h2, .serviceDiv h2{
+
+.product-cards h2, .serviceDiv h2 {
     font-size: 0.9rem;
     margin: 20px 0 15px 0;
     font-weight: bold;
     line-height: 1.1;
     word-spacing: 4px;
 }
-i{
-    color:#2fcccd;
-    padding:5px 10px 5px 10px;
+
+.more i {
+    color: black;
+    padding: 5px 10px 5px 10px;
     border-radius: 50%;
     background: white;
 }
-.projects i{
-    color:steelblue;
+
+.projects i {
+    color: steelblue;
 }
-.more a{
+
+.more a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.more a:hover{
+
+.more a:hover {
     text-decoration: none;
-    color:black;
+    color: black;
+    cursor: pointer;
 }
-.more:hover i{
+
+.more:hover i {
     color: white;
     background: black;
     cursor: pointer;
 }
-.header{
-    width:100%;
-    height:100vh;
-    background-image:url("../images/background.jpg");
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/front-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    clip-path: polygon(100% 0%, 100% 60%, 50% 89%, 0 60%, 0 0);
+    clip-path: polygon(100% 0%, 100% 60%, 50% 92%, 0 60%, 0 0);
     position: relative;
 }
+
 /* Preloader */
 
 #preloader {
@@ -70,7 +84,7 @@ i{
     right: 0;
     height: 100vh;
     bottom: 0;
-    z-index:4;
+    z-index: 4;
     background-color: lightblue;
     /* change if the mask should have another color then white */
     z-index: 99;
@@ -92,6 +106,7 @@ i{
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
 }
+
 .loading {
     position: absolute;
     left: 50%;
@@ -103,6 +118,7 @@ i{
     border-radius: 100%;
     border: 2px solid #19bee1;
 }
+
 .loading:after {
     content: url('../images/logo2.png');
     background: none;
@@ -128,101 +144,131 @@ i{
 }
 
 /*.navbar:before{*/
+
 /*    content: "";*/
+
 /*    position: absolute;*/
+
 /*    top:0%;*/
+
 /*    bottom:0%;*/
+
 /*    left:0;*/
+
 /*    right:0;*/
+
 /*    opacity: 0.3;*/
+
 /*    z-index:-1;*/
+
 /*    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);*/
 
 /*}*/
 
 /*.nav-item a{*/
+
 /*    color: #fff !important;*/
+
 /*    font-weight:bold;*/
 
 /*}*/
 
-.header-section{
+.header-section {
     width: 100%;
     height: inherit;
-    color:white;
+    color: white;
     text-align: center;
-    position:relative;
+    position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
-    z-index:-1;
-    clip-path: polygon(100% 0%, 100% 60%, 50% 89%, 0 60%, 0 0);
+    background: linear-gradient(rgba(58, 57, 57, 0.7), rgba(255, 255, 255, 0.50));
+    z-index: -1;
+    clip-path: polygon(100% 0%, 100% 60%, 50% 92%, 0 60%, 0 0);
 }
 
-.center-div{
-    width:100%;
-    height:auto;
+.center-div {
+    width: 100%;
+    height: auto;
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.header-buttons a{
+
+.header-buttons a {
     border: 1px solid white;
     border-radius: 100px;
-    margin:0 5px;
-    padding:12px 35px;
+    margin: 0 5px;
+    padding: 12px 35px;
     outline: none;
-    color:#fff;
-    font-size:1rem;
+    color: #fff;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.4;
     text-align: center;
 }
-.header-buttons a:hover{
-    color:#50d1c0;
+
+.header-buttons a:hover {
+    color: #50d1c0;
     background: white;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
-.header-buttons1{
-    color:#50d1c0 !important;
+
+.header-buttons1 {
+    color: #50d1c0 !important;
     background: white;
     text-decoration: none;
 }
-.header-buttons1:hover{
-    color:white!important;
+
+.header-buttons1:hover {
+    color: white!important;
     background: transparent !important;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
-.center-div p{
+
+.center-div p {
     font-size: 1.3rem;
-    padding:10px 0 20px 0;
+    padding: 10px 0 20px 0;
     color: white;
 }
-.aboutHeading{
+
+.aboutImgContainer {
+    background-image: url('../images/about_background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aboutHeading {
     transform: rotate(-90deg);
 }
-/*<!--********************************** header-about css start ***************************-->*/
-.header-about{
-    width: 100%;
-    height:auto;
-    margin: 25px 0;
-    text-align: center;
 
+/*<!--********************************** header-about css start ***************************-->*/
+
+.header-about {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.about-card{
+
+.about-card {
     background: url("../images/aboutImage.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 50px;
 }
+
 .about-card .card {
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
     border: medium none;
     padding: 20px !important;
@@ -231,39 +277,54 @@ i{
     text-align: justify;
 }
 
+.about-description {
+    font-size: 13px;
+    color: black;
+    text-align: justify;
+}
+
 /*<!--********************************** header-about css end ***************************-->*/
+
 /*<!--********************************** header-product css start ***************************-->*/
 
-.header-product{
+.header-product {
     width: 100%;
-    height:auto;
-    margin: 100px 0;
+    height: auto;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
-.product-cards .card{
+
+.product-cards .card {
     background: #fff;
-    box-shadow:0 2px 4px rgba(0,0,0,.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
     border: medium none;
     padding: 20px !important;
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
 }
-.product-cards img{
-    max-width:50px;
+
+.product-cards img {
+    max-width: 50px;
     max-height: 50px;
 }
-.product-cards .card:hover{
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+.product-cards .card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
     background: linear-gradient(to bottom, rgba(86, 52, 209, 0.5), rgba(40, 221, 224, 0.5));
     transform: scale(1.03);
+    cursor: pointer;
 }
 
-.product-cards .card:hover img{
+.product-cards .card:hover img {
     transform: rotate(45deg);
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
-.product-cards p{
+
+.product-cards p {
     font-size: 0.8rem;
     text-align: justify;
 }
@@ -271,44 +332,55 @@ i{
 /*<!--********************************** header-product css end ***************************-->*/
 
 /*<!--********************************** services css start ***************************-->*/
-.services img{
-    max-width:50px;
+
+.services img {
+    max-width: 50px;
     max-height: 50px;
     align-items: center;
 }
-.services i{
+
+.services i {
     background: transparent;
     color: white;
 }
-.services{
+
+.services {
     background: #f7f7f9;
-    padding: 50px 0;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    height: auto;
 }
-.service-icons{
-    display:flex;
+
+.service-icons {
+    display: flex;
     justify-content: center;
 }
-.service-icons img{
-    max-width:50px;
+
+.service-icons img {
+    max-width: 50px;
     max-height: 50px;
     align-items: center;
 }
-.headings{
+
+.headings {
     margin-bottom: 50px;
 }
-.headings h1{
+
+.headings h1 {
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
-.names h1{
+
+.names h1 {
     color: white;
     font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: bold;
 }
-.names{
+
+.names {
     /*border: 1px solid;*/
     display: flex;
     padding: 9px;
@@ -316,215 +388,272 @@ i{
     justify-content: center;
 }
 
-
-.names:hover{
+.names:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
-names img{
+
+names img {
     width: 30px;
-    height:30px;
+    height: 30px;
     display: inline-block;
 }
-.bg-purple{
+
+.bg-purple {
     background: plum;
 }
-.progress{
+
+.progress {
     height: 0.6rem !important;
-    margin-bottom:25px !important;
+    margin-bottom: 25px !important;
     background: #606060;
 }
-.serviceDiv{
+
+.serviceDiv {
     text-align: justify;
 }
-.services .web:hover img{
+
+.services .web:hover img {
     transform: scale(1.2);
     border-radius: 50%;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
-.services .tech:hover img{
+
+.services .tech:hover img {
     transform: scale(1.2);
     border-radius: 50%;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
-.services .techimage:hover img{
+
+.services .techimage:hover img {
+    cursor: pointer;
     transform: scale(1.2);
     border-radius: 20%;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
 }
-.techimage{
+
+.techimage {
     width: 70px;
     height: 70px;
 }
-.services .design:hover img{
+
+.services .design:hover img {
+    cursor: pointer;
     transform: scale(1.2);
     border-radius: 50%;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
 }
-.services .mobile:hover img{
+
+.services .mobile:hover img {
+    cursor: pointer;
     transform: scale(1.2);
     border-radius: 50%;
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*<!--********************************** services css end ***************************-->*/
 
 /*<!--********************************** projects css start ***************************-->*/
-.projects{
-    padding: 50px 0;
-    margin:100px 0;
+
+.projects {
     background: #f7f7f9;
-}
-.projects h1{
-    font-size:2rem;
-    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    height: auto;
 }
 
+.projects h1 {
+    font-size: 2rem;
+    text-align: center;
+}
 
 /*<!--********************************** projects css end ***************************-->*/
+
 /*<!--********************************** team css start ***************************-->*/
+
 /*.team{*/
+
 /*    width:100%;*/
+
 /*    height:100vh;*/
+
 /*    padding:80px 0;*/
+
 /*}*/
 
 /*.box{*/
+
 /*    text-align: center;*/
+
 /*    border:1px solid rgba(0,0,0,0.2);*/
+
 /*    box-shadow: 0 50px 10px 0 rgba(0,0,0,0.3);*/
+
 /*    border-radius: 2px;*/
+
 /*    transition: 0.3s ease;*/
 
 /*}*/
+
 /*.box img{*/
+
 /*    width: 100px;*/
+
 /*    height: 100px;*/
+
 /*}*/
+
 /*.box:hover{*/
+
 /*    background: #16c9f6;*/
 
 /*}*/
 
 /*::placeholder{*/
+
 /*    font-size: 10px;*/
+
 /*}*/
+
 /*<!--********************************** team css end ***************************-->*/
+
 /*<!--**********************************career css start ***************************-->*/
-.career{
+
+.career {
     width: 100%;
     height: auto;
-    margin: 80px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
 }
-.career-buttons a{
+
+.career-buttons a {
     border: 1px solid black;
     border-radius: 100px;
-    margin:0 5px;
-    padding:12px 35px;
+    margin: 0 5px;
+    padding: 12px 35px;
     outline: none;
-    color:black;
-    font-size:1rem;
+    color: black;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
 }
-.career-buttons a:hover{
-    color:white;
+
+.career-buttons a:hover {
+    cursor: pointer;
+    color: white;
     border: none;
     background: #50d1c0;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
+
 /*<!--********************************** career css end ***************************-->*/
 
 /*<!--********************************** footer css start ***************************-->*/
-.footer{
+
+.footer {
     width: 100%;
-    height:auto;
+    height: auto;
     bottom: 0;
-    padding:70px 0 20px 0;
+    padding: 70px 0 20px 0;
     background: #00abff;
 }
-.footer p{
-    color:#fff;
+
+.footer p {
+    color: #fff;
 }
-.footer-div p{
+
+.footer-div p {
     text-align: justify;
 }
-.footer li a{
+
+.footer li a {
     font-size: 0.9rem;
     line-height: 1.6;
     font-weight: 400;
-    color:#fff;
+    color: #fff;
     text-transform: capitalize;
 }
 
-.footer h3{
+.footer h3 {
     text-transform: uppercase;
     color: #fff;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
     font-size: 1.2rem !important;
     font-weight: 600;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
-.footer i{
-    color:white;
-    padding:5px 10px 5px 10px;
+
+.footer i {
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px 5px 10px;
     border-radius: 50%;
     background: transparent;
     -webkit-transition: 0.6s ease-out;
-    -moz-transition:  0.6s ease-out;
-    transition:  0.6s ease-out;
-
+    -moz-transition: 0.6s ease-out;
+    transition: 0.6s ease-out;
 }
-.footer i:hover{
-    color:black;
-    padding:5px 10px 5px 10px;
+
+.footer i:hover {
+    color: black;
+    padding: 5px 10px 5px 10px;
     border-radius: 50%;
     background: transparent;
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
+    cursor: pointer;
 }
-#myBtn{
+
+#myBtn {
     display: none;
-    position:fixed;
-    bottom:20px;
-    right:40px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
     z-index: 99;
     border: none;
     color: #fff;
     background: #00abff;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
 }
-#myBtn:hover{
+
+#myBtn:hover {
     background: #606060;
+    cursor: pointer;
 }
+
 /*<!--********************************** footer css end ***************************-->*/
-
-
 
 /*<!--********************************** media queries ***************************-->*/
 
-@media(max-width: 768px){
-    .nav-item{
+@media(max-width: 768px) {
+    .nav-item {
         text-align: center !important;
     }
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
+
 /*<!--********************************** typing effect ***************************-->*/
 
 .wrapper {
-
     /*This part is important for centering*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .typing-demo {
     width: 22ch;
     animation: typing 5s steps(22), blink .5s step-end infinite alternate;
@@ -548,4 +677,67 @@ names img{
     }
 }
 
+/* Dropdown */
 
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: white;
+    color: red;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    cursor: pointer;
+    background-color: #2fcccd;
+    cursor: pointer;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content a {
+    cursor: pointer;
+    color: white;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    cursor: pointer;
+}

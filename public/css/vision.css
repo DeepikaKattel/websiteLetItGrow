@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
-
-
-
 .vision-box{
     background: white;
     border-width: 0px;
@@ -14,6 +10,7 @@
 }
 
 .vision-box:hover {
+    cursor: pointer;
     transform: scale(1.1); /* (110% zoom)*/
 }
 
@@ -24,17 +21,15 @@
 
 .vision-box-image img{
     width: 15%;
-    margin-top: -10%;welc
+    margin-top: -10%;
 }
 
 
 .vision-box:hover .vision-box-image img{
-    transition: 1.2s;
-    transform: rotateY(180deg);
+    /* transition: 1.2s;
+    transform: rotateY(180deg); */
     cursor: pointer;
 }
-
-
 
 .vision-inner-box-image{
     margin: 5px;
@@ -55,5 +50,6 @@
 .vision-inner-box-image p{
     padding: 0px 0px;
     margin-top: 20px;
+    font-size: 0.8rem;
     text-align: center;
 }

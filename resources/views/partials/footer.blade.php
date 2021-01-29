@@ -10,10 +10,12 @@
             <div class="col-lg-4 col-md-4 col-12 footer-div text-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s">
                 <div>
                     <h3>Quick Links</h3>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/" style="text-align: start">Home</a></li>
                     <li><a href="{{route('services')}}">Services</a></li>
                     <li><a href="{{route('products')}}">Products</a></li>
-                    <li><a href="{{route('contact')}}">Contact</a></li>
+                    <li><a href="{{route('contact')}}">Contact Us</a></li>
+                    <li><a href="{{route('team')}}">Our Team</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 col-12 footer-div text-center wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.5s">
