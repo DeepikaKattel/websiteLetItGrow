@@ -20,6 +20,7 @@
     <link href="{{ asset('css/swing.css') }}" rel="stylesheet" media="all" type="text/css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
 
 </head>
 <div id="preloader">
