@@ -18,8 +18,8 @@
 
     <section class="header-product">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center commonTitle">Our Products</h1>
-            <p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>
+            <h1 class="font-weight-bold text-center commonTitle">Web APP Specific Products</h1>
+            <!--<p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>-->
             <div class="row">
                 <div class="product-cards col-lg-4 col-md-4 col-12">
                     <div class="card">
@@ -68,6 +68,39 @@
 
         </div>
     </section>
+        <section class="header-product">
+        <div class="container headings text-center">
+            <h1 class="font-weight-bold text-center commonTitle"> Mobile APP Specific Products</h1>
+            <!--<p class="text-center pb-3">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,</p>-->
+            <div class="row">
+                <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Ride Sharing Application</h2>
+                        <p>Ride Sharing Application consists of a User app and a driver app. User shall request route and seat for the particular vehicle from a location and the driver shall act accordingly. Rider and Passenger both get notified on status change of the request .</p>
+                    </div>
+                </div>
+                <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Ecommerce Application</h2>
+                        <p>Ecommerce Mobile Application provides more ease in shopping with less time comsumption on buying as well as selecting various items as favourites. Admin and Users both get notified on status change of the ordered item; includes B2B, B2C, C2B, C2B.</p>
+                    </div>
+                </div>
+                <div class="product-cards col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                        <h2>Restaurant Managemnet & Order</h2>
+                        <p>Users can order online via the Restaurant Order App. Users can also order while sitting in the specific restaurant and can get discounts/vouchers for it. Admin and Users both get notified on status change of the ordered item. </p>
+                    </div>
+                </div>
+            
+
+            </div>
+
+        </div>
+    </section>
+
 
     <div class='space1'></div>
     <div class='space1'></div>

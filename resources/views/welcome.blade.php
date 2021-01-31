@@ -13,6 +13,7 @@
         <link href="{{asset('css/animate.css')}}" rel="stylesheet">
         <link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 
     </head>
     <div id="preloader">
@@ -22,50 +23,70 @@
     <body>
 
 
-    @include('partials.innernavbar')
-        <div class="header" id="top">
-            <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
-                <div class="center-div justify-content-center">
-                    <h1 class="font-weight-bold wow slideInLeft" data-wow-duration="4.5s" data-wow-delay="4s">
-                        <div class="wrapper">
-                            <div class="typing-demo">
-                                You Dictate We Create.
-                            </div>
+    @include('partials.navbar')
+    <div class="header" id="top">
+        <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
+            <div class="center-div justify-content-center">
+                <h1 class="font-weight-bold wow fadeInDown" data-wow-duration="5s" data-wow-delay="3.3s">
+                    <div class="wrapper">
+                        <div class="typing-demo">
+                            You Dictate We Create.
                         </div>
-                    </h1>
-                    <p class="wow bounceInLeft" data-wow-duration="4s" data-wow-delay="3.5s">Let IT Grow Your Enterprise</p>
-                    <div class="header-buttons">
-                        <h1 class="wow rotateInDownLeft" data-wow-duration="3s" data-wow-delay="2.5s"><a href="{{route('services')}}" class="header-buttons1">Services</a></h1>
-                        <h1 class="wow rotateInDownRight" data-wow-duration="3s" data-wow-delay="2s"><a href="{{route('products')}}">Products</a></h1>
+                    </div>
+                </h1>
+                <p class="wow lightSpeedIn" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your Enterprise</p>
+                <div class="header-buttons">
+                    <div class="row justify-content-center">
+                        <h1 class="wow rotateInUpLeft" data-wow-duration="4s" data-wow-delay="4s"><a
+                                href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
+                        <div style="height: 10px"></div>
+                        <h1 class="wow rotateInUpRight" data-wow-duration="5s" data-wow-delay="6s"><a
+                                href="{{ route('products') }}">Products</a></h1>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+    </div>
         <!---*****************************     Header Section Ends ************************************-->
         <!---*****************************     About Section Start ************************************-->
         <section class="header-about">
-            <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeInLeft">About Us</h1>
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 col-md-12 col-12">
+            <div class="container">
+                <div class="container headings text-center">
+                    <h1 class="font-weight-bold text-center wow fadeInLeft">About Us</h1>
+                    <p class="text-center wow fadeIn">Something ABOUT US</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1">
                         <div class="row justify-content-center">
-                            <div class="col-lg-1 col-md-1 col-2">
-                                <h1 class="aboutHeading mt-5 wow bounceInDown" data-wow-duration="3s" data-wow-delay="1s">Why Us?</h1>
-                            </div>
-                            <div class="about-card col-lg-11 col-md-11 col-10 wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
-                                <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
-                                    <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>
-                                        The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
-                                        As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
-                                </div>
-                            </div>
+                            <h1 class="aboutHeading mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+                                Why Us?</h1>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-description wow flipInY" data-wow-duration="2.5s" data-wow-delay="0.5s">
+                            <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology.
+                                The organization is a team of driven young and experienced minds that are passionate
+                                to provide utmost customer satisfaction in terms of product and service
+                                delivery.<br><br>
+                                The company mostly undertakes project-based business and primarily focuses on
+                                providing software-based services to its customers. However, it serves clients with
+                                system related services as well as other related needs.Apart from serving for
+                                commercial needs, Let IT grow also provides professional training to
+                                freshers/individuals and prepare them for the outer world exposure on the related
+                                field.
+                                As the name suggests, we aim to maximize the market potential in IT by providing
+                                excellent products and services in the related field along with generating skillful
+                                manpower.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 aboutImgContainer wow slideInRight" data-wow-duration="3s"
+                         data-wow-delay="0.8s"></div>
 
                 </div>
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
-                        <p><a href="{{route('vision')}}" class="wow fadeInUp">More About Us <i class="fa fa-angle-right"></i></a></p>
+                        <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="2s"
+                              data-wow-delay="5.5s">More About Us <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -180,37 +201,50 @@
         <!---*****************************     Product Section Start ************************************-->
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our Products</h1>
-                <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products ...</p>
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
+                    Products</h1>
+                <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products ...
+                </p>
                 <div class="row">
-                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1.5s">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
+                         data-wow-delay="1.5s">
                         <div class="card">
-                             <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <img class="mx-auto mt-5 d-block" src="{{ asset('images/settings.png') }}" />
                             <h2>Inventory Management System</h2>
-                            <p>Inventory management includes aspects such as controlling and overseeing purchases — from suppliers as well as customers — maintaining the storage of stock, controlling the amount of product for sale, and order fulfilment.</p>
+                            <p>Inventory management includes aspects such as controlling and overseeing purchases — from
+                                suppliers as well as customers — maintaining the storage of stock, controlling the amount of
+                                product for sale, and order fulfilment.</p>
                         </div>
                     </div>
-                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="1s">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3.8s"
+                         data-wow-delay="1s">
                         <div class="card">
-                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <img class="mx-auto mt-5 d-block" src="{{ asset('images/settings.png') }}" />
                             <h2>Account Management</h2>
-                            <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's financial transactions. The functionality of accounting software differs from product to product</p>
+                            <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's
+                                financial transactions. The functionality of accounting software differs from product to
+                                product</p>
                         </div>
                     </div>
-                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="2.5s" data-wow-delay="0.5s">
+                    <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="4.6s"
+                         data-wow-delay="0.5s">
                         <div class="card">
-                            <img class="mx-auto mt-5 d-block" src="{{asset('images/settings.png')}}"/>
+                            <img class="mx-auto mt-5 d-block" src="{{ asset('images/settings.png') }}" />
                             <h2>Human Resources Management System</h2>
-                            <p>Human Resources Management System (HRMS) is a form of human resources software that combines a number of systems and processes to ensure the easy management of human resources, business processes and data.</p>
+                            <p>Human Resources Management System (HRMS) is a form of human resources software that combines
+                                a number of systems and processes to ensure the easy management of human resources, business
+                                processes and data.</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
-                        <p><a href="{{route('products')}}" class="wow fadeInUp">More Products <i class="fa fa-angle-right"></i></a></p>
+                        <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
+                              data-wow-delay="3s">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
+
             </div>
         </section>
         <!---*****************************     Product Section End ************************************-->
@@ -219,29 +253,32 @@
         <!---*****************************     Projects Done Start ************************************-->
         <section class="projects">
             <div class="container headings text-center">
-                <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">More than 50 satisfied clients</p>
+                <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="2s"
+                   data-wow-delay="1s">More than 50 satisfied clients</p>
             </div>
-            <div class="container d-flex justify-content-around align-items-center text-center">
-                <div>
-                    <i class="fa fa-2x fa-trophy wow rollIn"></i>
-                    <h1 class="count wow fadeIn">10</h1>
-                    <p class="wow fadeIn">Years of Experience</p>
-                </div>
-                <div>
-                    <i class="fa fa-2x fa-pencil-ruler wow rollIn"></i>
-                    <h1 class="count wow fadeIn">50</h1>
-                    <p class="wow fadeIn">CMS Installations</p>
-                </div>
+            <div class="container align-items-center text-center">
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <i class="fa fa-2x fa-trophy wow rollIn"></i>
+                        <h1 class="count wow fadeIn">10</h1>
+                        <p class="wow fadeIn">Years of Experience</p>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <i class="fa fa-2x fa-pencil-ruler wow rollIn"></i>
+                        <h1 class="count wow fadeIn">97</h1>
+                        <p class="wow fadeIn"> Projects Completed</p>
+                    </div>
 
-                <div>
-                    <i class="fa fa-2x fa-globe wow rollIn"></i>
-                    <h1 class="count wow fadeIn">58</h1>
-                    <p class="wow fadeIn">Websites</p>
-                </div>
-                <div>
-                    <i class="fa fa-2x fa-user-tie wow rollIn"></i>
-                    <h1 class="count wow fadeIn">81</h1>
-                    <p class="wow fadeIn">Clients</p>
+                    <div class="col-md-3 col-12">
+                        <i class="fa fa-2x fa-globe wow rollIn"></i>
+                        <h1 class="count wow fadeIn">58</h1>
+                        <p class="wow fadeIn">Websites</p>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <i class="fa fa-2x fa-user-tie wow rollIn"></i>
+                        <h1 class="count wow fadeIn">81</h1>
+                        <p class="wow fadeIn">Clients</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -249,20 +286,22 @@
         <!---*****************************     Find carerr start ************************************-->
         <section class="career" id="career">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">Join Our Team</h1>
+                <h1 class="font-weight-bold text-center wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">Join
+                    Our Team</h1>
 
             </div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="career-buttons wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
-                        <a href="{{route('career')}}" >Find Jobs <i class="fa fa-search"></i></a>
+                        <a href="{{ route('career') }}">Find Jobs <i class="fa fa-search"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <!---*****************************     Find carerr end ************************************-->
+
+    <!---*****************************     Find carerr end ************************************-->
         <!---*****************************     Footer start  ************************************-->
         @include('partials.footer')
         <!---*****************************     Footer end  ************************************-->

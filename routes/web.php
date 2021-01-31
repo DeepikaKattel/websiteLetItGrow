@@ -25,6 +25,7 @@ Route::get('/logout', [App\Http\Controllers\HomeController::class, 'logout'])->n
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/vision', [App\Http\Controllers\PagesController::class, 'vision'])->name('vision');
+Route::get('/maps', [App\Http\Controllers\PagesController::class, 'maps'])->name('maps');
 
 Route::get('/contact_us', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact.store');
