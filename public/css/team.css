@@ -30,6 +30,7 @@
 .node:hover{
     text-align: center;
     display:inline-block;
+    cursor: pointer;
     /* filter: grayscale(100%); */
 
 
@@ -61,6 +62,7 @@
     /* transform: rotate(-360deg); */
     transform-origin: 105% 100% 0;
     transform: rotateY(100deg);
+    cursor: pointer;
 }
 .our-team .title{
     display: block;
@@ -111,6 +113,7 @@
 }
 .our-team .social li a:hover{
     background: black;
+    cursor: pointer;
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }

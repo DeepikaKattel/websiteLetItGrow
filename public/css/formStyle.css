@@ -17,6 +17,7 @@ a {
 }
 a:hover {
     color: rgba(40, 215, 226);
+    cursor: pointer;
 }
 
 .form {
@@ -30,6 +31,7 @@ a:hover {
 
 .form:hover {
     box-shadow: 0px 0px 40px 16px rgba(18, 18, 18, 1);
+    cursor: pointer;
 }
 
 .tab-group {
@@ -58,6 +60,7 @@ a:hover {
 .tab-group li a:hover {
     background: rgba(40, 215, 226);
     color: #ffffff;
+    cursor: pointer;
 }
 .tab-group .active a {
     background: rgba(40, 215, 226);
@@ -156,6 +159,7 @@ input:focus {
 .button:hover,
 .button:focus {
     background: rgba(40, 215, 226);
+    cursor: pointer;
 }
 
 .button-block {

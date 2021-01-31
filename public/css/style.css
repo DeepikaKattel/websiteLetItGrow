@@ -248,8 +248,8 @@ p {
 .aboutHeading {
     transform: rotate(-90deg);
     font-size: 22px;
+    width: 100px;
     font-weight: bold;
-    width:100px;
 }
 
 /*<!--********************************** header-about css start ***************************-->*/

@@ -41,7 +41,7 @@
                                         <p class="jobTitleName mr-10">Sales Representative</p>
                                         <p class="jobTitle"><i class="fas fa-book mr-2"></i>Description</p>
                                         <p class="desTopic mr-10">Responsibilities</p>
-                                        <ul>
+                                        <ul class="lists">
                                             <li>Identify potential clients and sell products/services with smart sales presentations. </li>
                                             <li>Achieve targeted sales and outcomes within a defined time frame. </li>
                                             <li>Establish and maintain positive client and business relationships.</li>
@@ -52,7 +52,7 @@
                                             <li>Improve continuously through feedback. Requirements: • Bachelor/ Ongoing degree in business, marketing, economics or related field. </li>
                                         </ul>
                                         <p class="desTopic mr-10">Requirements</p>
-                                        <ul>
+                                        <ul class="lists">
                                             <li>Bachelor/ Ongoing degree in business, marketing, economics or related field.</li>
                                             <li>Highly motivated and target driven personality.</li>
                                             <li>Excellent interpersonal skills, including the ability to quickly build rapport with both customers and suppliers. Leadership skills preferred.</li>
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="page foldtl">
+                    <div class="page foldtl wow slideInRight" data-wow-duration="2s" data-wow-delay="0.1s">
                         <h4>Job Openings</h4>
                         <ul>
                             <li>Sales Representative</li>

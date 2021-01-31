@@ -7,10 +7,10 @@
             <p class="commontxt">Our Team</p>
             <p  class="commontxtsmall">Our Team - Our Strength</p>
             <button class="breadCrumbBtn radius">
-                <a href="/"><i class="fas fa-home"></i>Home</a>
+                <a href="/"><i class="fas fa-home"></i>  Home</a>
             </button>
             <button class="breadCrumbBtn radius">
-                <a href=""><i class="fas fa-address-book"></i>Team</a>
+                <a href=""><i class="fas fa-address-book"></i>  Team</a>
             </button>
         </div>
     </div>

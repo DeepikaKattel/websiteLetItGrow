@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
-
-
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .joinTeamtxt{
     font-size: 20px;
     color: #828385;
@@ -37,7 +36,6 @@
 
 .page h4 {
     padding: 25px 0 0 20px;
-    font-family: 'Archivo Narrow', sans-serif;
     color: #004085;
     text-shadow: 1px 1px rgba(106, 126, 158);
     text-align: center;
@@ -45,7 +43,6 @@
 
 .page ul {
     padding: 14px 100px;
-    font-family: 'Archivo Narrow', sans-serif;
     color: black;
     opacity: 0.6;
     font-size: 17px;
@@ -165,14 +162,13 @@
 .btnCareerSubmit
 {
     background-color: #004085;
-    font-size: 16px;
+    font-size: 14px;
     width: 25%;
     border-radius: 1rem;
-    padding: 1%;
+    padding: 1.2%;
     color: white;
     border: none;
     cursor: pointer;
-    font-family: 'Archivo Narrow', sans-serif;
     align-self: center;
 }
 
@@ -191,7 +187,6 @@
     color: white;
     border: none;
     cursor: pointer;
-    font-family: 'Archivo Narrow', sans-serif;
     align-self: center;
 }
 .form-container input[type=text], .form-container input[type=password] {
@@ -220,19 +215,22 @@
     opacity: 0.6;
 }
 
+.lists{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+    opacity: 0.7;
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 14px;
-    font-family: 'Archivo Narrow', sans-serif;
 }
 ::-moz-placeholder { /* Firefox 19+ */
     font-size: 14px;
-    font-family: 'Archivo Narrow', sans-serif;
 }
 :-ms-input-placeholder { /* IE 10+ */
     font-size: 14px;
-    font-family: 'Archivo Narrow', sans-serif;
 }
 :-moz-placeholder { /* Firefox 18- */
     font-size: 14px;
-    font-family: 'Archivo Narrow', sans-serif;
 }
