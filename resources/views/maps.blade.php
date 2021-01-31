@@ -1,62 +1,71 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Simple markers</title>
-    <style>
-        #map {
-            weight: 200px;
-            height: 200px;
-        }
-        </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cards Hover2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/productHover.css')}}" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
 
 </head>
+
 <body>
-<a href="#" class="btn btn-success"><span class="glyphicon glyphicon-map-marker"></span> drop </a>
-<a href="#" class="btn btn-warning"><span class="glyphicon glyphicon-map-marker"></span> bounce</a>
-<div id="map"></div>
-
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-QX42CVqFcXoxHh-DTJXw6h-6BTuUO2s">
-</script>
+<div class="container">
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <h3>
+                    <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">_adamdipinto</a>
+                </h3>
+                <p>This is where I network and build my professional protfolio.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <h3>
+                    <a href="https://twitter.com/AdamDipinto" target="_blank">@AdamDipinto</a>
+                </h3>
+                <p>This is where I read news and network with different social groups.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <h3>
+                    <a href="https://github.com/atom888" target="_blank">atom888</a>
+                </h3>
+                <p>This is where I share code and work on projects.</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script>
-    var myLatlng = new google.maps.LatLng(27.431361,85.017361);
-    var mapOptions = {
-        zoom: 15,
-        center: myLatlng,
-        icon:'https://phpreff.com/wp-content/uploads/2016/11/phpreff-logo-png.png'
-    }
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    var markerLabel = 'GO!';
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        title:"Transport!",
-        label: {
-            text: markerLabel,
-            color: "#000000",
-            fontSize: "16px",
-            padding:"50px",
-            fontWeight: "bold"
-        }
-    });
 
-    // To add the marker to the map, call setMap();
-
-    $(document).ready(function () {
-
-        // $('.btn-success').click(function () {
-        //     marker.setMap(map);
-        //     marker.setAnimation(google.maps.Animation.DROP);
-        // })
-
-
-            marker.setMap(map);  marker.setAnimation(google.maps.Animation.BOUNCE);
-
-    });
-
-</script>
 </html>

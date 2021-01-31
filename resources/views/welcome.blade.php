@@ -21,6 +21,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+{{--    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/productHover.css')}}" />--}}
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
 
 </head>
 <div id="preloader">
@@ -45,11 +48,11 @@
             <p class="wow lightSpeedIn" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your Enterprise</p>
             <div class="header-buttons">
                 <div class="row justify-content-center">
-                    <h1 class="wow rotateInUpLeft" data-wow-duration="4s" data-wow-delay="4s"><a
-                            href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
-                    <div style="height: 10px"></div>
-                    <h1 class="wow rotateInUpRight" data-wow-duration="5s" data-wow-delay="6s"><a
-                            href="{{ route('products') }}">Products</a></h1>
+                    <h1 class="wow rotateInUpLeft mr-2" data-wow-duration="4s" data-wow-delay="4s"><a
+                            href="{{ route('services') }}" class="header-buttons1"><img class="mr-1" src="{{ asset('images/services.png') }}" />Services</a></h1>
+                    <div style="width: 10px"></div>
+                    <h1 class="wow rotateInUpRight ml-2" data-wow-duration="5s" data-wow-delay="6s"><a
+                            href="{{ route('products') }}" class="header-buttons1"><img class="mr-1" src="{{ asset('images/products.png') }}" />Products</a></h1>
                 </div>
             </div>
         </div>
@@ -245,6 +248,7 @@
 <!---*****************************     Service Section End ************************************-->
 <!---*****************************     Product Section Start ************************************-->
 <section class="header-product">
+
     <div class="container headings text-center">
         <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
             Products</h1>
