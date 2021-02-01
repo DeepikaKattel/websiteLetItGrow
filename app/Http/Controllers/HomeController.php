@@ -31,10 +31,10 @@ class HomeController extends Controller
     public function dashboard()
     {
         $users = User::all()->count();
-        $candidates = Career::all()->count();
+//        $candidates = Career::all()->count();
         $usersUnverified = User::whereNull('email_verified_at')->get();
         $usersCount = count($usersUnverified);
-        return view('admin.dashboard', compact('users','usersCount','candidates'));
+        return view('admin.dashboard', compact('users','usersCount'));
     }
 
     public function logout()

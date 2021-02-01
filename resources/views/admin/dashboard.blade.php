@@ -1,4 +1,5 @@
 @extends('admin.master')
+@extends('admin.master')
 @section('content')
 
   <!-- Content Wrapper. Contains page content -->
@@ -42,21 +43,21 @@
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>{{$candidates}}</h3>
-                <p>Total Candidates</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
+{{--          <div class="col-lg-3 col-6">--}}
+{{--            <!-- small box -->--}}
+{{--            <div class="small-box bg-info">--}}
+{{--              <div class="inner">--}}
+{{--                <h3>{{$candidates}}</h3>--}}
+{{--                <p>Total Candidates</p>--}}
+{{--              </div>--}}
+{{--              <div class="icon">--}}
+{{--                <i class="ion ion-bag"></i>--}}
+{{--              </div>--}}
+{{--              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>--}}
+{{--            </div>--}}
+{{--          </div>--}}
           <!-- ./col -->
-          
+
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
@@ -90,8 +91,8 @@
         </div>
         <!-- /.row -->
         <!-- Main row -->
-        
-        
+
+
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->

@@ -40,7 +40,11 @@ Route::post('vacancy', [App\Http\Controllers\VacancyController::class, 'store'])
 //Route::resource('adminCareer','App\Http\Controllers\Admin\AdminCareerController');
 //Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\Admin\AdminCareerController@destroy')->name('c.destroy');
 
+Route::resource('adminProducts','App\Http\Controllers\ProductsController');
+Route::get('/adminProducts/destroy/{id}', 'App\Http\Controllers\ProductsController@destroy')->name('p.destroy');
 
+Route::resource('adminProductsFeatures','App\Http\Controllers\ProductsFeaturesController');
+Route::get('/adminProductsFeatures/destroy/{id}', 'App\Http\Controllers\ProductsFeaturesController@destroy')->name('pf.destroy');
 
 Route::resource('/users', 'App\Http\Controllers\Admin\UserController');
 Route::get('/users/destroy/{id}', 'App\Http\Controllers\UserController@destroy')->name('u.destroy');
