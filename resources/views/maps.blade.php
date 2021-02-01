@@ -1,71 +1,39 @@
-<!DOCTYPE html>
-<html>
 
+
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cards Hover2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/productHover.css')}}" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-          crossorigin="anonymous">
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <!--font awesome bootstrap CDN-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{asset('css/productHover.css')}}">
+
 
 </head>
 
 <body>
-<div class="container">
-    <div class="card">
-        <div class="face face1">
-            <div class="content">
-                <div class="icon">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                </div>
+    <div class="scene scene--card">
+        <div class="card">
+            <div class="card__face card__face--front">
+                <img class="mx-auto mt-5 d-block inventory" src="{{ asset('images/inventory.png') }}" />
+                <h2>Inventory Management System</h2>
             </div>
-        </div>
-        <div class="face face2">
-            <div class="content">
-                <h3>
-                    <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">_adamdipinto</a>
-                </h3>
-                <p>This is where I network and build my professional protfolio.</p>
+            <div class="card__face card__face--back">
+                <p>Inventory management includes aspects such as controlling and overseeing purchases — from
+                    suppliers as well as customers — maintaining the storage of stock, controlling the amount of
+                    product for sale, and order fulfilment.</p>
             </div>
         </div>
     </div>
-    <div class="card">
-        <div class="face face1">
-            <div class="content">
-                <div class="icon">
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-        <div class="face face2">
-            <div class="content">
-                <h3>
-                    <a href="https://twitter.com/AdamDipinto" target="_blank">@AdamDipinto</a>
-                </h3>
-                <p>This is where I read news and network with different social groups.</p>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face face1">
-            <div class="content">
-                <div class="icon">
-                    <i class="fa fa-github-square" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-        <div class="face face2">
-            <div class="content">
-                <h3>
-                    <a href="https://github.com/atom888" target="_blank">atom888</a>
-                </h3>
-                <p>This is where I share code and work on projects.</p>
-            </div>
-        </div>
-    </div>
-</div>
+    <p>Click card to flip.</p>
+<script>
+    var card = document.querySelector('.card');
+    card.addEventListener( 'mouseover', function() {
+        card.classList.toggle('is-flipped');
+    });
+</script>
 </body>
 
 </html>

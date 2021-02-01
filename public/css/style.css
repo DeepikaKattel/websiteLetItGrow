@@ -36,6 +36,10 @@ p {
     line-height: 1.1;
     word-spacing: 4px;
 }
+.services .logo-slider img{
+    max-height: 150px;
+    max-width: 150px;
+}
 
 .more i {
     color: black;
@@ -315,22 +319,50 @@ p {
 }
 
 .product-cards img {
+    max-width: 100px;
+    max-height: 100px;
+}
+/*.product-cards:hover .overlay {*/
+/*    height: 100%;*/
+/*}*/
+
+
+/*.overlay {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    overflow: hidden;*/
+/*    width: 100%;*/
+/*    height: 0;*/
+/*    text-align: justify;*/
+/*    transition: .8s ease;*/
+/*    background-color: #ffffff;*/
+/*}*/
+/*.overlay p{*/
+/*    color: black;*/
+/*    padding: 50px;*/
+/*}*/
+
+.product-cards p{
+    display: none;
+}
+
+.product-cards:hover  p{
+    display: inline-block;
+}
+.product-cards:hover  img{
     max-width: 50px;
     max-height: 50px;
 }
 
 .product-cards .card:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to bottom, rgba(86, 52, 209, 0.5), rgba(40, 221, 224, 0.5));
+    background: linear-gradient(to bottom, rgba(112, 120, 209, 0.5), rgba(129, 224, 133, 0.5));
     transform: scale(1.03);
     cursor: pointer;
 }
 
-.product-cards .card:hover img {
-    transform: rotate(45deg);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-}
 
 .product-cards p {
     font-size: 0.8rem;
@@ -401,7 +433,7 @@ p {
     cursor: pointer;
 }
 
-names img {
+.names img {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -428,19 +460,19 @@ names img {
     cursor: pointer;
 }
 
-.services .tech:hover img {
-    transform: scale(1.2);
-    border-radius: 50%;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
+/*.services .tech:hover img {*/
+/*    transform: scale(1.2);*/
+/*    border-radius: 50%;*/
+/*    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);*/
+/*    cursor: pointer;*/
+/*}*/
 
-.services .techimage:hover img {
-    cursor: pointer;
-    transform: scale(1.2);
-    border-radius: 20%;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
-}
+/*.services .techimage:hover img {*/
+/*    cursor: pointer;*/
+/*    transform: scale(1.2);*/
+/*    border-radius: 20%;*/
+/*    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);*/
+/*}*/
 
 .techimage {
     width: 70px;

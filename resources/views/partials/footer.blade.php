@@ -27,7 +27,7 @@
 
                 <h3>Our Services</h3>
                 <hr class="rounded" style="border-top: 1px solid #ffffff;border-radius: 2px;">
-                <li> <a href="https://letitgrownepal.com/services">Web Application</a></li>
+                <li><a href="https://letitgrownepal.com/services">Web Application</a></li>
                 <li><a href="https://letitgrownepal.com/services">Web Design</a></li>
                 <li><a href="https://letitgrownepal.com/services">App Development</a></li>
                 <li><a href="#">Digital Marketing</a></li>

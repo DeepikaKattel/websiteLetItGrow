@@ -35,13 +35,12 @@ Route::get('/services', [App\Http\Controllers\PagesController::class, 'services'
 Route::get('/products', [App\Http\Controllers\PagesController::class, 'products'])->name('products');
 Route::get('/team', [App\Http\Controllers\PagesController::class, 'team'])->name('team');
 
+Route::post('vacancy', [App\Http\Controllers\VacancyController::class, 'store'])->name('vacancy.store');
 
-//Route::resource('career','App\Http\Controllers\CareerController');
+//Route::resource('adminCareer','App\Http\Controllers\Admin\AdminCareerController');
+//Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\Admin\AdminCareerController@destroy')->name('c.destroy');
 
-Route::resource('adminCareer','App\Http\Controllers\AdminCareerController');
-Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\AdminCareerController@destroy')->name('c.destroy');
 
-Route::get('/candidates', [App\Http\Controllers\AdminCareerController::class, 'candidates'])->name('candidates');
 
 Route::resource('/users', 'App\Http\Controllers\Admin\UserController');
 Route::get('/users/destroy/{id}', 'App\Http\Controllers\UserController@destroy')->name('u.destroy');
