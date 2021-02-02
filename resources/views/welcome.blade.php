@@ -194,6 +194,7 @@
 </section>
 <!---*****************************     Service Section End ************************************-->
 <!---*****************************     Product Section Start ************************************-->
+@if($products)
 <section class="header-product">
     <div class="container headings text-center">
         <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
@@ -201,42 +202,42 @@
         <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products ...
         </p>
         <div class="row">
+            @foreach($products as $product)
             <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                  data-wow-delay="1.5s">
                 <div class="card">
-                    <img class="mx-auto mt-5 d-block inventory" src="{{ asset('images/inventory.png') }}" />
-                    <h2>Inventory Management System</h2>
+                    <img class="mx-auto mt-5 d-block inventory" src="/storage/Images/Products/{{$product->image}}"/>
+                    <h2>{{$product->name}}</h2>
                     <div class="overlay">
-                        <p>Inventory management includes aspects such as controlling and overseeing purchases — from
-                            suppliers as well as customers — maintaining the storage of stock, controlling the amount of
-                            product for sale, and order fulfilment.</p>
+                        <p>{{$product->description}}</p>
                     </div>
                 </div>
             </div>
-            <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3.8s"
-                 data-wow-delay="1s">
-                <div class="card">
-                    <img class="mx-auto mt-5 d-block" src="{{ asset('images/account.png') }}" />
-                    <h2>Account Management</h2>
-                    <div class="overlay">
-                        <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's
-                            financial transactions. The functionality of accounting software differs from product to
-                            product</p>
-                    </div>
-                </div>
-            </div>
-            <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="4.6s"
-                 data-wow-delay="0.5s">
-                <div class="card">
-                    <img class="mx-auto mt-5 d-block" src="{{ asset('images/human.png') }}" />
-                    <h2>Human Resources Management System</h2>
-                    <div class="overlay">
-                        <p>Human Resources Management System (HRMS) is a form of human resources software that combines
-                            a number of systems and processes to ensure the easy management of human resources, business
-                            processes and data.</p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+{{--            <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3.8s"--}}
+{{--                 data-wow-delay="1s">--}}
+{{--                <div class="card">--}}
+{{--                    <img class="mx-auto mt-5 d-block" src="{{ asset('images/account.png') }}" />--}}
+{{--                    <h2>Account Management</h2>--}}
+{{--                    <div class="overlay">--}}
+{{--                        <p>Accounting Management assists bookkeepers and accountants in recording and reporting a firm's--}}
+{{--                            financial transactions. The functionality of accounting software differs from product to--}}
+{{--                            product</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="4.6s"--}}
+{{--                 data-wow-delay="0.5s">--}}
+{{--                <div class="card">--}}
+{{--                    <img class="mx-auto mt-5 d-block" src="{{ asset('images/human.png') }}" />--}}
+{{--                    <h2>Human Resources Management System</h2>--}}
+{{--                    <div class="overlay">--}}
+{{--                        <p>Human Resources Management System (HRMS) is a form of human resources software that combines--}}
+{{--                            a number of systems and processes to ensure the easy management of human resources, business--}}
+{{--                            processes and data.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
 
         </div>
@@ -249,6 +250,7 @@
 
     </div>
 </section>
+@endif
 <!---*****************************     Product Section End ************************************-->
 
 
