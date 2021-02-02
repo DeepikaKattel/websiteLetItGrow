@@ -25,9 +25,6 @@
                         <p class="inTouchTxt">Contact us if you are interested.</p>
 
                             <div class="contact-form">
-{{--                                <div class="contact-image">--}}
-{{--                                    <img src="{{asset('images/rocket.png')}}" alt="rocket_contact"/>--}}
-{{--                                </div>--}}
                                 <form action="{{route('contact.store')}}" method="post" enctype="multipart/form-data">
                                     @csrf
                                    <div class="row">
@@ -145,14 +142,10 @@
                          </div>
                     </div>
                 </div>
-
-
-
         </div>
     </section>
 
 
-    <div class='space1'></div>
     <div class='space1'></div>
 @endsection
 

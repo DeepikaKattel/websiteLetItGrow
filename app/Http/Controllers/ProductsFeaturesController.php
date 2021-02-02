@@ -16,7 +16,7 @@ class ProductsFeaturesController extends Controller
      */
     public function index()
     {
-        $products = DB::table('products_features')->get();
+        $products = ProductsFeatures::with('product')->get();
         return view('admin.products_features.index',compact('products'));
     }
 

@@ -11,4 +11,8 @@ class Products extends Model
     protected $fillable = [
         'name', 'description', 'image'
     ];
+
+    public function feature(){
+        return $this->hasMany(ProductsFeatures::class);
+    }
 }

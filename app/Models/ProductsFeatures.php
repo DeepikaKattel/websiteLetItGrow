@@ -11,4 +11,8 @@ class ProductsFeatures extends Model
     protected $fillable = [
         'name', 'description', 'product_id'
     ];
+
+    public function product(){
+    	return $this->belongsTo(Products::class, 'product_id','id');
+    }
 }

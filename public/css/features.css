@@ -45,8 +45,6 @@
     transform: rotate(45deg);
     /* background: linear-gradient(45deg, #F4EED7 50%, #E8D9A0 50%); */
 
-}
-
 */ .feature_logo:after {
     content: "";
     position: absolute;
@@ -93,13 +91,6 @@
     font-weight: 600;
     text-align: center;
     color: #004085;
-}
-
-.feature_back p {
-    font-size: 4px;
-    padding: 2%;
-    text-align: center;
-    color: #3e6085;
 }
 
 .feature_front, .feature_back {

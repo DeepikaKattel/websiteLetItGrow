@@ -6,7 +6,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-mainbg">
-    <a class="navbar-brand navbar-logo animated flip ml-3" href="#"><img src="{{ asset('images/logo2.png') }}"
+    <a class="navbar-brand navbar-logo ml-3" href="#"><img src="{{ asset('images/logo2.png') }}"
                                                                          alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -26,16 +26,20 @@
                     <div class='space2'></div>
                     <div class="content-wrap wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s"
                         style="text-align:justify;">
-                        <p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The
-                            organization is a team of driven young and experienced minds that are passionate to provide
-                            utmost customer satisfaction in terms of product and service delivery.</p>
-                        <p>The company mostly undertakes project-based business and primarily focuses on providing
-                            software-based services to its customers. However, it serves clients with system related
-                            services as well as other related needs.Apart from serving for commercial needs, Let IT grow
-                            also provides professional training to freshers/individuals and prepare them for the outer world
-                            exposure on the related field. As the name suggests, we aim to maximize the market potential in
-                            IT by providing excellent products and services in the related field along with generating
-                            skillful manpower.</p>
+                        <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
+                            utmost customer satisfaction in terms of product and service delivery.
+                            <br><br>
+                            Initially, we design a <span style="font-weight: bold;">PROTOTYPE</span> with the right mix
+                            of skills from our team to deliver
+                            <span style="font-weight: bold;">HIGH QUALITY</span> products. We eliminate unnecessary
+                            expenses to <span style="font-weight: bold;">REDUCE COST</span> of the product. We work
+                            in an <span style="font-weight: bold;">AGILE ENVIRONMENT</span> to ensure that we deliver on
+                            what we commit to, and <span style="font-weight: bold;">MEET DEADLINES</span> .
+                            <br><br>
+                            We thrive on the valuable feedback provided by our customers and work on it to make the
+                            product/s even better. We treat your product as one of our own and that helps in bringing
+                            the best out of the team to deliver high quality product on time at an affordable cost. We
+                            assure to take your vision to the digital world.
                     </div>
                 </div>
             </div>
@@ -130,6 +134,5 @@
         </div>
     </section>
 
-    <div class='space1'></div>
     <div class='space1'></div>
 @endsection

@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\AdminCareer;
+use App\Models\Products;
+use App\Models\ProductsFeatures;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PagesController extends Controller
 {
@@ -27,19 +30,21 @@ class PagesController extends Controller
     }
     public function products()
     {
-        return view('pages.products');
+        $products = DB::table('products')->get();
+        return view('pages.products', compact('products'));
     }
     public function team()
     {
         return view('pages.team');
     }
-    public function features()
+    public function features($id)
     {
-        return view('pages.features');
+        $products = Products::find($id);
+        $features = ProductsFeatures::where('product_id', '=', $id)->get();
+        return view('pages.features', compact('products', 'features'));
     }
     public function maps()
     {
         return view('maps');
     }
-
 }

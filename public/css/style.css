@@ -35,8 +35,10 @@ p {
     font-weight: bold;
     line-height: 1.1;
     word-spacing: 4px;
+    text-decoration: none;
 }
-.services .logo-slider img{
+
+.services .logo-slider img {
     max-height: 150px;
     max-width: 150px;
 }
@@ -78,7 +80,6 @@ p {
     clip-path: polygon(100% 0%, 100% 60%, 50% 92%, 0 60%, 0 0);
     position: relative;
 }
-
 
 /* Preloader */
 
@@ -256,7 +257,8 @@ p {
     width: 100px;
     font-weight: bold;
 }
-.header img{
+
+.header img {
     height: 25px;
     width: 25px;
 }
@@ -316,42 +318,61 @@ p {
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
+    height:220px;
 }
 
 .product-cards img {
     max-width: 100px;
     max-height: 100px;
 }
-/*.product-cards:hover .overlay {*/
-/*    height: 100%;*/
-/*}*/
 
+/*.product-cards:hover .overlay {*/
+
+/*    height: 100%;*/
+
+/*}*/
 
 /*.overlay {*/
+
 /*    position: absolute;*/
+
 /*    bottom: 0;*/
+
 /*    left: 0;*/
+
 /*    right: 0;*/
+
 /*    overflow: hidden;*/
+
 /*    width: 100%;*/
+
 /*    height: 0;*/
+
 /*    text-align: justify;*/
+
 /*    transition: .8s ease;*/
+
 /*    background-color: #ffffff;*/
-/*}*/
-/*.overlay p{*/
-/*    color: black;*/
-/*    padding: 50px;*/
+
 /*}*/
 
-.product-cards p{
+/*.overlay p{*/
+
+/*    color: black;*/
+
+/*    padding: 50px;*/
+
+/*}*/
+
+.product-cards p {
     display: none;
 }
 
-.product-cards:hover  p{
+.product-cards:hover p {
     display: inline-block;
 }
-.product-cards:hover  img{
+
+.product-cards:hover img {
     max-width: 50px;
     max-height: 50px;
 }
@@ -362,7 +383,6 @@ p {
     transform: scale(1.03);
     cursor: pointer;
 }
-
 
 .product-cards p {
     font-size: 0.8rem;
@@ -461,17 +481,27 @@ p {
 }
 
 /*.services .tech:hover img {*/
+
 /*    transform: scale(1.2);*/
+
 /*    border-radius: 50%;*/
+
 /*    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);*/
+
 /*    cursor: pointer;*/
+
 /*}*/
 
 /*.services .techimage:hover img {*/
+
 /*    cursor: pointer;*/
+
 /*    transform: scale(1.2);*/
+
 /*    border-radius: 20%;*/
+
 /*    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);*/
+
 /*}*/
 
 .techimage {
@@ -593,7 +623,6 @@ p {
 }
 
 /*<!--********************************** career css end ***************************-->*/
-
 
 /*<!--********************************** media queries ***************************-->*/
 

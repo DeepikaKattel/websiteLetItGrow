@@ -37,7 +37,7 @@ Route::get('/career', [App\Http\Controllers\PagesController::class, 'career'])->
 Route::get('/services', [App\Http\Controllers\PagesController::class, 'services'])->name('services');
 Route::get('/products', [App\Http\Controllers\PagesController::class, 'products'])->name('products');
 Route::get('/team', [App\Http\Controllers\PagesController::class, 'team'])->name('team');
-Route::get('/features', [App\Http\Controllers\PagesController::class, 'features'])->name('features');
+Route::get('/product_features/{id}', [App\Http\Controllers\PagesController::class, 'features'])->name('features');
 
 Route::post('vacancy', [App\Http\Controllers\VacancyController::class, 'store'])->name('vacancy.store');
 

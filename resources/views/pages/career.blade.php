@@ -86,7 +86,6 @@
     </section>
 
     <div class='space1'></div>
-    <div class='space1'></div>
 
     <div class="form-popup" id="careerForm">
         <form class="form-container" action="{{route('vacancy.store')}}" method="post" enctype="multipart/form-data">

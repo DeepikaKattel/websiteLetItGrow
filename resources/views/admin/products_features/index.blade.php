@@ -46,7 +46,7 @@
                            <td>{{$loop->iteration}}</td>
                            <td>{{$s->name}}</td>
                            <td>{{$s->description}}</td>
-                           <td>{{$s->product_id}}</td>
+                           <td>{{$s->product->name}}</td>
                            <td id="none">
                                <a href="{{route('adminProductsFeatures.edit',$s->id)}}"><i class="fa fa-lg fa-edit"></i></a>
                                @method('DELETE')
