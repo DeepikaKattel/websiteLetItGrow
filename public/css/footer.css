@@ -1,0 +1,88 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background: #516481;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    background-color: #2e548f;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer-div p {
+    text-align: justify;
+}
+
+.footer li {
+    text-align: center;
+    display: block;
+}
+
+.footer li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.footer i {
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition: 0.6s ease-out;
+    transition: 0.6s ease-out;
+}
+
+.footer i:hover {
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+    background: transparent;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    cursor: pointer;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background: #606060;
+    cursor: pointer;
+}

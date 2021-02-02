@@ -37,6 +37,10 @@ class PagesController extends Controller
     {
         return view('pages.team');
     }
+    public function features()
+    {
+        return view('pages.features');
+    }
 
     public function index()
     {

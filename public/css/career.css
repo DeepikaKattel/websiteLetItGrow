@@ -1,37 +1,38 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
-.joinTeamtxt{
+
+.joinTeamtxt {
     font-size: 20px;
     color: #828385;
 }
 
-.openingTxt{
+.openingTxt {
     font-size: 20px;
     color: #828385;
 }
 
-.openingTxt:hover{
+.openingTxt:hover {
     color: #f00a0a;
     transition: 1.5s;
     transform: rotateY(180deg);
     cursor: pointer;
 }
 
-.openingTxt:hover i{
+.openingTxt:hover i {
     transition: 1s;
     transform: rotateY(180deg);
     cursor: pointer;
 }
 
 .page {
-    background: linear-gradient(to bottom, #e3effa, rgba(44, 46, 46, 0.5)),url('../images/job.gif');
+    background: linear-gradient(to bottom, #e3effa, rgba(44, 46, 46, 0.5)), url('../images/job.gif');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
     /* Optional Gradient */
     /* background: linear-gradient(to bottom, white, #c4c2c2, #aba9a9),url('../images/laptop.gif'); */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
 }
 
 .page h4 {
@@ -48,7 +49,7 @@
     font-size: 17px;
 }
 
-.page i{
+.page i {
     top: 0%;
     left: 100%;
 }
@@ -69,9 +70,9 @@
     height: 0px;
     border-bottom: 70px solid #eee;
     border-left: 70px solid transparent;
-    -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
-    -moz-box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
-    box-shadow: 7px 7px 7px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .foldtl:after {
@@ -85,82 +86,81 @@
     border-right: 69px solid transparent;
 }
 
-.jobDetailsContainer{
-    height:auto;
+.jobDetailsContainer {
+    height: auto;
     width: 100%;
 }
 
-.jobDescriptionBox{
+.jobDescriptionBox {
     width: 100%;
     background-color: #e3e3e3;
 }
 
-.jobDescriptionBox:hover{
+.jobDescriptionBox:hover {
     background-color: #004085;
     cursor: pointer;
 }
 
-.jobDescriptionBox .row{
+.jobDescriptionBox .row {
     justify-content: space-between;
     padding: 15px 10px 5px 10px;
 }
 
-.jobDescriptionBox .row i{
+.jobDescriptionBox .row i {
     color: #004085;
 }
 
-.jobDescriptionBox .row h5{
+.jobDescriptionBox .row h5 {
     color: #004085;
     font-weight: 400;
 }
 
-.jobDescriptionBox:hover .row h5{
+.jobDescriptionBox:hover .row h5 {
     color: white;
     font-weight: 400;
     cursor: pointer;
 }
 
-.jobDescriptionDetails{
+.jobDescriptionDetails {
     background-color: red;
 }
 
-.jobTitle{
+.jobTitle {
     font-size: 16px;
     color: black;
-    font-weight:bold;
+    font-weight: bold;
     opacity: 0.9;
 }
 
-.jobDescriptionBox .collapse .card .jobTitle i{
-    color:black
+.jobDescriptionBox .collapse .card .jobTitle i {
+    color: black
 }
 
-.jobDescriptionBox:hover .collapse .card .jobTitle i{
+.jobDescriptionBox:hover .collapse .card .jobTitle i {
     cursor: pointer;
-    color:black
+    color: black
 }
 
-.jobTitleName{
+.jobTitleName {
     margin-left: 22px;
     font-size: 15px;
     color: black;
     opacity: 0.8;
 }
 
-.desTopic{
+.desTopic {
     margin-left: 22px;
     font-size: 15px;
     color: black;
     opacity: 0.7;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-#details .card ul{
+#details .card ul {
     margin-left: 45px;
 }
 
-.btnCareerSubmit
-{
+.btnCareerSubmit {
     background-color: #004085;
     font-size: 14px;
     width: 25%;
@@ -172,13 +172,12 @@
     align-self: center;
 }
 
-.btnCareerSubmit:hover{
+.btnCareerSubmit:hover {
     cursor: pointer;
     background-color: #f00a0a;
 }
 
-.finalSubmit
-{
+.finalSubmit {
     background-color: #004085;
     font-size: 16px;
     width: 25%;
@@ -189,6 +188,7 @@
     cursor: pointer;
     align-self: center;
 }
+
 .form-container input[type=text], .form-container input[type=password] {
     width: 100%;
     padding: 5px !important;
@@ -196,41 +196,50 @@
     border: none;
     background: #f1f1f1;
 }
-.finalSubmit:hover{
+
+.finalSubmit:hover {
     background-color: #4CAF50;
     cursor: pointer;
 }
 
-.jobDescriptionBox:hover .row i{
+.jobDescriptionBox:hover .row i {
     color: white;
     cursor: pointer;
 }
-.jobDescriptionBox .card{
-    height:auto;
+
+.jobDescriptionBox .card {
+    height: auto;
 }
 
-.careerFormLabel{
+.careerFormLabel {
     font-size: 15px;
     color: black;
     opacity: 0.6;
 }
 
-.lists{
+.lists {
     font-size: 14px;
     text-align: justify;
     color: black;
     opacity: 0.7;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     font-size: 14px;
 }
-::-moz-placeholder { /* Firefox 19+ */
+
+::-moz-placeholder {
+    /* Firefox 19+ */
     font-size: 14px;
 }
-:-ms-input-placeholder { /* IE 10+ */
+
+:-ms-input-placeholder {
+    /* IE 10+ */
     font-size: 14px;
 }
-:-moz-placeholder { /* Firefox 18- */
+
+:-moz-placeholder {
+    /* Firefox 18- */
     font-size: 14px;
 }
