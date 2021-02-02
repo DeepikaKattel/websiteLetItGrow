@@ -16,8 +16,7 @@
     <link rel="stylesheet" href="{{asset('css/services.css')}}">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
-
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
     <link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -96,33 +95,33 @@
     </style>
 </head>
 <body>
-    {{-- @include('partials.innernavbar') --}}
+{{-- @include('partials.innernavbar') --}}
 
-    @include('partials.navbar')
-    @yield('content')
-    <!---*****************************     Footer start  ************************************-->
-    @include('partials.footer')
-    <!---*****************************     Footer end  ************************************-->
+@include('partials.navbar')
+@yield('content')
+<!---*****************************     Footer start  ************************************-->
+@include('partials.footer')
+<!---*****************************     Footer end  ************************************-->
 
 
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script>
-        function openForm() {
-            document.getElementById("careerForm").style.display = "block";
-        }
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    function openForm() {
+        document.getElementById("careerForm").style.display = "block";
+    }
 
-        function closeForm() {
-            document.getElementById("careerForm").style.display = "none";
-        }
+    function closeForm() {
+        document.getElementById("careerForm").style.display = "none";
+    }
 
-    </script>
+</script>
 
-    <script src="{{asset('js/wow.min.js')}}"></script>
-    <script>
-        new WOW().init();
-    </script>
+<script src="{{asset('js/wow.min.js')}}"></script>
+<script>
+    new WOW().init();
+</script>
 
 </body>
 </html>

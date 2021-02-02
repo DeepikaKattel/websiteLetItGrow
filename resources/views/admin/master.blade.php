@@ -37,7 +37,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-  
+
 
 
 </head>
@@ -118,16 +118,16 @@
               </p>
             </a>
           </li>
-          <li class="nav-item has-treeview menu-open">
-              <a href="{{route('candidates')}}" class="nav-link">
-                <i class="nav-icon fas fa-users"></i>
-                <p>
-                  Candidates
-                  <span class="badge badge-danger right"></span>
-                </p>
-              </a>
-          </li>
-         
+{{--          <li class="nav-item has-treeview menu-open">--}}
+{{--              <a href="{{route('candidates')}}" class="nav-link">--}}
+{{--                <i class="nav-icon fas fa-users"></i>--}}
+{{--                <p>--}}
+{{--                  Candidates--}}
+{{--                  <span class="badge badge-danger right"></span>--}}
+{{--                </p>--}}
+{{--              </a>--}}
+{{--          </li>--}}
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
@@ -152,29 +152,29 @@
             </ul>
           </li>
 
-          <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-list-alt"></i>
-              <p>
-                Career
-                <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{route('adminCareer.index')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>List Career Details</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{route('adminCareer.create')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Add Career</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+{{--          <li class="nav-item has-treeview">--}}
+{{--            <a href="#" class="nav-link">--}}
+{{--              <i class="nav-icon fas fa-list-alt"></i>--}}
+{{--              <p>--}}
+{{--                Career--}}
+{{--                <i class="fas fa-angle-left right"></i>--}}
+{{--              </p>--}}
+{{--            </a>--}}
+{{--            <ul class="nav nav-treeview">--}}
+{{--              <li class="nav-item">--}}
+{{--                <a href="{{route('adminCareer.index')}}" class="nav-link">--}}
+{{--                  <i class="far fa-circle nav-icon"></i>--}}
+{{--                  <p>List Career Details</p>--}}
+{{--                </a>--}}
+{{--              </li>--}}
+{{--              <li class="nav-item">--}}
+{{--                <a href="{{route('adminCareer.create')}}" class="nav-link">--}}
+{{--                  <i class="far fa-circle nav-icon"></i>--}}
+{{--                  <p>Add Career</p>--}}
+{{--                </a>--}}
+{{--              </li>--}}
+{{--            </ul>--}}
+{{--          </li>--}}
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-list-alt"></i>
@@ -244,7 +244,44 @@
               </li>
             </ul>
           </li>
-         
+            <li class="nav-item has-treeview">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-list-alt"></i>
+                    <p>
+                        Products
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('adminProducts.index')}}" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List Products Details</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{route('adminProducts.create')}}" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add Products</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{route('adminProductsFeatures.index')}}" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>List Products Features Details</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{route('adminProductsFeatures.create')}}" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Add Products Features</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
           {{--<li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-warning"></i>

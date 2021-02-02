@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row" id="webdev">
                 <div class="column col-md-6">
-                    <div class="webdev_img wow rotateInUpRight" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+                    <div class="webdev_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
                 <div class="column col-md-6">
                     <div class="faded-container">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="column col-md-6">
-                    <div class="webdesign_img wow rotateInUpLeft" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+                    <div class="webdesign_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
             </div>
 
@@ -77,7 +77,7 @@
 
             <div class="row">
                 <div class="column col-md-6">
-                    <div class="mobdev_img wow rotateInUpRight" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+                    <div class="mobdev_img " data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
                 <div class="column col-md-6">
                     <div class="faded-container">

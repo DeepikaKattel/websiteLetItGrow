@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class AdminCareer extends Model
+class Vacancy extends Model
 {
     use HasFactory;
-    protected $table = 'admin_careers';
+    protected $table = 'vacancies';
     protected $fillable = [
-        'department', 'designation', 'job_description','major_skills', 'vacancyNumber'
+        'name', 'email', 'address', 'phoneNumber','cv'
     ];
 }

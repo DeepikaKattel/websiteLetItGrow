@@ -1,6 +1,8 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    $products = DB::table('products')->take(3)->get();
+    return view('welcome', compact('products'));
 });
 
 Route::redirect('/', '/welcome');
@@ -25,6 +28,7 @@ Route::get('/logout', [App\Http\Controllers\HomeController::class, 'logout'])->n
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/vision', [App\Http\Controllers\PagesController::class, 'vision'])->name('vision');
+Route::get('/maps', [App\Http\Controllers\PagesController::class, 'maps'])->name('maps');
 
 Route::get('/contact_us', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact.store');
@@ -35,13 +39,16 @@ Route::get('/products', [App\Http\Controllers\PagesController::class, 'products'
 Route::get('/team', [App\Http\Controllers\PagesController::class, 'team'])->name('team');
 Route::get('/features', [App\Http\Controllers\PagesController::class, 'features'])->name('features');
 
+Route::post('vacancy', [App\Http\Controllers\VacancyController::class, 'store'])->name('vacancy.store');
 
-//Route::resource('career','App\Http\Controllers\CareerController');
+//Route::resource('adminCareer','App\Http\Controllers\Admin\AdminCareerController');
+//Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\Admin\AdminCareerController@destroy')->name('c.destroy');
 
-Route::resource('adminCareer','App\Http\Controllers\AdminCareerController');
-Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\AdminCareerController@destroy')->name('c.destroy');
+Route::resource('adminProducts','App\Http\Controllers\ProductsController');
+Route::get('/adminProducts/destroy/{id}', 'App\Http\Controllers\ProductsController@destroy')->name('p.destroy');
 
-Route::get('/candidates', [App\Http\Controllers\AdminCareerController::class, 'candidates'])->name('candidates');
+Route::resource('adminProductsFeatures','App\Http\Controllers\ProductsFeaturesController');
+Route::get('/adminProductsFeatures/destroy/{id}', 'App\Http\Controllers\ProductsFeaturesController@destroy')->name('pf.destroy');
 
 Route::resource('/users', 'App\Http\Controllers\Admin\UserController');
 Route::get('/users/destroy/{id}', 'App\Http\Controllers\UserController@destroy')->name('u.destroy');
