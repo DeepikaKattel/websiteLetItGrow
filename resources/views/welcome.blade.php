@@ -36,8 +36,6 @@
 </div>
 
 <body>
-
-
     @include('partials.navbar')
     <div class="header" id="top">
         <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
@@ -52,10 +50,10 @@
                 <p class="wow lightSpeedIn" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your Enterprise</p>
                 <div class="header-buttons">
                     <div class="row justify-content-center">
-                        <h1 class="wow rotateInUpLeft mr-2" data-wow-duration="4s" data-wow-delay="4s"><a
+                        <h1 class="wow rotateInUpLeft mr-2" data-wow-duration="3s" data-wow-delay="3s"><a
                                 href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
                         <div style="width: 10px"></div>
-                        <h1 class="wow rotateInUpRight ml-2" data-wow-duration="5s" data-wow-delay="6s"><a
+                        <h1 class="wow rotateInUpRight ml-2" data-wow-duration="3s" data-wow-delay="3s"><a
                                 href="{{ route('products') }}" class="header-buttons1">Products</a></h1>
                     </div>
                 </div>
@@ -69,8 +67,12 @@
     <section class="header-about">
         <div class="container">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeInLeft">About Us</h1>
-                <p class="text-center wow fadeIn">Something ABOUT US</p>
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+                    About Us</h1>
+                <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Creating value
+                    through
+                    true convergence.
+                </p>
             </div>
             <div class="row">
                 <div class="col-lg-1 col-md-1">
@@ -80,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="about-description wow flipInY" data-wow-duration="2.5s" data-wow-delay="0.5s">
+                    <div class="about-description wow flipInY" data-wow-duration="3s" data-wow-delay="2s">
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
@@ -102,11 +104,11 @@
                     data-wow-delay="0.8s"></div>
 
             </div>
-            <div class="row text-center mt-4">
-                <div class="col-lg-12 col-10 more">
-                    <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="5.5s">More About Us <i class="fa fa-angle-right"></i></a></p>
-                </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-10 more">
+                <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="2s"
+                        data-wow-delay="2s">More About Us<i class="fa fa-angle-right"></i></a></p>
             </div>
         </div>
     </section>
@@ -114,12 +116,14 @@
     <!---*****************************     Service Section Start ************************************-->
     <section class="services" id="services">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow fadeInLeft">What Do We Offer</h1>
-            <p class="text-center wow fadeIn">We provide the best services</p>
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+                What Do We Offer</h1>
+            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Offering the best.
+            </p>
         </div>
         <div class="container">
             <div class="row justify-content-center serviceDiv">
-                <div class="col-lg-4 col-md-4 col-12 web">
+                <div class="col-lg-4 col-md-4 col-12 web wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
                     <img class="mx-auto mt-4 d-block" src="{{ asset('images/development.png') }}" />
                     <h2 class="text-center">Web and Mobile App Development</h2>
                     <p>{!! substr(
@@ -141,7 +145,7 @@
 
 
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 mobile">
+                <div class="col-lg-4 col-md-4 col-12 mobile wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
                     <img class="mx-auto mt-4 d-block" src="{{ asset('images/mobile-app.png') }}" />
                     <h2 class="text-center">UI and UX Graphic Design</h2>
                     <p>{!! substr(
@@ -159,7 +163,7 @@
                         200,
                         ) !!}...</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12 design">
+                <div class="col-lg-4 col-md-4 col-12 design wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
 
                     <img class="mx-auto mt-4 d-block" src="{{ asset('images/design.png') }}" />
 
@@ -180,70 +184,28 @@
                 </div>
             </div>
         </div>
-
-        <div class="container mt-5">
-            <div class="logo-slider serviceDiv">
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <img class="mx-auto d-block" src="{{ asset('images/laravel.png') }}" />
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <img class="mx-auto d-block" src="{{ asset('images/node.png') }}" />
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <img class="mx-auto d-block" src="{{ asset('images/react.png') }}" />
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <img class="mx-auto d-block" src="{{ asset('images/flutter.png') }}" />
-
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <img class="mx-auto d-block" src="{{ asset('images/python.png') }}" />
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center mt-4 mb-4">
-                <div class="col-lg-12 col-10 more">
-                    <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="5.5s">Read More<i class="fa fa-angle-right"></i></a></p>
-                </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-10 more mt-4">
+                <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="2s"
+                        data-wow-delay="2s">Read More<i class="fa fa-angle-right"></i></a></p>
             </div>
         </div>
-        
-
     </section>
+
     <!---*****************************     Service Section End ************************************-->
+
     <!---*****************************     Product Section Start ************************************-->
     @if ($products)
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">Our
                     Products</h1>
-                <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products
-                    ...
+                <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Explore our
+                    products.
                 </p>
                 <div class="row">
                     @foreach ($products as $product)
-                        <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
+                        <div class="product-cards pb-4 col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
                                 <div class="card">
@@ -251,7 +213,7 @@
                                         src="/storage/Images/Products/{{ $product->image }}" />
                                     <h2>{{ $product->name }}</h2>
                                     <div class="overlay">
-                                        <p>{!! substr($product->description, 0, 100) !!}...</p>
+                                        <p>{{ $product->description }}</p>
                                     </div>
                                 </div>
                             </a>
@@ -261,7 +223,7 @@
                 <div class="row text-center mt-4">
                     <div class="col-lg-12 col-10 more">
                         <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
-                                data-wow-delay="3s">Read More <i class="fa fa-angle-right"></i></a></p>
+                                data-wow-delay="2s">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
                 </div>
 
@@ -274,8 +236,8 @@
     <!---*****************************     Projects Done Start ************************************-->
     <section class="projects">
         <div class="container headings text-center">
-            <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="2s"
-                data-wow-delay="1s">More than 50 satisfied clients</p>
+            <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="4s"
+                data-wow-delay="1.5s">More than 50 satisfied clients</p>
         </div>
         <div class="container align-items-center text-center">
             <div class="row">
@@ -303,22 +265,107 @@
             </div>
         </div>
     </section>
+
     <!---*****************************     Projects Done End ************************************-->
+
+    <section class="platforms">
+        <div class="container headings text-center">
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+                Our Development Platforms</h1>
+            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">All abour your needs.
+            </p>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="logo-slider wow flipInX" data-wow-duration="3s" data-wow-delay="1.8s">
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/laravel.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/node.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/react.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/flutter.png') }}" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/python.png') }}" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/oracle.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/java.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/asp.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="padding: 14px 0px;">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-8 col-8 card">
+                                <img src="{{ asset('images/mysql.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!---*****************************     Find carerr start ************************************-->
     <section class="career" id="career">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">Join
-                Our Team</h1>
-
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+                Join Our Team</h1>
+            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Out of yourself and into
+                the team.
+            </p>
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="career-buttons wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
+                <div class="career-buttons wow tada" data-wow-duration="2s" data-wow-delay="2s">
                     <a href="{{ route('career') }}">Find Jobs <i class="fa fa-search"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <!---*****************************     Find carerr end ************************************-->
@@ -342,7 +389,7 @@
             dots: false,
             arrows: false,
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 3000,
             infinite: true,
             responsive: [{
                 breakpoint: 768,

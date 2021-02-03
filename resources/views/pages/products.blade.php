@@ -14,7 +14,6 @@
         </div>
     </div>
 
-    <div class='space1'></div>
 
     @if ($products)
         <section class="header-product">
@@ -29,7 +28,7 @@
                         <div class="product-cards pb-4 col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
-                                <div class="card" style="height:320px" >
+                                <div class="card">
                                     <img class="mx-auto mt-5 d-block inventory"
                                         src="/storage/Images/Products/{{ $product->image }}" />
                                     <h2>{{ $product->name }}</h2>

@@ -8,13 +8,15 @@
 
 .copyright {
     width: 100%;
-    height: auto;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     background-color: transparent;
-    color: #28dde0;
     padding-top: 1%;
     padding-bottom: 0.5%;
     text-align: center;
+}
+
+.copyright h6{
+    font-weight: 400;
 }
 
 .footer p {

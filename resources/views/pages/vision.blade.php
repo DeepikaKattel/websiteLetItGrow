@@ -19,13 +19,12 @@
     <section class="inner-content-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 about-contentWrap">
-                    <div class="commonTitle">
-                        <h2>About Us</h2>
+                <div class="col-md-12">
+                    <div class="headings text-center">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
+                            About Us</h1>
                     </div>
-                    <div class='space2'></div>
-                    <div class="content-wrap wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.1s"
-                        style="text-align:justify;">
+                    <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
@@ -40,7 +39,9 @@
                             product/s even better. We treat your product as one of our own and that helps in bringing
                             the best out of the team to deliver high quality product on time at an affordable cost. We
                             assure to take your vision to the digital world.
+                        </p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -51,29 +52,29 @@
     <section class="inner-content-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 about-contentWrap">
-                    <div class="commonTitle">
-                        <h2>Vision</h2>
+                <div class="col-md-12">
+                    <div class="headings text-center">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
+                            Vision</h1>
                     </div>
-                    <div class='space2'></div>
-                    <div class="content-wrap wow slideInRight" data-wow-duration="3s" data-wow-delay="0.2s"
-                        style="text-align:justify;">
+                    <div class="card wow slideInRight" data-wow-duration="2s" data-wow-delay="2s">
                         <p>We believe, Technology is made by everybody for everybody. Today, Modern world offers
                             technologies that are affordable to people from all backgrounds and we want to serve people with
                             its benefits. Let IT grow is your solution to the technological advancement you and your
-                            business should be experiencing along with the advantage you deserve.</p>
-                        <p>We offer our services for all kinds of business as well as individuals who want to make a
+                            business should be experiencing along with the advantage you deserve.<br><br>
+                            We offer our services for all kinds of business as well as individuals who want to make a
                             difference on the work they do. Our IT services are sure to benefit people from all backgrounds
                             that want to use IT to grow their business. On times, where time and tides wait for none, we aim
                             to bridge the gap between fast changing technology and Nepali Society. With an extremely
                             creative team, we constantly see ourselves generating and implementing revolutionary ideas that
                             aim to benefit the society as well as the organization.We hope to be the ultimate gateway for
                             connecting the Nepali society with the emerging technologies at reasonable and affordable
-                            prices.</p>
-                        <p>Let IT Grow is a team of enthusiastic young minds that want to make a difference by providing
+                            prices.<br><br>
+                            Let IT Grow is a team of enthusiastic young minds that want to make a difference by providing
                             quality IT services to people all over Nepal regardless of where they come from.
                             You dictate, we Create.</p>
                     </div>
+
                 </div>
             </div>
         </div>

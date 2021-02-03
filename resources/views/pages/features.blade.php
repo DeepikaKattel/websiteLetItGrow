@@ -19,19 +19,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 about-contentWrap">
-                    <div class="commonTitle">
-                        <h2>{{ $products->name }}</h2>
-                        <p>{{ $products->description }}</p>
+                    <div class="container headings text-center">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
+                            {{ $products->name }}</h1>
+                        <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
+                            {{ $products->description }}
+                        </p>
                     </div>
                 </div>
                 <div class='space2'></div>
                 @if ($features)
                     @foreach ($features as $feature)
-
                         <div class="product-info-cards col-lg-4 col-md-4 col-12">
-                            <div class="card"  style="height: 300px;">
+                            <div class="card" style="height: 300px;">
                                 <img class="mx-auto mt-2 d-block" src="{{ asset('images/features.png') }}" />
-                                <h2>{{ $feature->name }}</h2>
+                                <h2 style="text-align: center">{{ $feature->name }}</h2>
                                 <p>{{ $feature->description }}</p>
                             </div>
                         </div>

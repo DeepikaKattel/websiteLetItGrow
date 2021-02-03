@@ -38,9 +38,28 @@ p {
     text-decoration: none;
 }
 
-.services .logo-slider img {
-    max-height: 150px;
-    max-width: 150px;
+.platforms {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    height: auto;
+}
+
+.platforms .card {
+    box-shadow: 0px 1px 10px 4px rgba(204, 203, 202, 0.63);
+    -webkit-box-shadow: 0px 1px 10px 4px rgba(204, 203, 202, 0.63);
+    -moz-box-shadow: 0px 1px 10px 4px rgba(204, 203, 202, 0.63);
+    height: 120px;
+    width: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.platforms .logo-slider img {
+    max-height: 120px;
+    max-width: 120px;
+    background-size: contain;
 }
 
 .more i {
@@ -68,6 +87,28 @@ p {
 .more:hover i {
     color: white;
     background: black;
+    cursor: pointer;
+}
+
+.more2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.more2 i {
+    text-decoration: none;
+    color: black;
+}
+
+.more2 a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.more2:hover i {
+    color: black;
+    background: white;
     cursor: pointer;
 }
 
@@ -318,7 +359,6 @@ p {
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
-    height:220px;
 }
 
 .product-cards img {
@@ -373,8 +413,8 @@ p {
 }
 
 .product-cards:hover img {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 0px;
+    max-height: 0px;
 }
 
 .product-cards .card:hover {
@@ -401,7 +441,6 @@ p {
 
 .services i {
     background: transparent;
-    color: white;
 }
 
 .services {
@@ -596,8 +635,8 @@ p {
     width: 100%;
     height: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
     padding: 50px;
+    background-color: #F7F7F9;
 }
 
 .career-buttons a {
@@ -733,4 +772,12 @@ p {
 .dropdown:hover .dropbtn {
     background-color: white;
     cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .platforms .logo-slider img {
+        max-height: 80px;
+        max-width: 80px;
+        background-size: cover;
+    }
 }
