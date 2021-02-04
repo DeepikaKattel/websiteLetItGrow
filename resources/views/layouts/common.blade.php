@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{asset('css/vision.css')}}">
     <link rel="stylesheet" href="{{asset('css/career.css')}}">
     <link rel="stylesheet" href="{{asset('css/team.css')}}">
+    <link rel="stylesheet" href="{{asset('css/privacy.css')}}">
     <link rel="stylesheet" href="{{asset('css/services.css')}}">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">

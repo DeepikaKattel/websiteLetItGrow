@@ -16,12 +16,12 @@
                 <h3>Quick Links</h3>
                 <hr class="rounded" style="border-top: 1px solid #ffffff;border-radius: 2px;">
                 <li><i class="fas fa-home"></i><a href="/">Home</a></li>
-                <li><i class="fas fa-hands-helping"></i> <a href="https://letitgrownepal.com/services">Services</a></li>
-                <li><i class="fas fa-desktop"></i><a href="https://letitgrownepal.com/products">Products</a></li>
-                <li><i class="fas fa-address-book"></i><a href="https://letitgrownepal.com/contact_us">Contact Us</a>
+                <li><i class="fas fa-hands-helping"></i> <a href="{{ route('services') }}">Services</a></li>
+                <li><i class="fas fa-desktop"></i><a href="{{ route('products') }}">Products</a></li>
+                <li><i class="fas fa-address-book"></i><a href="{{ route('contact') }}">Contact Us</a>
                 </li>
 
-                <li><i class="fas fa-hand-paper"></i><a href="#">Privacy Policy</a></li>
+                <li><i class="fas fa-hand-paper"></i><a href="{{ route('privacy') }}">Privacy Policy</a></li>
 
             </div>
             <div class="col-lg-3 col-md-3 col-12 footer-div wow slideInLeft" data-wow-duration="3s"

@@ -220,9 +220,6 @@
 
         </div>
     </section>
-
-    <div class='space1'></div>
-    <div class='space1'></div>
 @endsection
 
 

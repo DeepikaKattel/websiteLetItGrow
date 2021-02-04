@@ -1,0 +1,29 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.normalText {
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.bnormalText {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+    color: black;
+}
+.normalText ul{
+    padding-left: 50px;
+}
+.normalText li {
+    list-style-type: square ;
+}
