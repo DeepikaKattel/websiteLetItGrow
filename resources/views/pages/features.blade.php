@@ -22,7 +22,7 @@
                     <div class="container headings text-center">
                         <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
                             {{ $products->name }}</h1>
-                        <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
+                        <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
                             {{ $products->description }}
                         </p>
                     </div>
@@ -32,7 +32,7 @@
                     @foreach ($features as $feature)
                         <div class="product-info-cards col-lg-4 col-md-4 col-12">
                             <div class="card" style="height: 300px;">
-                                <img class="mx-auto mt-2 d-block" src="{{ asset('images/features.png') }}" />
+                                <img class="mx-auto d-block" src="{{ asset('images/features.png') }}" />
                                 <h2 style="text-align: center">{{ $feature->name }}</h2>
                                 <p>{{ $feature->description }}</p>
                             </div>

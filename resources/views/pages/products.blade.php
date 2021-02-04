@@ -20,12 +20,12 @@
             <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
                     Products</h1>
-                <p class="text-center pb-3 wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products
+                <p class="text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products
                     ...
                 </p>
                 <div class="row">
                     @foreach ($products as $product)
-                        <div class="product-cards pb-4 col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
+                        <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
                                 <div class="card">

@@ -22,13 +22,14 @@
                 <div class="col-md-8">
                     <div class="jobDetailsContainer">
                         <div class="container headings text-center">
-                            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s"
-                                data-wow-delay="1.5s" style="text-align: start">
+                            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
+                                style="text-align: start">
                                 Build Your Career With Us</h1>
-                            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Join our amazing team.
+                            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Join our amazing
+                                team.
                             </p>
                         </div>
-                        <div class="jobDescriptionBox mt-4 wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                        <div class="jobDescriptionBox wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
                             <div class="row mx-auto vertical-align-center">
                                 <h5>Sales Representative</h5>
                                 <a data-toggle="collapse" href="#details" aria-expanded="false" aria-controls="details">
@@ -40,9 +41,9 @@
                                         <p class="jobTitle"><i class="fas fa-user-friends mr-2"></i>Department</p>
                                         <p class="jobTitleName">Sales</p>
                                         <p class="jobTitle"><i class="fas fa-business-time mr-2"></i>Designation</p>
-                                        <p class="jobTitleName mr-10">Sales Representative</p>
+                                        <p class="jobTitleName">Sales Representative</p>
                                         <p class="jobTitle"><i class="fas fa-book mr-2"></i>Description</p>
-                                        <p class="desTopic mr-10">Responsibilities</p>
+                                        <p class="desTopic ">Responsibilities</p>
                                         <ul class="lists">
                                             <li>Identify potential clients and sell products/services with smart sales
                                                 presentations. </li>
@@ -58,7 +59,7 @@
                                             <li>Improve continuously through feedback. Requirements: • Bachelor/ Ongoing
                                                 degree in business, marketing, economics or related field. </li>
                                         </ul>
-                                        <p class="desTopic mr-10">Requirements</p>
+                                        <p class="desTopic ">Requirements</p>
                                         <ul class="lists">
                                             <li>Bachelor/ Ongoing degree in business, marketing, economics or related field.
                                             </li>
@@ -69,7 +70,7 @@
                                             <li>Knowledge of Proposal writing is a plus</li>
                                         </ul>
                                         <p class="jobTitle"><i class="fas fa-user-tie mr-2"></i>Number of Vacancies</p>
-                                        <p class="jobTitleName mr-10">2</p>
+                                        <p class="jobTitleName ">2</p>
 
                                         <button type="button" class="btnCareerSubmit text-center" onclick="openForm()">Apply
                                             for this position</button>

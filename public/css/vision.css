@@ -61,3 +61,13 @@
     height: auto;
     width: 100%
 }
+@media(max-width:768px){
+    .vision-box{
+        margin-bottom: 50px;
+    }
+    .vision-box:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        /* (110% zoom)*/
+    }
+}

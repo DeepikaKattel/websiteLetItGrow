@@ -24,7 +24,7 @@
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .uiux_img {
@@ -32,13 +32,43 @@
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .data_analysis_img {
-    background-image: url('../images/data-2.png');
+    background-image: url('../images/data\ analizing.png');
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+
+@media(max-width:768px) {
+    .webmobdev_img {
+        height: 300px;
+        margin-bottom: 5px;
+    }
+    .uiux_img {
+        height: 300px;
+        margin-bottom: 5px;
+    }
+    .data_analysis_img {
+        height: 300px;
+        margin-bottom: 5px;
+    }
+    .onlyForDesktop {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
+    .onlyForDesktop {
+        display: none;
+    }
+}
+
+@media(min-width:992px) {
+    .onlyForMobile {
+        display: none;
+    }
 }

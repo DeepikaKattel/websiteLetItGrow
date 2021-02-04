@@ -51,10 +51,10 @@
                     Enterprise</p>
                 <div class="header-buttons">
                     <div class="row justify-content-center">
-                        <h1 class="wow rotateInUpLeft mr-2" data-wow-duration="3s" data-wow-delay="3s"><a
+                        <h1 class="wow rotateInUpLeft" data-wow-duration="3s" data-wow-delay="3s"><a
                                 href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
                         <div style="width: 10px"></div>
-                        <h1 class="wow rotateInUpRight ml-2" data-wow-duration="3s" data-wow-delay="3s"><a
+                        <h1 class="wow rotateInUpRight " data-wow-duration="3s" data-wow-delay="3s"><a
                                 href="{{ route('products') }}" class="header-buttons1">Products</a></h1>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
             <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
                     About Us</h1>
-                <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Creating value
+                <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Creating value
                     through
                     true convergence.
                 </p>
@@ -78,7 +78,7 @@
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-12">
                     <div class="row justify-content-center">
-                        <h1 class="aboutHeading mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+                        <h1 class="aboutHeading wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
                             Why Us?</h1>
                     </div>
                 </div>
@@ -101,9 +101,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s"
-                    data-wow-delay="0.8s">
-                    <img src="/images/about_background.jpg" class="img-fluid"/>
+                <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s" data-wow-delay="0.8s">
+                    <img src="/images/about_background.jpg" class="img-fluid" />
                 </div>
 
             </div>
@@ -121,13 +120,13 @@
         <div class="container headings text-center">
             <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
                 What Do We Offer</h1>
-            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Offering the best.
+            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Offering the best.
             </p>
         </div>
         <div class="container">
             <div class="row justify-content-center serviceDiv">
                 <div class="col-lg-4 col-md-4 col-12 web wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
-                    <img class="mx-auto mt-4 d-block" src="{{ asset('images/development.png') }}" />
+                    <img class="mx-auto d-block" src="{{ asset('images/development.png') }}" />
                     <h2 class="text-center">Web and Mobile App Development</h2>
                     <p>{!! substr(
                         'Web and Mobile development is the process of application development and maintenance. It is
@@ -149,7 +148,7 @@
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mobile wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
-                    <img class="mx-auto mt-4 d-block" src="{{ asset('images/mobile-app.png') }}" />
+                    <img class="mx-auto d-block" src="{{ asset('images/mobile-app.png') }}" />
                     <h2 class="text-center">UI and UX Graphic Design</h2>
                     <p>{!! substr(
                         'UI and UX Graphic Design is what creates the overall look and feel when we’re using a website.
@@ -168,7 +167,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 design wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">
 
-                    <img class="mx-auto mt-4 d-block" src="{{ asset('images/design.png') }}" />
+                    <img class="mx-auto d-block" src="{{ asset('images/design.png') }}" />
 
                     <h2 class="text-center">Data Analysis and Reporting</h2>
                     <p>{!! substr(
@@ -188,7 +187,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-12 more mt-4">
+            <div class="col-lg-12 col-md-12 col-12 more">
                 <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="2s"
                         data-wow-delay="2s">Read More<i class="fa fa-angle-right"></i></a></p>
             </div>
@@ -203,12 +202,14 @@
             <div class="container headings text-center">
                 <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">Our
                     Products</h1>
-                <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Explore our
+                <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Explore our
                     products.
                 </p>
-                <div class="row">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center ">
                     @foreach ($products as $product)
-                        <div class="product-cards pb-4 col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
+                        <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
                                 <div class="card">
@@ -223,13 +224,13 @@
                         </div>
                     @endforeach
                 </div>
-                <div class="row text-center mt-4">
-                    <div class="col-lg-12 col-12 more">
-                        <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
-                                data-wow-delay="2s">More Products <i class="fa fa-angle-right"></i></a></p>
-                    </div>
-                </div>
 
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 col-12 more">
+                    <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
+                            data-wow-delay="2s">More Products <i class="fa fa-angle-right"></i></a></p>
+                </div>
             </div>
         </section>
     @endif
@@ -356,7 +357,7 @@
         <div class="container headings text-center">
             <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
                 Join Our Team</h1>
-            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Out of yourself and into
+            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Out of yourself and into
                 the team.
             </p>
         </div>

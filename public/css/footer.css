@@ -1,7 +1,8 @@
 .footer {
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 14, 83, 0.46));;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 14, 83, 0.46));
+    ;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -15,7 +16,7 @@
     text-align: center;
 }
 
-.copyright h6{
+.copyright h6 {
     font-weight: 400;
 }
 
@@ -89,4 +90,16 @@
 #myBtn:hover {
     background: #606060;
     cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .footer-div {
+        padding-bottom: 5px;
+    }
+    .footer-div h3 {
+        text-align: center;
+    }
+    .copyright h6{
+        font-size: 0.7rem;
+    }
 }

@@ -52,30 +52,62 @@
 
             <div class='space1'></div>
 
-            <div class="row">
-                <div class="column col-md-6">
-                    <div class="faded-container">
-                        <h4>UI and UX Graphic Design</h4>
-                    </div><br>
-                    <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
-                        <p>
-                            UI and UX Graphic Design is what creates the overall look and feel when we’re using a website.
-                            It’s the
-                            process of planning and building the elements of your website, from structure and layout to
-                            images, colors, fonts and graphics.
-                        </p>
-                        <p>
-                            Being a tech company, we are aspired to give the best service to our clients. For that, we
-                            Web design has numerous components that work together to create the finished experience of a
-                            website, including graphic design, user experience design, interface design, search engine
-                            optimization (SEO) and content creation. These elements determine how a website looks, feels and
-                            works on various devices. Check out this in-depth guide on building a website, if you want to
-                            learn more about the whole process.
-                        </p>
+            <div class="onlyForDesktop">
+                <div class="row">
+                    <div class="column col-md-6">
+                        <div class="faded-container">
+                            <h4>UI and UX Graphic Design</h4>
+                        </div><br>
+                        <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
+                            <p>
+                                UI and UX Graphic Design is what creates the overall look and feel when we’re using a website.
+                                It’s the
+                                process of planning and building the elements of your website, from structure and layout to
+                                images, colors, fonts and graphics.
+                            </p>
+                            <p>
+                                Being a tech company, we are aspired to give the best service to our clients. For that, we
+                                Web design has numerous components that work together to create the finished experience of a
+                                website, including graphic design, user experience design, interface design, search engine
+                                optimization (SEO) and content creation. These elements determine how a website looks, feels and
+                                works on various devices. Check out this in-depth guide on building a website, if you want to
+                                learn more about the whole process.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column col-md-6">
+                        <div class="uiux_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                     </div>
                 </div>
-                <div class="column col-md-6">
-                    <div class="uiux_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+            </div>
+
+            {{-- show only for mobile device --}}
+            <div class="onlyForMobile">
+                <div class="row show-for-small-only">
+                    <div class="column col-md-6">
+                        <div class="uiux_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+                    </div>
+                    <div class="column col-md-6">
+                        <div class="faded-container">
+                            <h4>UI and UX Graphic Design</h4>
+                        </div><br>
+                        <div class="paragraph wow flipInY" data-wow-duration="4s" data-wow-delay="0.2s">
+                            <p>
+                                UI and UX Graphic Design is what creates the overall look and feel when we’re using a website.
+                                It’s the
+                                process of planning and building the elements of your website, from structure and layout to
+                                images, colors, fonts and graphics.
+                            </p>
+                            <p>
+                                Being a tech company, we are aspired to give the best service to our clients. For that, we
+                                Web design has numerous components that work together to create the finished experience of a
+                                website, including graphic design, user experience design, interface design, search engine
+                                optimization (SEO) and content creation. These elements determine how a website looks, feels and
+                                works on various devices. Check out this in-depth guide on building a website, if you want to
+                                learn more about the whole process.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -83,7 +115,7 @@
 
             <div class="row">
                 <div class="column col-md-6">
-                    <div class="data_analysis_img " data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
+                    <div class="data_analysis_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>
                 </div>
                 <div class="column col-md-6">
                     <div class="faded-container">

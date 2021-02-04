@@ -25,7 +25,7 @@
                             <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
                                 style="text-align: start">
                                 Have any questions ? Let's get in touch !</h1>
-                            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Contact us
+                            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Contact us
                                 if you are interested.
                             </p>
                         </div>
@@ -35,7 +35,7 @@
                             <form action="{{ route('contact.store') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group">
                                             <input type="text" name="name" class="form-control" placeholder="Your Name *"
                                                 value="" required />
@@ -48,16 +48,20 @@
                                             <input type="number" name="phone_number" class="form-control"
                                                 placeholder="Your Phone Number *" value="" required />
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group onlyForDesktop">
                                             <button class="btnContactSubmit">Send Message</button>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12">
                                         <div class="form-group">
                                             <textarea name="message" class="form-control" placeholder="Your Message *"
                                                 style="width: 100%; height: 150px;" required></textarea>
                                         </div>
+                                        <div class="form-group onlyForMobile">
+                                            <button class="btnContactSubmit">Send Message</button>
+                                        </div>
                                     </div>
+
                                 </div>
                             </form>
                         </div>
@@ -82,11 +86,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="commonTitle">
-                        <h2>Find Us On Map</h2>
+                    <div class="container headings text-center">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
+                            style="text-align: start">
+                            Find Us On Map</h1>
+                        <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Let's meet and greet.
+                        </p>
                     </div>
                     <div class='space2'></div>
-                    <div class="mapContainer container-fluid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                    <div class="mapContainer wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0.1s">
                         <iframe class="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0969091604857!2d85.31605341423501!3d27.68339953315262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f1a12ed15f%3A0xd2addf7cee6a8e0b!2sLet%20IT%20Grow!5e0!3m2!1sen!2snp!4v1611126563601!5m2!1sen!2snp"
                             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -102,8 +110,12 @@
     <section class="inner-content-wrap">
         <div class="container">
             <div class="col-md-12">
-                <div class="commonTitle">
-                    <h2>Contact Info</h2>
+                <div class="container headings text-center">
+                    <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
+                        style="text-align: start">
+                        Contact information</h1>
+                    <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Ways to reach us.
+                    </p>
                 </div>
             </div>
             <div class='space2'></div>

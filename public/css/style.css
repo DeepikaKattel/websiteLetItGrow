@@ -669,6 +669,29 @@ p {
     .nav-item {
         text-align: center !important;
     }
+    .header-about {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .services {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .header-product {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .projects {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .platforms {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .career {
+        margin-top: 5px;
+    }
 }
 
 .sticky {
@@ -799,5 +822,31 @@ p {
         width: 100%;
         font-weight: bold;
     }
+    .product-cards {
+        margin-bottom: 5px;
+    }
+    .product-cards .card:hover {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        background: linear-gradient(to bottom, rgba(112, 120, 209, 0.5), rgba(129, 224, 133, 0.5));
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+}
 
+@media(min-width:1200px) {
+    .product-cards {
+        margin-bottom: 20px;
+    }
+}
+
+@media(min-width:992px) {
+    .product-cards {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:992px) {
+    .product-cards {
+        margin-bottom: 20px;
+    }
 }
