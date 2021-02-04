@@ -780,4 +780,24 @@ p {
         max-width: 80px;
         background-size: cover;
     }
+    .typing-demo {
+        width: 22ch;
+        animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+        animation-delay: 5.5s;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 1em;
+    }
+    .header-section .letITGrow {
+        font-size: 1em;
+    }
+    .aboutHeading {
+        transform: rotate(0deg);
+        font-size: 18px;
+        width: 100%;
+        font-weight: bold;
+    }
+
 }

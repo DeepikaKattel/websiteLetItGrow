@@ -40,13 +40,6 @@
                         </div>
                     @endforeach
                 </div>
-                <div class="row text-center mt-4">
-                    <div class="col-lg-12 col-10 more">
-                        <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
-                                data-wow-delay="3s">More Products <i class="fa fa-angle-right"></i></a></p>
-                    </div>
-                </div>
-
             </div>
         </section>
     @endif

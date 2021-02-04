@@ -29,6 +29,7 @@ Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/vision', [App\Http\Controllers\PagesController::class, 'vision'])->name('vision');
 Route::get('/maps', [App\Http\Controllers\PagesController::class, 'maps'])->name('maps');
+Route::get('/privacy_policy', [App\Http\Controllers\PagesController::class, 'privacy'])->name('privacy');
 
 Route::get('/contact_us', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact.store');
@@ -44,20 +45,20 @@ Route::post('vacancy', [App\Http\Controllers\VacancyController::class, 'store'])
 //Route::resource('adminCareer','App\Http\Controllers\Admin\AdminCareerController');
 //Route::get('/adminCareer/destroy/{id}', 'App\Http\Controllers\Admin\AdminCareerController@destroy')->name('c.destroy');
 
-Route::resource('adminProducts','App\Http\Controllers\ProductsController');
+Route::resource('adminProducts', 'App\Http\Controllers\ProductsController');
 Route::get('/adminProducts/destroy/{id}', 'App\Http\Controllers\ProductsController@destroy')->name('p.destroy');
 
-Route::resource('adminProductsFeatures','App\Http\Controllers\ProductsFeaturesController');
+Route::resource('adminProductsFeatures', 'App\Http\Controllers\ProductsFeaturesController');
 Route::get('/adminProductsFeatures/destroy/{id}', 'App\Http\Controllers\ProductsFeaturesController@destroy')->name('pf.destroy');
 
 Route::resource('/users', 'App\Http\Controllers\Admin\UserController');
 Route::get('/users/destroy/{id}', 'App\Http\Controllers\UserController@destroy')->name('u.destroy');
 
-Route::resource('adminAbout','App\Http\Controllers\Admin\AboutController');
+Route::resource('adminAbout', 'App\Http\Controllers\Admin\AboutController');
 Route::get('/adminAbout/destroy/{id}', 'App\Http\Controllers\Admin\AboutController@destroy')->name('a.destroy');
 
-Route::resource('adminVision','App\Http\Controllers\Admin\VisionController');
+Route::resource('adminVision', 'App\Http\Controllers\Admin\VisionController');
 Route::get('/adminVision/destroy/{id}', 'App\Http\Controllers\Admin\VisionController@destroy')->name('v.destroy');
 
-Route::resource('adminServices','App\Http\Controllers\Admin\ServicesController');
+Route::resource('adminServices', 'App\Http\Controllers\Admin\ServicesController');
 Route::get('/adminServices/destroy/{id}', 'App\Http\Controllers\Admin\ServicesController@destroy')->name('s.destroy');

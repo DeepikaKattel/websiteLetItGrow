@@ -47,4 +47,8 @@ class PagesController extends Controller
     {
         return view('maps');
     }
+    public function privacy()
+    {
+        return view('pages.privacy');
+    }
 }

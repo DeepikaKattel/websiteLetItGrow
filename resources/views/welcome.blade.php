@@ -47,7 +47,8 @@
                         </div>
                     </div>
                 </h1>
-                <p class="wow lightSpeedIn" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your Enterprise</p>
+                <p class="wow lightSpeedIn letITGrow" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your
+                    Enterprise</p>
                 <div class="header-buttons">
                     <div class="row justify-content-center">
                         <h1 class="wow rotateInUpLeft mr-2" data-wow-duration="3s" data-wow-delay="3s"><a
@@ -75,13 +76,13 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-lg-1 col-md-1">
+                <div class="col-lg-1 col-md-1 col-12">
                     <div class="row justify-content-center">
                         <h1 class="aboutHeading mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
                             Why Us?</h1>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-12">
                     <div class="about-description wow flipInY" data-wow-duration="3s" data-wow-delay="2s">
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
@@ -100,13 +101,15 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 aboutImgContainer wow slideInRight" data-wow-duration="3s"
-                    data-wow-delay="0.8s"></div>
+                <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s"
+                    data-wow-delay="0.8s">
+                    <img src="/images/about_background.jpg" class="img-fluid"/>
+                </div>
 
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-10 more">
+            <div class="col-lg-12 col-md-12 col-12 more">
                 <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="2s"
                         data-wow-delay="2s">More About Us<i class="fa fa-angle-right"></i></a></p>
             </div>
@@ -185,7 +188,7 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-10 more mt-4">
+            <div class="col-lg-12 col-md-12 col-12 more mt-4">
                 <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="2s"
                         data-wow-delay="2s">Read More<i class="fa fa-angle-right"></i></a></p>
             </div>
@@ -221,7 +224,7 @@
                     @endforeach
                 </div>
                 <div class="row text-center mt-4">
-                    <div class="col-lg-12 col-10 more">
+                    <div class="col-lg-12 col-12 more">
                         <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
                                 data-wow-delay="2s">More Products <i class="fa fa-angle-right"></i></a></p>
                     </div>
