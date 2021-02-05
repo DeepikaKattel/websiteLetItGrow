@@ -232,10 +232,16 @@
     .features {
         margin-bottom: 100px;
     }
+    .product-info-cards .card{
+        height: 260px !important;
+    }
 }
 
 @media(min-width:1200px) {
     .features {
         margin-bottom: 110px;
+    }
+    .product-info-cards .card{
+        height: 260px !important;
     }
 }

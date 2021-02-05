@@ -1,7 +1,6 @@
 <footer class="footer" id="footerDiv">
-    <div class="pl-5 pr-5">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-12 footer-div wow slideInLeft" data-wow-duration="3s"
+            <div class="col-lg-4 col-md-4 col-12 footer-div wow slideInLeft" data-wow-duration="3s"
                 data-wow-delay="2.5s"
                 style="visibility: visible; animation-duration: 3s; animation-delay: 1.5s; animation-name: slideInLeft;">
                 <h3>About Let IT Grow</h3>
@@ -10,7 +9,7 @@
                     is a team of driven young and experienced minds that are passionate to provide utmost customer
                     satisfaction in terms of product and service delivery.</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-12 footer-div wow slideInLeft" data-wow-duration="3s" data-wow-delay="2s"
+            <div class="col-lg-2 col-md-2 col-12 footer-div wow slideInLeft" data-wow-duration="3s" data-wow-delay="2s"
                 style="visibility: visible; animation-duration: 3s; animation-delay: 2s; animation-name: slideInLeft;">
                 <h3>Quick Links</h3>
                 <hr class="rounded" style="border-top: 1px solid #ffffff;border-radius: 2px;">
@@ -22,7 +21,7 @@
                 <li><i class="fas fa-hand-paper"></i><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                 <p></p>
             </div>
-            <div class="col-lg-3 col-md-3 col-12 footer-div wow slideInLeft" data-wow-duration="3s"
+            <div class="col-lg-4 col-md-4 col-12 footer-div wow slideInLeft" data-wow-duration="3s"
                 data-wow-delay="1.5s"
                 style="visibility: visible; animation-duration: 3s; animation-delay: 0.5s; animation-name: slideInLeft;">
 
@@ -38,7 +37,7 @@
                 <li><i class="fab fa-digital-ocean"></i><a href="#">Digital Marketing</a></li>
                 <p></p>
             </div>
-            <div class="col-lg-3 col-md-3 col-12 footer-div  wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s"
+            <div class="col-lg-2 col-md-2 col-12 footer-div  wow slideInLeft" data-wow-duration="3s" data-wow-delay="1s"
                 style="visibility: visible; animation-duration: 3s; animation-delay: 1s; animation-name: slideInLeft;">
 
                 <h3>Find Us</h3>
@@ -60,9 +59,6 @@
             <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn" style="display: block;"></i>
         </div>
 
-    </div>
-
-    </div>
 </footer>
 <div class="copyright">
     <h6>Copyright @ 2021 - Let IT Grow Pvt. Ltd. All Rights Reserved</h6>

@@ -25,14 +25,13 @@
                 </p>
                 <div class="row">
                     @foreach ($products as $product)
-                        <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
+                        <div class="iproduct-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
                                 <div class="card">
-                                    <img class="mx-auto mt-5 d-block inventory"
-                                        src="/storage/Images/Products/{{ $product->image }}" />
-                                    <h2>{{ $product->name }}</h2>
                                     <div class="overlay">
+                                        <img src="/storage/Images/Products/{{ $product->image }}" />
+                                        <h2>{{ $product->name }}</h2>
                                         <p>{{ $product->description }}</p>
                                     </div>
                                 </div>

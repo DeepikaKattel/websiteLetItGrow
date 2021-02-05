@@ -31,7 +31,7 @@
                 @if ($features)
                     @foreach ($features as $feature)
                         <div class="product-info-cards col-lg-4 col-md-4 col-12">
-                            <div class="card" style="height: 300px;">
+                            <div class="card">
                                 <img class="mx-auto d-block" src="{{ asset('images/features.png') }}" />
                                 <h2 style="text-align: center">{{ $feature->name }}</h2>
                                 <p>{{ $feature->description }}</p>

@@ -19,10 +19,10 @@
         <div class="container">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="container headings text-center">
-                    <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
+                    <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s"
                         style="text-align: start">
                         Privacy Policy</h1>
-                    <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">We are committed
+                    <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">We are committed
                         always to safeguarding your privacy.
                     </p>
                 </div>

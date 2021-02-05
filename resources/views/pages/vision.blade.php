@@ -21,10 +21,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="headings text-center">
-                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
                             About Us</h1>
                     </div>
-                    <div class="card wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
+                    <div class="card wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.3s">
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
@@ -54,10 +54,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="headings text-center">
-                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s">
+                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
                             Vision</h1>
                     </div>
-                    <div class="card wow slideInRight" data-wow-duration="2s" data-wow-delay="2s">
+                    <div class="card wow slideInRight" data-wow-duration="3s" data-wow-delay="0.3s">
                         <p>We believe, Technology is made by everybody for everybody. Today, Modern world offers
                             technologies that are affordable to people from all backgrounds and we want to serve people with
                             its benefits. Let IT grow is your solution to the technological advancement you and your

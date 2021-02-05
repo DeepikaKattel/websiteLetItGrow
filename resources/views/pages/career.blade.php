@@ -22,10 +22,10 @@
                 <div class="col-md-8">
                     <div class="jobDetailsContainer">
                         <div class="container headings text-center">
-                            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="4s" data-wow-delay="1.5s"
+                            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s"
                                 style="text-align: start">
                                 Build Your Career With Us</h1>
-                            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Join our amazing
+                            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">Join our amazing
                                 team.
                             </p>
                         </div>

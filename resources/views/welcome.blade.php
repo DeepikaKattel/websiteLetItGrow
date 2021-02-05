@@ -23,6 +23,7 @@
     <link href="{{ asset('css/swing.css') }}" rel="stylesheet" media="all" type="text/css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/products.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet">
@@ -68,9 +69,9 @@
     <section class="header-about">
         <div class="container">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.0s">
                     About Us</h1>
-                <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Creating value
+                <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">Creating value
                     through
                     true convergence.
                 </p>
@@ -78,12 +79,12 @@
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-12">
                     <div class="row justify-content-center">
-                        <h1 class="aboutHeading wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
+                        <h1 class="aboutHeading wow fadeIn" data-wow-duration="1.5s" data-wow-delay="2s">
                             Why Us?</h1>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <div class="about-description wow flipInY" data-wow-duration="3s" data-wow-delay="2s">
+                    <div class="about-description wow flipInY" data-wow-duration="3s" data-wow-delay="1.5s">
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
@@ -101,16 +102,16 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s" data-wow-delay="0.8s">
+                <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s" data-wow-delay="0.5s">
                     <img src="/images/about_background.jpg" class="img-fluid" />
                 </div>
 
             </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-12 more">
-                <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="2s"
-                        data-wow-delay="2s">More About Us<i class="fa fa-angle-right"></i></a></p>
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12 col-12 more">
+                    <p><a href="{{ route('vision') }}" class="wow fadeInUp" data-wow-duration="1.5s"
+                            data-wow-delay="1.5s">More About Us<i class="fa fa-angle-right"></i></a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -118,9 +119,9 @@
     <!---*****************************     Service Section Start ************************************-->
     <section class="services" id="services">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
                 What Do We Offer</h1>
-            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Offering the best.
+            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">Offering the best.
             </p>
         </div>
         <div class="container">
@@ -185,11 +186,11 @@
                         ) !!}...</p>
                 </div>
             </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-12 more">
-                <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="2s"
-                        data-wow-delay="2s">Read More<i class="fa fa-angle-right"></i></a></p>
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12 col-12 more">
+                    <p><a href="{{ route('services') }}" class="wow fadeInUp" data-wow-duration="1.5s"
+                            data-wow-delay="1.5s">Read More<i class="fa fa-angle-right"></i></a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -200,23 +201,20 @@
     @if ($products)
         <section class="header-product">
             <div class="container headings text-center">
-                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">Our
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
                     Products</h1>
-                <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Explore our
-                    products.
+                <p class="text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Explore our products
+                    ...
                 </p>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center ">
+                <div class="row">
                     @foreach ($products as $product)
                         <div class="product-cards col-lg-4 col-md-4 col-12 wow slideInLeft" data-wow-duration="3s"
                             data-wow-delay="1.5s">
                             <a href="{{ url('product_features/' . $product->id) }}">
                                 <div class="card">
-                                    <img class="mx-auto mt-5 d-block inventory"
-                                        src="/storage/Images/Products/{{ $product->image }}" />
-                                    <h2>{{ $product->name }}</h2>
                                     <div class="overlay">
+                                        <img src="/storage/Images/Products/{{ $product->image }}" />
+                                        <h2>{{ $product->name }}</h2>
                                         <p>{{ $product->description }}</p>
                                     </div>
                                 </div>
@@ -224,12 +222,11 @@
                         </div>
                     @endforeach
                 </div>
-
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12 col-12 more">
-                    <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="2s"
-                            data-wow-delay="2s">More Products <i class="fa fa-angle-right"></i></a></p>
+                <div class="row text-center">
+                    <div class="col-lg-12 col-12 more">
+                        <p><a href="{{ route('products') }}" class="wow fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay="1.5s">More Products <i class="fa fa-angle-right"></i></a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -240,8 +237,8 @@
     <!---*****************************     Projects Done Start ************************************-->
     <section class="projects">
         <div class="container headings text-center">
-            <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="4s"
-                data-wow-delay="1.5s">More than 50 satisfied clients</p>
+            <p class="font-weight-bold text-center text-uppercase wow fadeIn" data-wow-duration="3s"
+                data-wow-delay="1s">More than 50 satisfied clients</p>
         </div>
         <div class="container align-items-center text-center">
             <div class="row">
@@ -274,9 +271,9 @@
 
     <section class="platforms">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
                 Our Development Platforms</h1>
-            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">All abour your needs.
+            <p class="text-center pb-3 wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">All abour your needs.
             </p>
         </div>
         <div class="row">
@@ -355,9 +352,9 @@
     <!---*****************************     Find carerr start ************************************-->
     <section class="career" id="career">
         <div class="container headings text-center">
-            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.2s">
+            <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
                 Join Our Team</h1>
-            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="2.2s">Out of yourself and into
+            <p class="text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">Out of yourself and into
                 the team.
             </p>
         </div>

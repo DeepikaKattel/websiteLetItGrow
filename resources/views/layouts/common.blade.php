@@ -8,17 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="{{asset('css/features.css')}}">
-    <link rel="stylesheet" href="{{asset('css/common.css')}}">
     <link rel="stylesheet" href="{{asset('css/contact.css')}}">
+    <link rel="stylesheet" href="{{asset('css/products.css')}}">
     <link rel="stylesheet" href="{{asset('css/vision.css')}}">
     <link rel="stylesheet" href="{{asset('css/career.css')}}">
     <link rel="stylesheet" href="{{asset('css/team.css')}}">
     <link rel="stylesheet" href="{{asset('css/privacy.css')}}">
     <link rel="stylesheet" href="{{asset('css/services.css')}}">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('css/common.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Let IT Grow</title>
