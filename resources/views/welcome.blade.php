@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 col-12 wow slideInRight" data-wow-duration="3s" data-wow-delay="0.5s">
-                    <img src="/images/about_background.jpg" class="img-fluid" />
+                    <img src="/images/aboutus.jpg" class="img-fluid" />
                 </div>
 
             </div>
