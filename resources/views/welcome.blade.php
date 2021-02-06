@@ -52,35 +52,20 @@
 <body id="startchange">
     @include('partials.navbar')
 
-    <section class="header">
-        <!-- The video -->
-        <video autoplay muted loop id="myVideo">
-            <source src="../images/testvideo.mp4" type="video/mp4">
-        </video>
-    </section>
 
-    {{-- <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
-        <div class="center-div justify-content-center">
-            <h1 class="font-weight-bold wow fadeInDown" data-wow-duration="5s" data-wow-delay="3.3s">
-                <div class="wrapper">
-                    <div class="typing-demo">
-                        You Dictate We Create.
-                    </div>
-                </div>
-            </h1>
-            <p class="wow lightSpeedIn letITGrow" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your
-                Enterprise</p>
-            <div class="header-buttons">
-                <div class="row justify-content-center">
-                    <h1 class="wow rotateInUpLeft" data-wow-duration="3s" data-wow-delay="3s"><a
-                            href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
-                    <div style="width: 10px"></div>
-                    <h1 class="wow rotateInUpRight " data-wow-duration="3s" data-wow-delay="3s"><a
-                            href="{{ route('products') }}" class="header-buttons1">Products</a></h1>
-                </div>
-            </div>
+    <div class="frontImg">
+        <div class="content col-xs-offset-4 col-xl-offset-4 col-xs-6 col-xl-4" style="float: right">
+            <h2 class="typewrite" data-period="2000"
+                data-type='[ "You Dictate, We Create", "Let IT Grow Your Enterprise", "We are here with you."]'>
+                <span class="wrap"></span>>
+
+            </h2>
+            <p class="wow fadeIn" data-wow-duration="4s" data-wow-delay="1s"> Let IT Grow is a team of enthusiastic
+                young minds that want to make a difference by providing
+                quality IT services to people all over Nepal regardless of where they come from.
+            </p>
         </div>
-    </section> --}}
+    </div>
     <!---*****************************     Header Section Ends ************************************-->
 
 
@@ -107,12 +92,17 @@
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
-                            Initially, we design a <span style="font-weight: bold;">PROTOTYPE</span> with the right mix
+                            Initially, we design a <span style="font-weight: bold;color:#352bc4;">PROTOTYPE</span> with
+                            the right mix
                             of skills from our team to deliver
-                            <span style="font-weight: bold;">HIGH QUALITY</span> products. We eliminate unnecessary
-                            expenses to <span style="font-weight: bold;">REDUCE COST</span> of the product. We work
-                            in an <span style="font-weight: bold;">AGILE ENVIRONMENT</span> to ensure that we deliver on
-                            what we commit to, and <span style="font-weight: bold;">MEET DEADLINES</span> .
+                            <span style="font-weight: bold;color:#352bc4;">HIGH QUALITY</span> products. We eliminate
+                            unnecessary
+                            expenses to <span style="font-weight: bold;color:#352bc4;">REDUCE COST</span> of the
+                            product. We work
+                            in an <span style="font-weight: bold;color:#352bc4;">AGILE ENVIRONMENT</span> to ensure that
+                            we deliver on
+                            what we commit to, and <span style="font-weight: bold;color:#352bc4;">MEET DEADLINES</span>
+                            .
                             <br><br>
                             We thrive on the valuable feedback provided by our customers and work on it to make the
                             product/s even better. We treat your product as one of our own and that helps in bringing
@@ -345,7 +335,7 @@
                     <div class="item" style="padding: 14px 0px;">
                         <div class="row justify-content-center">
                             <div class="col-lg-8 col-md-8 col-8 card">
-                                <img src="{{ asset('images/java.png') }}" />
+                                <img src="{{ asset('images/java2.png') }}" />
                             </div>
                         </div>
                     </div>
@@ -466,6 +456,68 @@
                 'overflow-y': 'visible'
             });
         })
+
+    </script>
+    <script>
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+        Resources
 
     </script>
 </body>

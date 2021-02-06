@@ -1,7 +1,8 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
 
+*{
+    font-family: 'Archivo', sans-serif;
+}
 .inTouchTxt {
     font-size: 16px;
     color: #828385;

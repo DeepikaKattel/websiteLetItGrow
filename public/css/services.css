@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+*{
+    font-family: 'Archivo', sans-serif;
+}
+
 .elementor-337 .elementor-element.elementor-element-3422506>.elementor-widget-container {
     padding: 0px 0px 0px 10px;
     background-color: transparent;

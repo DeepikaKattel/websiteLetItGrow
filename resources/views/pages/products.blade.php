@@ -16,16 +16,17 @@
 
     <div class="visionImg">
         <div class="col-xs-offset-6 col-xl-offset-6 col-xs-6 col-xl-6">
-            <h4>You imagine - We build</h4>
-            <p>Initially, we design a <span style="font-weight: bold;">PROTOTYPE</span> with the right mix of skills from
-                our team to deliver
-                <span style="font-weight: bold;">HIGH QUALITY</span> products. We eliminate unnecessary expenses to <span
-                    style="font-weight: bold;">REDUCE COST</span> of the product. We work in an <span
-                    style="font-weight: bold;">AGILE ENVIRONMENT</span>
-                to ensure that we deliver on what we commit to, and <span style="font-weight: bold;">MEET DEADLINES</span> .
-            </p>
+            <h2 class="typewrite" data-period="2000"
+                data-type='[ "You Imagine, We Build", "Let IT Grow Your Enterprise", "We are here with you."]'>
+                <span class="wrap"></span>>
+
+            </h2>
+            <p class="wow fadeIn" data-wow-duration="4s" data-wow-delay="1s">We fulfil your application needs by providing
+                the most efficient software assets for your enterprise</p>
         </div>
     </div>
+
+
 
     @if ($products)
         <section class="header-product">

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+* {
+    font-family: 'Archivo', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,6 +12,39 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+.frontImg {
+    /* The image used */
+    background-image: url("../images/frontpage.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.frontImg h2 {
+    font-weight: 800;
+    color: white;
+    line-height: 2;
+}
+
+.frontImg p {
+    text-align: justify;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.content {
+    position: relative;
+    top: 180px;
+    right: 20px;
 }
 
 a {
@@ -568,6 +606,24 @@ p {
 /*<!--********************************** media queries ***************************-->*/
 
 @media(max-width: 768px) {
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .frontImg h2 {
+        font-weight: 500;
+        color: white;
+        line-height: 2;
+    }
+    .frontImg p {
+        text-align: justify;
+        font-weight: 200;
+        color: white;
+        font-size: 16px;
+        line-height: 2;
+    }
     .nav-item {
         text-align: center !important;
     }
@@ -732,5 +788,28 @@ p {
         font-size: 18px;
         width: 100%;
         font-weight: bold;
+    }
+}
+
+@media(min-width:768px) and (min-width:992px) and (max-width:992px) and (min-width:1200px) {
+    .content {
+        float: right;
+        position: relative;
+        top: 180px;
+        right: 20px;
+    }
+    .frontImg h2 {
+        font-weight: 500;
+        color: white;
+        line-height: 2;
+        padding-left: 70%;
+    }
+    .frontImg p {
+        text-align: justify;
+        font-weight: 200;
+        color: white;
+        font-size: 16px;
+        line-height: 2;
+        padding-left: 70%;
     }
 }
