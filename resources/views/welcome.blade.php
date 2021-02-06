@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}">
 
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -27,41 +26,61 @@
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet">
+    <script>
+        $(document).ready(function() {
+            var scroll_start = 0;
+            var startchange = $('#startchange');
+            var offset = startchange.offset();
+            $(document).scroll(function() {
+                scroll_start = $(this).scrollTop();
+                if (scroll_start > offset.top) {
+                    $('#navbar').css('background-color', '#f0f0f0');
+                } else {
+                    $('#navbar').css('background-color', 'transparent');
+                }
+            });
+        });
 
-
-
+    </script>
 </head>
+
 <div id="preloader">
     <div class="loading">
     </div>
 </div>
 
-<body>
+<body id="startchange">
     @include('partials.navbar')
-    <div class="header" id="top">
-        <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
-            <div class="center-div justify-content-center">
-                <h1 class="font-weight-bold wow fadeInDown" data-wow-duration="5s" data-wow-delay="3.3s">
-                    <div class="wrapper">
-                        <div class="typing-demo">
-                            You Dictate We Create.
-                        </div>
-                    </div>
-                </h1>
-                <p class="wow lightSpeedIn letITGrow" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your
-                    Enterprise</p>
-                <div class="header-buttons">
-                    <div class="row justify-content-center">
-                        <h1 class="wow rotateInUpLeft" data-wow-duration="3s" data-wow-delay="3s"><a
-                                href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
-                        <div style="width: 10px"></div>
-                        <h1 class="wow rotateInUpRight " data-wow-duration="3s" data-wow-delay="3s"><a
-                                href="{{ route('products') }}" class="header-buttons1">Products</a></h1>
+
+    <section class="header">
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="../images/testvideo.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    {{-- <section class="header-section wow fadeInDownBig" data-wow-duration="4s" data-wow-delay="0.1s">
+        <div class="center-div justify-content-center">
+            <h1 class="font-weight-bold wow fadeInDown" data-wow-duration="5s" data-wow-delay="3.3s">
+                <div class="wrapper">
+                    <div class="typing-demo">
+                        You Dictate We Create.
                     </div>
                 </div>
+            </h1>
+            <p class="wow lightSpeedIn letITGrow" data-wow-duration="5s" data-wow-delay="0.7s">Let IT Grow Your
+                Enterprise</p>
+            <div class="header-buttons">
+                <div class="row justify-content-center">
+                    <h1 class="wow rotateInUpLeft" data-wow-duration="3s" data-wow-delay="3s"><a
+                            href="{{ route('services') }}" class="header-buttons1">Services</a></h1>
+                    <div style="width: 10px"></div>
+                    <h1 class="wow rotateInUpRight " data-wow-duration="3s" data-wow-delay="3s"><a
+                            href="{{ route('products') }}" class="header-buttons1">Products</a></h1>
+                </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section> --}}
     <!---*****************************     Header Section Ends ************************************-->
 
 

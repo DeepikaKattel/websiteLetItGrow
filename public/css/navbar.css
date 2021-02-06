@@ -1,156 +1,68 @@
-.navbar {
-    padding: 0px!important;
-    -webkit-box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-    -moz-box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-    box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-}
-
-ul.dropdown-menu {
-    width: 11vw;
-    border-radius: 0px;
-    font-weight: 400;
-    font-size: 0.9em;
-    line-height: 16px;
-    text-decoration: none;
-    padding: 0px;
-    list-style-type: none;
-    -webkit-animation: mymove 0.5s;
-    animation: mymove 0.5s;
-    background-color: #fff;
-    -webkit-box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-    -moz-box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-    box-shadow: 4px 9px 25px -6px rgba(77, 77, 77, 0.61);
-}
-
-li.dropdown:hover ul.dropdown-menu {
-    display: block;
-    cursor: pointer;
-}
-
-.dropdown-menu li:hover a {
-    color: black;
-    cursor: pointer;
-}
-
-.dropdown-menu li {
-    border-bottom: 1px solid #ccc;
-    padding: 12px;
-    display: block;
-}
-
-.dropdown-menu li a {
-    color: #2fcccd;
-    text-decoration: none;
-}
-
-@keyframes mymove {
-    from {
-        left: 100px;
-        height: 0px;
-        opacity: 0;
-        border-bottom: 0px;
-    }
-    to {
-        height: auto;
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
     }
 }
 
-.navbar-nav a.nav-link {
-    font-family: 'Roboto', sans-serif;
-    padding: 0px !important;
-    color: black;
+.view, body, html {
+    height: 100%
+}
+
+/* .navbar {
+    background-color: rgba(0, 0, 0, .2)
+} */
+
+nav.scroll {
+    background-color: #A1572F;
+    color: #eef;
+  }
+  
+
+.navbar a {
     font-size: 15px;
+    font-weight: 600;
+    color: white;
 }
 
-.navbar-nav a.nav-link:hover {
-    color: #2fcccd;
-    cursor: pointer;
-}
-
-ul.navbar-nav li.nav-item {
-    margin: 0 20px;
+.page-footer, .top-nav-collapse {
+    background-color: #1C2331
 }
 
 ul.navbar-nav .nav-item:after {
     content: '';
     display: block;
-    height: 3px;
+    height: 2px;
     width: 0;
     transition: width .5s ease, background-color .5s ease;
 }
 
 .navbar-nav .nav-item:hover:after {
     width: 100%;
-    background: #2fcccd;
+    background: black;
     cursor: pointer;
 }
 
-#navbarSupportedContent>ul>li.active>a{
-    color: #2fcccd;
-    background-color: transparent;
-    font-weight: 500;
-    transition: width .5s ease, background-color .5s ease;
+.navbar-nav>li.active>a {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-#navbarSupportedContent a:not(:only-child):after {
-    /* content: "\f105"; */
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 14px;
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-    transition: 0.5s;
-}
-#navbarSupportedContent .active>a:not(:only-child):after {
-    transform: rotate(90deg);
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
 }
 
-.hori-selector{
-    display:inline-block;
-    position:absolute;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    transition-duration:0.6s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    background-color: black;
-    opacity: 0.3;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-top: 10px;
+/* .navbar-toggler{
+    background-color: white;
 }
-.hori-selector .right,
-.hori-selector .left{
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    background-color: black;
-    bottom: 10px;
-}
-.hori-selector .right{
-    right: -25px;
-}
-.hori-selector .left{
-    left: -25px;
-}
-.hori-selector .right:before,
-.hori-selector .left:before{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color:white;
-}
-.hori-selector .right:before{
-    bottom: 0;
-    right: -25px;
-}
-.hori-selector .left:before{
-    bottom: 0;
-    left: -25px;
+
+.navbar-toggler span .navbar-toggler{
+    color: red;
+} */
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
 }

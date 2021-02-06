@@ -1,3 +1,48 @@
+.visionImg {
+    /* The image used */
+    background-image: url("../images/laptop.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_img {
+    background-image: url('../images/aboutus.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vision_img {
+    background-image: url('../images/about_background.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.visionImg p {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding-right: 35%;
+    padding-left: 5%;
+    line-height: 2;
+}
+
+.visionImg h4{
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    padding-top: 25%;
+    padding-left: 5%;
+    line-height: 2;
+}
+
 .vision-box {
     background: white;
     border-width: 0px;
@@ -61,8 +106,9 @@
     height: auto;
     width: 100%
 }
-@media(max-width:768px){
-    .vision-box{
+
+@media(max-width:768px) {
+    .vision-box {
         margin-bottom: 50px;
     }
     .vision-box:hover {

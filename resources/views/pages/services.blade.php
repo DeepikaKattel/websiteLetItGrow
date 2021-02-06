@@ -1,6 +1,6 @@
 @extends('layouts.common')
 @section('content')
-
+{{-- 
     <div class="imgContainer col-lg-12 col-md-12 col-sm-12 pt-5 pb-5">
         <div class="breadCrumbCenter column">
             <p class="commontxt">Services</p>
@@ -12,12 +12,32 @@
                 <a href=""><i class="fas fa-address-book"></i> Services</a>
             </button>
         </div>
+    </div> --}}
+
+    {{-- <div class='space1'></div> --}}
+    <div class="visionImg">
+        <div class="col-xs-offset-6 col-xl-offset-6 col-xs-6 col-xl-6">
+            <h4>You imagine - We build</h4>
+            <p>Initially, we design a <span style="font-weight: bold;">PROTOTYPE</span> with the right mix of skills from
+                our team to deliver
+                <span style="font-weight: bold;">HIGH QUALITY</span> products. We eliminate unnecessary expenses to <span
+                    style="font-weight: bold;">REDUCE COST</span> of the product. We work in an <span
+                    style="font-weight: bold;">AGILE ENVIRONMENT</span>
+                to ensure that we deliver on what we commit to, and <span style="font-weight: bold;">MEET DEADLINES</span> .
+            </p>
+        </div>
     </div>
 
     <div class='space1'></div>
 
     <section class="inner-content-wrap">
         <div class="container">
+            <div class="container headings text-center">
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">Our
+                    Services</h1>
+                <p class="text-center wow fadeIn" data-wow-duration="2.5s" data-wow-delay="1s">We provide one of the best services.
+                </p>
+            </div>
             <div class="row" id="webmobdev">
                 <div class="column col-md-6">
                     <div class="webmobdev_img" data-wow-duration="1.5s" data-wow-delay="0.1s"></div>

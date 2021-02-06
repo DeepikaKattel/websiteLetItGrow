@@ -1,7 +1,7 @@
 @extends('layouts.common')
 @section('content')
 
-    <div class="imgContainer col-lg-12 col-md-12 col-sm-12 pt-5 pb-5">
+    {{-- <div class="imgContainer col-lg-12 col-md-12 col-sm-12 pt-5 pb-5">
         <div class="breadCrumbCenter column">
             <p class="commontxt">VISION</p>
             <p class="commontxtsmall">You imagine - We build</p>
@@ -12,19 +12,38 @@
                 <a href=""><i class="fas fa-eye"></i> Vision</a>
             </button>
         </div>
+    </div> --}}
+
+    {{-- <div class='space1'></div> --}}
+    {{-- <section class="header">
+       <div class="visionImg"></div>
+    </section> --}}
+
+    <div class="visionImg">
+        <div class="col-xs-offset-6 col-xl-offset-6 col-xs-6 col-xl-6">
+            <h4>You imagine - We build</h4>
+            <p>Initially, we design a <span style="font-weight: bold;">PROTOTYPE</span> with the right mix of skills from
+                our team to deliver
+                <span style="font-weight: bold;">HIGH QUALITY</span> products. We eliminate unnecessary expenses to <span
+                    style="font-weight: bold;">REDUCE COST</span> of the product. We work in an <span
+                    style="font-weight: bold;">AGILE ENVIRONMENT</span>
+                to ensure that we deliver on what we commit to, and <span style="font-weight: bold;">MEET DEADLINES</span> .
+            </p>
+        </div>
     </div>
 
     <div class='space1'></div>
 
     <section class="inner-content-wrap">
         <div class="container">
+            <div class="container headings text-center">
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.0s">
+                    About Us</h1>
+            </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="headings text-center">
-                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
-                            About Us</h1>
-                    </div>
-                    <div class="card wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.3s">
+                <div class="column col-md-7">
+                    <div class="paragraph wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.3s">
+                        <p>We believe, Technology is made by everybody for everybody. Today, Modern world offers
                         <p>Let IT Grow is a team of driven young and experienced minds that are passionate to provide
                             utmost customer satisfaction in terms of product and service delivery.
                             <br><br>
@@ -41,23 +60,26 @@
                             assure to take your vision to the digital world.
                         </p>
                     </div>
-
+                </div>
+                <div class="column col-md-5">
+                    <div class="about_img wow slideInRight" data-wow-duration="3s" data-wow-delay="0.3s"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class='space1'></div>
-
     <section class="inner-content-wrap">
         <div class="container">
+            <div class="container headings text-center">
+                <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1.0s">
+                    Vision</h1>
+            </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="headings text-center">
-                        <h1 class="font-weight-bold text-center wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
-                            Vision</h1>
-                    </div>
-                    <div class="card wow slideInRight" data-wow-duration="3s" data-wow-delay="0.3s">
+                <div class="column col-md-5">
+                    <div class="vision_img wow slideInLeft" data-wow-duration="3s" data-wow-delay="0.3s"></div>
+                </div>
+                <div class="column col-md-7">
+                    <div class="paragraph wow slideInRight" data-wow-duration="3s" data-wow-delay="0.3s">
                         <p>We believe, Technology is made by everybody for everybody. Today, Modern world offers
                             technologies that are affordable to people from all backgrounds and we want to serve people with
                             its benefits. Let IT grow is your solution to the technological advancement you and your
@@ -74,13 +96,11 @@
                             quality IT services to people all over Nepal regardless of where they come from.
                             You dictate, we Create.</p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <div class='space1'></div>
     <div class='space1'></div>
 
     <section class="inner-content-wrap">
